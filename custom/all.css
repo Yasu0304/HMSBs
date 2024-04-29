@@ -3,7 +3,7 @@ html {
 }
 
 p {
-  color: #595857;
+  color: #343A40;
 }
 
 .p-color-bk0 {
@@ -11,55 +11,50 @@ p {
 }
 
 .p-color-40 {
-  color: #9F9E9F;
+  color: #6C757D;
 }
 
-.p-color-bk80, .h-color-bk80, .text-color_bk80 {
-  color: #595857;
+.color-bk-800 {
+  color: #343A40;
 }
 
 .h-color-pri {
-  color: #294076;
+  color: #0F5385;
 }
 
 .btn-primary, .btn-primary:hover {
-  background-color: #294076;
+  background-color: #0F5385;
 }
 
 .btn-secondary, .btn-secondary:hover {
-  background-color: #FF8500;
-  border-color: #FF8500;
+  background-color: #3493C3;
+  border-color: #3493C3;
 }
 
 .btn-outline-primary {
-  color: #294076;
-  border-color: rgba(115, 128, 158, 0.4823529412);
+  color: #0F5385;
 }
 
 .btn-outline-primary:hover {
-  background-color: #FF8500;
-  border-color: #FF8500;
+  background-color: #3493C3;
+  border-color: #3493C3;
   color: #fff;
 }
 
 .text-medapri {
-  color: #294076;
-}
-
-.text-meda-bk-80 {
-  color: #595857;
+  color: #0F5385;
 }
 
 .system-link {
-  background-color: #294076;
+  background-color: #0F5385;
   transition: 0.6s;
 }
 .system-link:focus {
-  background-color: #FF8500;
+  background-color: #3493C3;
   transition: 0.6s;
 }
 .system-link:hover {
-  background-color: #FF8500;
+  background-color: #3493C3;
   transition: 0.6s;
 }
 
@@ -73,21 +68,16 @@ p {
   max-width: 60%;
 }
 
-.offcanvas .navbar-nav .nav-link.active {
-  color: #FF8500;
-  font-weight: bold;
-}
-
 .dropdown-item:active, .dropdown-item.active {
   background-color: #fff;
 }
 
 .nav-link, .dropdown-toggle.nav-link {
-  color: #595857;
+  color: #343A40;
 }
 
 .nav-link:hover, .nav-link:focus, .dropdown-toggle.nav-link:hover, .dropdown-toggle.nav-link:focus {
-  color: #FF8500;
+  color: #3493C3;
 }
 
 .nav-pills, .nav-pills .dropdown-toggle {
@@ -95,13 +85,13 @@ p {
 }
 
 .nav-pills .nav-link.active, .nav-pills .nav-link.active.dropdown-toggle {
-  background-color: #FF8500;
+  background-color: #3493C3;
   color: #fff;
   font-weight: bold;
 }
 
 .dropdown-menu .dropdown-item {
-  color: #595857;
+  color: #343A40;
 }
 
 .card-point {
