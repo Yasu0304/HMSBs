@@ -1,2 +1,18 @@
 @import 'base'
 @import 'components'
+
+.polygonTriangleBefore
+    &::befoer
+    content: ""
+    height: 210px
+    width: 100%
+    clip-path: polygon(100% 0, 0 100%, 100% 100%)
+    background: $hmssec
+
+.polygonTriangleAfter
+    &::after
+    content: ""
+    height: 210px
+    width: 100%
+    clip-path: polygon(0 0, 100% 0, 100% 100%,)
+    background: $hmssec

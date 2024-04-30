@@ -1,1 +1,16 @@
-/*# sourceMappingURL=index.css.map */
+.polygonTriangleBefore {
+  content: "";
+  height: 210px;
+  width: 100%;
+  -webkit-clip-path: polygon(100% 0, 0 100%, 100% 100%);
+          clip-path: polygon(100% 0, 0 100%, 100% 100%);
+  background: #3493C3;
+}
+.polygonTriangleAfter {
+  content: "";
+  height: 210px;
+  width: 100%;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%);
+  background: #3493C3;
+}/*# sourceMappingURL=index.css.map */
