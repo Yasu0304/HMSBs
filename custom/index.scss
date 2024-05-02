@@ -1,0 +1,70 @@
+@import "base";
+@import "components";
+@import "media";
+
+.hmsPoint {
+  div img {
+    @include s {
+      display: block;
+      width: 45%;
+      height: 45%;
+    }
+  }
+}
+.polygonTriangleBefore {
+  @include polygonTriangleBefore(210px, 100%, $hmssec);
+}
+
+.polygonTriangleAfter {
+  @include polygonTriangleAfter(210px, 100%, $hmssec);
+}
+
+.contentSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  margin-bottom: 5rem;
+  @include s {
+    flex-direction: column-reverse;
+    &:nth-child(even) {
+      flex-direction: column-reverse;
+    }
+  }
+  .contentArticle {
+    
+    max-width: 45%;
+    background-color: $hms-bk-00;
+    border-radius: 24px;
+    z-index: 2;
+    padding: 3rem;
+    margin-right: -10%;
+    img {
+      margin-bottom: 12px;
+    }
+    @include s {
+      max-width: 100%;
+      border-radius: 0 12px 12px 0;
+      img {
+        width: 15%;
+        height: 15%;
+      }
+    }
+  }
+  .contentImg {
+    display: flex;
+    max-width: 70%;
+    border-radius: 24px;
+    overflow: hidden;
+    z-index: 1;
+    &:nth-child(even) {
+      margin-right: -10%;
+    }
+    @include s {
+      max-width: 100%;
+      border-radius: 12px 12px 0 0;
+    }
+  }
+}

@@ -1,16 +1,82 @@
-.polygonTriangleBefore {
+@media (max-width: 576px) {
+  .hmsPoint div img {
+    display: block;
+    width: 45%;
+    height: 45%;
+  }
+}
+
+.polygonTriangleBefore::before {
   content: "";
+  display: block;
   height: 210px;
   width: 100%;
   -webkit-clip-path: polygon(100% 0, 0 100%, 100% 100%);
           clip-path: polygon(100% 0, 0 100%, 100% 100%);
   background: #3493C3;
 }
-.polygonTriangleAfter {
+
+.polygonTriangleAfter::after {
   content: "";
+  display: block;
   height: 210px;
   width: 100%;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%);
           clip-path: polygon(0 0, 100% 0, 100% 100%);
   background: #3493C3;
+}
+
+.contentSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.contentSection:nth-child(even) {
+  flex-direction: row-reverse;
+}
+@media (max-width: 576px) {
+  .contentSection {
+    flex-direction: column-reverse;
+  }
+  .contentSection:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+}
+.contentSection .contentArticle {
+  max-width: 45%;
+  background-color: #fff;
+  border-radius: 24px;
+  z-index: 2;
+  padding: 3rem;
+  margin-right: -10%;
+}
+.contentSection .contentArticle img {
+  margin-bottom: 12px;
+}
+@media (max-width: 576px) {
+  .contentSection .contentArticle {
+    max-width: 100%;
+    border-radius: 0 12px 12px 0;
+  }
+  .contentSection .contentArticle img {
+    width: 15%;
+    height: 15%;
+  }
+}
+.contentSection .contentImg {
+  display: flex;
+  max-width: 70%;
+  border-radius: 24px;
+  overflow: hidden;
+  z-index: 1;
+}
+.contentSection .contentImg:nth-child(even) {
+  margin-right: -10%;
+}
+@media (max-width: 576px) {
+  .contentSection .contentImg {
+    max-width: 100%;
+    border-radius: 12px 12px 0 0;
+  }
 }/*# sourceMappingURL=index.css.map */

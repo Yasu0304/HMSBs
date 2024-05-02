@@ -38,4 +38,22 @@
     background-color: $color1
     color: $color2
     @content
-    
+
+//段落前後加三角形
+@mixin polygonTriangleBefore($width,$height,$color)
+    &::before
+        content: ""
+        display: block
+        height: $width
+        width: $height
+        clip-path: polygon(100% 0, 0 100%, 100% 100%)
+        background: $color
+
+@mixin polygonTriangleAfter($width,$height,$color)
+    &::after
+        content: ""
+        display: block
+        height: $width
+        width: $height
+        clip-path: polygon(0 0, 100% 0, 100% 100%)
+        background: $color
