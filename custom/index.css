@@ -68,6 +68,8 @@
   padding: 2rem;
 }
 .contentSection .contentArticle img {
+  width: 70px;
+  height: 70px;
   margin-bottom: 12px;
 }
 @media (max-width: 576px) {

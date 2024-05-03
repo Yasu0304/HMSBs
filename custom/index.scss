@@ -57,6 +57,8 @@
     z-index: 2;
     padding: 2rem;
     img {
+      width: 70px;
+      height:70px;
       margin-bottom: 12px;
     }
     @include s {
