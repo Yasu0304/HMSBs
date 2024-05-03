@@ -3,11 +3,10 @@
 @import "media";
 
 .hmsPoint {
-  div img {
+  img {
     @include s {
-      display: block;
-      width: 45%;
-      height: 45%;
+      width: 85px;
+      height: 85px;
     }
   }
 }
@@ -28,7 +27,11 @@
     margin-right: -10%;
   }
   @include s {
-    flex-direction: column-reverse;
+    flex-direction: column;
+    &>:first-child{
+      margin-right: 0%;
+    }
+
     &:nth-child(even) {
       flex-direction: column-reverse;
     }
@@ -41,7 +44,7 @@
     position: relative;
     z-index: 1;
     @include s {
-      max-width: 100%;
+      width: 100%;
       border-radius: 12px 12px 0 0;
     }
   }
@@ -57,7 +60,7 @@
       margin-bottom: 12px;
     }
     @include s {
-      max-width: 100%;
+      width: 100%;
       border-radius: 0 12px 12px 0;
       img {
         width: 15%;
