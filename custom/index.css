@@ -28,12 +28,11 @@
 
 .contentSection {
   display: flex;
-  justify-content: center;
   align-items: center;
   margin-bottom: 5rem;
 }
-.contentSection:nth-child(even) {
-  flex-direction: row-reverse;
+.contentSection > :first-child {
+  margin-right: -10%;
 }
 @media (max-width: 576px) {
   .contentSection {
@@ -43,13 +42,28 @@
     flex-direction: column-reverse;
   }
 }
+.contentSection .contentImg {
+  width: 80%;
+  flex-shrink: 0;
+  border-radius: 24px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 576px) {
+  .contentSection .contentImg {
+    max-width: 100%;
+    border-radius: 12px 12px 0 0;
+  }
+}
 .contentSection .contentArticle {
-  max-width: 45%;
+  width: 30%;
+  flex-shrink: 0;
   background-color: #fff;
   border-radius: 24px;
+  position: relative;
   z-index: 2;
-  padding: 3rem;
-  margin-right: -10%;
+  padding: 2rem;
 }
 .contentSection .contentArticle img {
   margin-bottom: 12px;
@@ -62,21 +76,5 @@
   .contentSection .contentArticle img {
     width: 15%;
     height: 15%;
-  }
-}
-.contentSection .contentImg {
-  display: flex;
-  max-width: 70%;
-  border-radius: 24px;
-  overflow: hidden;
-  z-index: 1;
-}
-.contentSection .contentImg:nth-child(even) {
-  margin-right: -10%;
-}
-@media (max-width: 576px) {
-  .contentSection .contentImg {
-    max-width: 100%;
-    border-radius: 12px 12px 0 0;
   }
 }/*# sourceMappingURL=index.css.map */
