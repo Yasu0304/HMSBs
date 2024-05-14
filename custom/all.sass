@@ -11,64 +11,14 @@ body
     font-family: "Bebas Neue", sans-serif
     font-weight: 400
     font-style: normal
-  .jost-regular
-    font-family: "Jost", sans-serif
-    font-optical-sizing: auto
-    font-weight: 400
-    font-style: normal
-  p
-    font-family: "Jost", sans-serif
-    font-optical-sizing: auto
-    font-weight: 400
-    font-style: normal
-    font-size: 18pt
-
-.p-color-bk0
-  color: $hms-bk-00
-.p-color-40
-  color: $hms-bk-600
-.color-bk-800 //.p-color-bk80, .h-color-bk80 ,.text-color_bk80,.text-meda-bk-80
-  color: $hms-bk-800
-.h-color-pri
-  color: $hmspri
-
-.btn-primary,.btn-primary:hover
-  background-color: $hmspri
-.btn-secondary,.btn-secondary:hover
-  background-color: $hmssec
-  border-color: $hmssec
-.btn-outline-primary
-  color: $hmspri
-  // border-color: $hmspriOutlinebtn
-.btn-outline-primary:hover
-  background-color: $hmssec
-  border-color: $hmssec
-  color: #fff
-.text-medapri
-  color: $hmspri
-
-.system-link
-  background-color: $hmspri
-  transition: .6s
-  &:focus
-    background-color: $hmssec
-    transition: .6s
-  &:hover
-    background-color: $hmssec
-    transition: .6s
 
 .navbar-toggler
   font-size: 16px
   padding: 8px
   border: 0
 
-.offcanvas.offcanvas-end
-  max-width: 60%
-
-// .offcanvas .navbar-nav .nav-link.active
-//   color: $hmssec
-//   font-weight: bold
-
+// .offcanvas.offcanvas-end
+//   max-width: 60%
 .dropdown-item:active, .dropdown-item.active
   background-color: #fff
 .nav-link,.dropdown-toggle.nav-link
@@ -83,93 +33,3 @@ body
   font-weight: bold
 .dropdown-menu .dropdown-item
   color: $hms-bk-800
-
-.card-point
-  position: absolute
-  top: 0
-  left: 50%
-  transform: translate(-50%, -50%)
-  width: 144px
-  height: 144px
-  border-radius: 999px
-  background-color: #fff
-  background-position: center center
-  background-repeat: no-repeat
-  background-size: contain
-  overflow: hidden
-
-.item
-  display: flex
-  align-items: center
-  .pic
-    width: 90%
-    height: 60%
-    flex-shrink: 1
-    img
-      width: 100%
-      vertical-align: middle
-  .content
-    width: 75%
-    flex-shrink: 1
-    position: relative
-    z-index: 1
-    padding: 1rem 24px
-    transition: 0.25s
-    &.nth1
-      background: rgba(255, 133, 0, 0.8)
-      color: rgb(255, 255, 255)
-    &.nth2
-      background: rgba(41, 64, 118, 0.8)
-      color: rgb(255, 255, 255)
-
-.telemedicineSwiper
-  .swiper-slide
-    display: flex
-    align-items: center
-    justify-content: center
-    border-radius: 8px
-    font-size: 22px
-    font-weight: bold
-    color: #fff
-    margin-bottom: 12px
-
-.swiperTest1
-  width: 100%
-  padding-top: 50px
-  padding-bottom: 50px
-  .swiper-slide
-    background-position: center
-    background-size: cover
-    width: 300px
-    height: 300px
-    & img
-      display: block
-      width: 100%
-
-.swiperTest2
-  width: 70%
-  height: 50%
-  .swiper-slide
-    text-align: center
-    font-size: 18px
-    background: #fff
-    display: flex
-    justify-content: center
-    align-items: center
-    width: 40%
-    & img
-      display: block
-      width: 100%
-      height: 100%
-      object-fit: cover
-
-.textIndent
-  text-indent: -1rem
-.textIndent .bi
-  text-indent: 0rem
-
-.hrStyle-common
-  @include hrStyle-common
-  margin-bottom: 12px
-  width: 70%
-  margin: 0 auto
