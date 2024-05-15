@@ -1,0 +1,11 @@
+@import "base";
+@import "components";
+@import "media";
+
+.polygonTriangleBefore {
+  @include polygonTriangleBefore(210px, 100%, $hmsinfo);
+}
+
+.polygonTriangleAfter {
+  @include polygonTriangleAfter(210px, 100%, $hmsinfo);
+}

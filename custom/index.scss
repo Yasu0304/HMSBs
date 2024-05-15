@@ -10,64 +10,10 @@
     }
   }
 }
-// .polygonTriangleBefore {
-//   @include polygonTriangleBefore(210px, 100%, $hmssec);
-// }
+.polygonTriangleBefore {
+  @include polygonTriangleBefore(210px, 100%, $hmssec);
+}
 
-// .polygonTriangleAfter {
-//   @include polygonTriangleAfter(210px, 100%, $hmssec);
-// }
-
-// .contentSection {
-//   display: flex;
-//   align-items: center;
-//   margin-bottom: 5rem;
-//   // contentSection底下的第一個人，此為交錯版面的關鍵
-//   & > :first-child {
-//     margin-right: -10%;
-//   }
-//   @include s {
-//     flex-direction: column;
-//     & > :first-child {
-//       margin-right: 0%;
-//     }
-
-//     &:nth-child(even) {
-//       flex-direction: column-reverse;
-//     }
-//   }
-//   .contentImg {
-//     width: 80%;
-//     flex-shrink: 0;
-//     border-radius: 24px;
-//     overflow: hidden;
-//     position: relative;
-//     z-index: 1;
-//     @include s {
-//       width: 100%;
-//       border-radius: 12px 12px 0 0;
-//     }
-//   }
-//   .contentArticle {
-//     width: 30%;
-//     flex-shrink: 0;
-//     background-color: $hms-bk-00;
-//     border-radius: 24px;
-//     position: relative;
-//     z-index: 2;
-//     padding: 2rem;
-//     img {
-//       width: 70px;
-//       height: 70px;
-//       margin-bottom: 12px;
-//     }
-//     @include s {
-//       width: 100%;
-//       border-radius: 0 12px 12px 0;
-//       img {
-//         width: 15%;
-//         height: 15%;
-//       }
-//     }
-//   }
-// }
+.polygonTriangleAfter {
+  @include polygonTriangleAfter(210px, 100%, $hmssec);
+}

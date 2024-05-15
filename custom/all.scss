@@ -22,14 +22,6 @@ body {
   border: 0;
 }
 
-.polygonTriangleBefore {
-  @include polygonTriangleBefore(210px, 100%, $hmssec);
-}
-
-.polygonTriangleAfter {
-  @include polygonTriangleAfter(210px, 100%, $hmssec);
-}
-
 .contentSection {
   display: flex;
   align-items: center;

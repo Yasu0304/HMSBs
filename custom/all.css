@@ -15,26 +15,6 @@ body .bebas-neue-regular {
   border: 0;
 }
 
-.polygonTriangleBefore::before {
-  content: "";
-  display: block;
-  height: 210px;
-  width: 100%;
-  -webkit-clip-path: polygon(100% 0, 0 100%, 100% 100%);
-          clip-path: polygon(100% 0, 0 100%, 100% 100%);
-  background: #3493C3;
-}
-
-.polygonTriangleAfter::after {
-  content: "";
-  display: block;
-  height: 210px;
-  width: 100%;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 100%);
-  background: #3493C3;
-}
-
 .contentSection {
   display: flex;
   align-items: center;
