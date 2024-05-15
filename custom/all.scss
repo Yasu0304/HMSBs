@@ -1,0 +1,102 @@
+// font
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital,wght@0,100..900;1,100..900&@400&display=swap");
+@import "base";
+@import "components";
+@import "media";
+
+html {
+  scroll-padding-top: 66px; //header 高度
+}
+
+body {
+  .bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+.navbar-toggler {
+  font-size: 16px;
+  padding: 8px;
+  border: 0;
+}
+
+.polygonTriangleBefore {
+  @include polygonTriangleBefore(210px, 100%, $hmssec);
+}
+
+.polygonTriangleAfter {
+  @include polygonTriangleAfter(210px, 100%, $hmssec);
+}
+
+.contentSection {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
+  // contentSection底下的第一個人，此為交錯版面的關鍵
+  & > :first-child {
+    margin-right: -10%;
+  }
+  @include s {
+    flex-direction: column;
+    & > :first-child {
+      margin-right: 0%;
+    }
+
+    &:nth-child(even) {
+      flex-direction: column-reverse;
+    }
+  }
+  .contentImg {
+    width: 80%;
+    flex-shrink: 0;
+    border-radius: 24px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    @include s {
+      width: 100%;
+      border-radius: 12px 12px 0 0;
+    }
+  }
+  .contentArticle {
+    width: 30%;
+    flex-shrink: 0;
+    background-color: $hms-bk-00;
+    border-radius: 24px;
+    position: relative;
+    z-index: 2;
+    padding: 2rem;
+    img {
+      width: 70px;
+      height: 70px;
+      margin-bottom: 12px;
+    }
+    @include s {
+      width: 100%;
+      border-radius: 0 12px 12px 0;
+      img {
+        width: 15%;
+        height: 15%;
+      }
+    }
+  }
+}
+
+// .offcanvas.offcanvas-end
+//   max-width: 60%
+// .dropdown-item:active, .dropdown-item.active
+//   background-color: #fff
+// .nav-link,.dropdown-toggle.nav-link
+//   color: $hms-bk-800
+// .nav-link:hover, .nav-link:focus, .dropdown-toggle.nav-link:hover, .dropdown-toggle.nav-link:focus
+//   color: $hmssec
+// .nav-pills,.nav-pills .dropdown-toggle
+//   --bs-nav-pills-border-radius: 999px
+// .nav-pills .nav-link.active,.nav-pills .nav-link.active.dropdown-toggle
+//   background-color: $hmssec
+//   color: #fff
+//   font-weight: bold
+// .dropdown-menu .dropdown-item
+//   color: $hms-bk-800
