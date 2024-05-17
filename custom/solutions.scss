@@ -3,9 +3,9 @@
 @import "media";
 
 .polygonTriangleBefore {
-  @include polygonTriangleBefore(210px, 100%, $hmsinfo);
+  @include polygonTriangleBefore(210px, 100%, $hms-bk-00);
 }
 
 .polygonTriangleAfter {
-  @include polygonTriangleAfter(210px, 100%, $hmsinfo);
+  @include polygonTriangleAfter(210px, 100%, $hms-bk-00);
 }
