@@ -33,9 +33,6 @@
   .contentSection > :first-child {
     margin-right: 0%;
   }
-  .contentSection:nth-child(even) {
-    flex-direction: column-reverse;
-  }
 }
 .contentSection .contentImg {
   width: 80%;
@@ -73,5 +70,20 @@
   .contentSection .contentArticle img {
     width: 15%;
     height: 15%;
+  }
+}
+
+@media (max-width: 576px) {
+  .sectionReverse {
+    flex-direction: column-reverse;
+  }
+}
+
+.lightBoxRWD {
+  width: 25%;
+}
+@media (max-width: 576px) {
+  .lightBoxRWD {
+    width: 50%;
   }
 }/*# sourceMappingURL=solutions.css.map */

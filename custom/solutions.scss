@@ -23,10 +23,9 @@
     & > :first-child {
       margin-right: 0%;
     }
-
-    &:nth-child(even) {
-      flex-direction: column-reverse;
-    }
+    // &:nth-child(even) {
+    //   flex-direction: column-reverse;
+    // }
   }
   .contentImg {
     width: 80%;
@@ -61,5 +60,18 @@
         height: 15%;
       }
     }
+  }
+}
+
+.sectionReverse {
+  @include s {
+    flex-direction: column-reverse;
+  }
+}
+
+.lightBoxRWD {
+  width: 25%;
+  @include s {
+    width: 50%;
   }
 }
