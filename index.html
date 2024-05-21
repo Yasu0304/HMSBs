@@ -27,7 +27,7 @@
   </head>
 
   <body style="display: flex;flex-direction: column">
-    <div class="d-flex flex-column flex-grow-1">
+    <div class="d-flex flex-column flex-grow-1 indexBgSm">
       <nav id="hmsNav" class="navbar navbar-expand-lg  px-3  position-sticky top-0 shadow-sm" style="background-color: #ffffff36;z-index: 3;margin-bottom: 2.5rem;backdrop-filter: blur(8px);">
         <a class="navbar-brand" href="#"> <img src="./images/HMSNav.svg" alt="HMS - Path to Hospital Intelligence" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +40,7 @@
               <a class="nav-link px-3 fw-bold text-primary active" aria-current="page" href="./index.html">Home</a>
             </li>
             <li class="nav-item text-primary dropdown">
-              <a class="nav-link fw-bold text-primary px-3  dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Products </a>
+              <a class="nav-link fw-bold text-primary px-3  dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Solutions </a>
               <ul class="dropdown-menu p-2" aria-labelledby="navbarDropdown">
                 <li>
                   <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthcarearmor.com/?product_cat=medical-supplies">Personal Protective Equipment</a>
@@ -50,14 +50,9 @@
                   <a class="dropdown-item fw-bold text-primary" href="https://healthcarearmor.com/?product_cat=medical-devices-and-equipment">Medical Devices And Equipment</a>
                 </li>
                 <li><hr class="dropdown-divider" /></li>
-                <li>
+                <!-- <li>
                   <a class="dropdown-item fw-bold text-primary" href="https://healthcarearmor.com/?product_cat=healthcare-it">Healthcare IT</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link px-3 fw-bold text-primary  dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Solutions </a>
-              <ul class="dropdown-menu p-2" aria-labelledby="navbarDropdown">
+                </li> -->
                 <li>
                   <p class="dropdown-item fw-bold text-primary mb-0">Telemedicine Solutions</p>
                 </li>
@@ -78,17 +73,17 @@
           </ul>
         </div>
       </nav>
-      <div class="container-fluid flex-grow-1 p-0">
+      <div class="container-fluid flex-grow-1 p-0 positionSm ">
         <!-- hero↓ -->
         <div class="py-3">
-          <p class="text-center text-primary bebas-neue-regular py-1 my-0 h1Title">Path to Hospital Intelligence</p>
-          <p class="text-center jost-regular fs-3" style="color: var(--bs-gray-600);margin-bottom: 2.5rem">A more intelligent and humane hospital environment.</p>
+          <p class="text-center bebas-neue-regular py-1 my-0 h1Title">Path to Hospital Intelligence</p>
+          <p class="text-center jost-regular fs-3 positionSm_p">A more intelligent and humane hospital environment.</p>
         </div>
 
         <div class="container-fluid" style="margin-bottom: 2.5rem;">
-          <img src="./images/index/bn-xl.webp" class="img-fluid" alt="" />
+          <img src="./images/index/bn-xl.webp" class="img-fluid d-none d-sm-block" alt="" />
         </div>
-        <div class="container-xxl d-flex justify-content-around flex-wrap">
+        <div class="container-xxl d-flex justify-content-around flex-wrap d-none d-sm-block">
           <img src="./images/index/ISO9001.svg" alt="" />
           <img src="./images/index/ISO13485.svg" alt="" />
           <img src="./images/index/CUL.svg" alt="" />
@@ -99,30 +94,46 @@
           <img src="./images/index/FDA.svg" alt="" />
         </div>
         <!-- hero↑ -->
-        <section style="overflow: hidden;">
-          <div class="polygonTriangleBefore"></div>
-          <div class="container-fluid bg-success">
-            <p class="text-center text-white bebas-neue-regular py-1 my-0 h1Title">First in Care, Always There</p>
-            <p class="text-center text-white jost-regular fs-3" style="margin-bottom: 2.5rem">Innovative healthcare, unwavering care.</p>
-            <div class="container-xxl">
-              <div class="d-flex flex-wrap justify-content-center justify-content-sm-between hmsPoint">
-                <div class="d-flex flex-column align-items-center mb-3 mb-sm-0" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3500">
-                  <img src="./images/index/Personal_Protective_Equipment.svg" alt="" />
-                  <p class=" text-white text-center fs-5">Personal Protective Equipment</p>
-                </div>
-                <div class="d-flex flex-column align-items-center mb-3 mb-sm-0" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-                  <img src="./images/index/Medical_Devices_And_Equipment.svg" alt="" />
-                  <p class=" text-white text-center fs-5">Medical Devices And Equipment</p>
-                </div>
-                <div class="d-flex flex-column align-items-center mb-3 mb-sm-0" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2500">
-                  <img src="./images/index/Telemedicine_Solutions.svg" alt="" />
-                  <p class=" text-white text-center fs-5">Telemedicine Solutions</p>
+        <section class="positionSm_bg" style="overflow: hidden">
+          <div class="polygonTriangleBefore d-none d-sm-block"></div>
+          <div class="container-fluid z-1 position-absolute">
+            <div class="positionSm_card">
+              <p class="text-center text-white bebas-neue-regular py-1 my-0 h1Title">First in Care, Always There</p>
+              <p class="text-center text-white jost-regular fs-3" style="margin-bottom: 2.5rem">
+                Innovative healthcare, <br />
+                unwavering care.
+              </p>
+              <div class="container-xxl positionSm_section">
+                <div class="d-flex flex-wrap justify-content-center justify-content-sm-between hmsPoint">
+                  <div class="d-flex flex-column align-items-center mb-3 mb-sm-0" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3500">
+                    <img src="./images/index/Personal_Protective_Equipment.svg" alt="" />
+                    <p class=" text-white text-center fs-5">Personal Protective Equipment</p>
+                  </div>
+                  <div class="d-flex flex-column align-items-center mb-3 mb-sm-0" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                    <img src="./images/index/Medical_Devices_And_Equipment.svg" alt="" />
+                    <p class=" text-white text-center fs-5">Medical Devices And Equipment</p>
+                  </div>
+                  <div class="d-flex flex-column align-items-center mb-3 mb-sm-0" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2500">
+                    <img src="./images/index/Telemedicine_Solutions.svg" alt="" />
+                    <p class=" text-white text-center fs-5">Telemedicine Solutions</p>
+                  </div>
                 </div>
               </div>
             </div>
+
+            <div class="polygonTriangleAfter d-none d-sm-block"></div>
           </div>
-          <div class="polygonTriangleAfter"></div>
-          <div class="container-xxl" style="margin-top: -10rem;">
+          <div class="container-xxl d-flex justify-content-around flex-wrap d-block d-sm-none positionSm_icon">
+            <img src="./images/index/ISO9001.svg" alt="" />
+            <img src="./images/index/ISO13485.svg" alt="" />
+            <img src="./images/index/CUL.svg" alt="" />
+            <img src="./images/index/CSA.svg" alt="" />
+            <img src="./images/index/GMP.svg" alt="" />
+            <img src="./images/index/EN60601-1.svg" alt="" />
+            <img src="./images/index/FCC.svg" alt="" />
+            <img src="./images/index/FDA.svg" alt="" />
+          </div>
+          <div class="container-xxl positionSm_scetion">
             <div class="contentSection">
               <div class="contentImg" data-aos="fade-right" data-aos-duration="3000">
                 <img class="img-fluid" src="./images/index/AdobeStock_217273829_modify.webp" alt="" />
@@ -170,7 +181,7 @@
       <div class="container-xxl py-5">
         <div class="d-flex flex-column flex-lg-row justify-content-sm-center justify-content-end  align-items-sm-end align-items-center ">
           <div class="mb-3 mb-lg-0 me-lg-3">
-            <img src="../../images/hmsLogo-col.svg" alt="HMS - Path to Hospital Intelligence" />
+            <img src="./images/hmsLogo-col.svg" alt="HMS - Path to Hospital Intelligence" />
           </div>
           <div class="d-flex flex-column">
             <div class="d-flex flex-column flex-sm-row">

@@ -2,6 +2,15 @@
 @import "components";
 @import "media";
 
+.h1Title {
+  font-size: 4.5rem;
+  line-height: 0.8;
+  @include s {
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+}
+
 .polygonTriangleBefore {
   @include polygonTriangleBefore(210px, 100%, $hms-bk-00);
 }

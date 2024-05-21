@@ -1,7 +1,80 @@
 @media (max-width: 576px) {
+  .indexBgSm {
+    background-image: url(../images/index/bn-sm.webp);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+  }
+}
+
+@media (max-width: 576px) {
+  .positionSm {
+    margin-top: 8rem;
+  }
+}
+
+.positionSm_p {
+  color: var(--bs-gray-600);
+  margin-bottom: 2.5rem;
+}
+@media (max-width: 576px) {
+  .positionSm_p {
+    color: #fff;
+    margin-bottom: 0;
+  }
+}
+
+.h1Title {
+  font-size: 4.5rem;
+  line-height: 0.8;
+  color: #0F5385;
+}
+@media (max-width: 576px) {
+  .h1Title {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #fff;
+  }
+}
+
+.positionSm_bg {
+  background-color: var(--bs-white);
+}
+@media (max-width: 576px) {
+  .positionSm_bg {
+    background-color: var(--bs-success);
+  }
+}
+
+@media (max-width: 576px) {
+  .positionSm_card {
+    border-radius: 24pt;
+    background-color: var(--bs-primary);
+    margin-top: -3rem;
+    padding: 3rem 2rem;
+  }
+}
+
+.positionSm_scetion {
+  margin-top: -10rem;
+}
+@media (max-width: 576px) {
+  .positionSm_scetion {
+    margin-top: 48rem;
+  }
+}
+
+@media (max-width: 576px) {
   .hmsPoint img {
-    width: 85px;
-    height: 85px;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 576px) {
+  .positionSm_icon img {
+    width: 40pt;
+    height: 40pt;
   }
 }
 
