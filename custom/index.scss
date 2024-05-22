@@ -42,6 +42,8 @@
   }
 }
 .positionSm_card {
+  padding: 0;
+  background-color: var(--bs-success);
   @include s {
     border-radius: 24pt;
     background-color: var(--bs-primary);
@@ -51,9 +53,9 @@
 }
 
 .positionSm_scetion {
-  margin-top: -10rem;
+  margin-top: 28rem;
   @include s {
-    margin-top: 48rem;
+    margin-top: 2rem;
   }
 }
 
@@ -67,6 +69,9 @@
 }
 
 .positionSm_icon {
+  @include s {
+    margin-top: 44rem;
+  }
   img {
     @include s {
       width: 40pt;

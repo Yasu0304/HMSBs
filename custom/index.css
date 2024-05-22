@@ -46,6 +46,10 @@
   }
 }
 
+.positionSm_card {
+  padding: 0;
+  background-color: var(--bs-success);
+}
 @media (max-width: 576px) {
   .positionSm_card {
     border-radius: 24pt;
@@ -56,11 +60,11 @@
 }
 
 .positionSm_scetion {
-  margin-top: -10rem;
+  margin-top: 28rem;
 }
 @media (max-width: 576px) {
   .positionSm_scetion {
-    margin-top: 48rem;
+    margin-top: 2rem;
   }
 }
 
@@ -71,6 +75,11 @@
   }
 }
 
+@media (max-width: 576px) {
+  .positionSm_icon {
+    margin-top: 44rem;
+  }
+}
 @media (max-width: 576px) {
   .positionSm_icon img {
     width: 40pt;
