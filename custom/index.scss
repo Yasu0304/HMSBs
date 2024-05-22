@@ -27,7 +27,7 @@
 
 .h1Title {
   font-size: 4.5rem;
-  line-height: 0.8;
+  line-height: 1.2;
   color: $hmspri;
   @include s {
     font-size: 2.5rem;
@@ -55,22 +55,24 @@
 .positionSm_scetion {
   margin-top: 28rem;
   @include s {
-    margin-top: 2rem;
+    // margin-top: 2rem;
+    margin-top: 50rem;
   }
 }
 
 .hmsPoint {
   img {
     @include s {
-      width: 60px;
-      height: 60px;
+      width: 80px;
+      height: 80px;
     }
   }
 }
 
 .positionSm_icon {
   @include s {
-    margin-top: 44rem;
+    // margin-top: 44rem;
+    margin-bottom: 5rem;
   }
   img {
     @include s {

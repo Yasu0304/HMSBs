@@ -26,7 +26,7 @@
 
 .h1Title {
   font-size: 4.5rem;
-  line-height: 0.8;
+  line-height: 1.2;
   color: #0F5385;
 }
 @media (max-width: 576px) {
@@ -64,20 +64,20 @@
 }
 @media (max-width: 576px) {
   .positionSm_scetion {
-    margin-top: 2rem;
+    margin-top: 50rem;
   }
 }
 
 @media (max-width: 576px) {
   .hmsPoint img {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
   }
 }
 
 @media (max-width: 576px) {
   .positionSm_icon {
-    margin-top: 44rem;
+    margin-bottom: 5rem;
   }
 }
 @media (max-width: 576px) {
