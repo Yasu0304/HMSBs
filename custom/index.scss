@@ -16,9 +16,11 @@
     margin-top: 8rem;
   }
 }
+
 .positionSm_p {
   color: var(--bs-gray-600);
   margin-bottom: 2.5rem;
+
   @include s {
     color: $hms-bk-00;
     margin-bottom: 0;
@@ -29,21 +31,26 @@
   font-size: 4.5rem;
   line-height: 1.2;
   color: $hmspri;
+
   @include s {
     font-size: 2.5rem;
     font-weight: 900;
     color: $hms-bk-00;
   }
 }
+
 .positionSm_bg {
   background-color: var(--bs-white);
+
   @include s {
     background-color: var(--bs-success);
   }
 }
+
 .positionSm_card {
   padding: 0;
   background-color: var(--bs-success);
+
   @include s {
     border-radius: 24pt;
     background-color: var(--bs-primary);
@@ -54,6 +61,7 @@
 
 .positionSm_scetion {
   margin-top: 28rem;
+
   @include s {
     // margin-top: 2rem;
     margin-top: 50rem;
@@ -74,6 +82,7 @@
     // margin-top: 44rem;
     margin-bottom: 5rem;
   }
+
   img {
     @include s {
       width: 40pt;
@@ -81,6 +90,7 @@
     }
   }
 }
+
 .polygonTriangleBefore {
   @include polygonTriangleBefore(210px, 100%, $hmssec);
 }
@@ -93,13 +103,16 @@
   display: flex;
   align-items: center;
   margin-bottom: 5rem;
+
   // contentSection底下的第一個人，此為交錯版面的關鍵
-  & > :first-child {
+  &> :first-child {
     margin-right: -10%;
   }
+
   @include s {
     flex-direction: column;
-    & > :first-child {
+
+    &> :first-child {
       margin-right: 0%;
     }
 
@@ -107,6 +120,7 @@
       flex-direction: column-reverse;
     }
   }
+
   .contentImg {
     width: 80%;
     flex-shrink: 0;
@@ -114,11 +128,13 @@
     overflow: hidden;
     position: relative;
     z-index: 1;
+
     @include s {
       width: 100%;
       border-radius: 12px 12px 0 0;
     }
   }
+
   .contentArticle {
     width: 30%;
     flex-shrink: 0;
@@ -127,14 +143,17 @@
     position: relative;
     z-index: 2;
     padding: 2rem;
+
     img {
       width: 70px;
       height: 70px;
       margin-bottom: 12px;
     }
+
     @include s {
       width: 100%;
       border-radius: 0 0 12px 12px;
+
       img {
         width: 15%;
         height: 15%;
