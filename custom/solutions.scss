@@ -8,11 +8,13 @@
 
 .h1Title {
   font-size: 4.5rem;
-  line-height: 0.8;
+  line-height: 1.2;
+  color: $hmspri;
 
   @include s {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: 900;
+    color: $hms-bk-00;
   }
 }
 

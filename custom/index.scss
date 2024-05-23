@@ -33,7 +33,7 @@
   color: $hmspri;
 
   @include s {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: 900;
     color: $hms-bk-00;
   }
@@ -71,8 +71,8 @@
 .hmsPoint {
   img {
     @include s {
-      width: 80px;
-      height: 80px;
+      width: 100px;
+      height: 100px;
     }
   }
 }

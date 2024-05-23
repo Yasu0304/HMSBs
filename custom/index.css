@@ -31,7 +31,7 @@
 }
 @media (max-width: 576px) {
   .h1Title {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: 900;
     color: #fff;
   }
@@ -70,8 +70,8 @@
 
 @media (max-width: 576px) {
   .hmsPoint img {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
   }
 }
 

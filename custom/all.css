@@ -9,6 +9,17 @@ body .bebas-neue-regular {
   font-style: normal;
 }
 
+.navbar-brand img {
+  height: 75px;
+  width: auto;
+}
+@media (max-width: 576px) {
+  .navbar-brand img {
+    height: 45px;
+    width: auto;
+  }
+}
+
 .navbar-toggler {
   font-size: 16px;
   padding: 8px;
