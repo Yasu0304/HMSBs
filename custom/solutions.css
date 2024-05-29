@@ -1,7 +1,3 @@
-.jarallax {
-  height: 80vh;
-}
-
 .h1Title {
   font-size: 4.5rem;
   line-height: 1.2;
@@ -15,24 +11,82 @@
   }
 }
 
-.polygonTriangleBefore::before {
-  content: "";
-  display: block;
-  height: 210px;
-  width: 100%;
-  -webkit-clip-path: polygon(100% 0, 0 100%, 100% 100%);
-          clip-path: polygon(100% 0, 0 100%, 100% 100%);
-  background: #fff;
+.bedsideCare {
+  min-height: 940px;
+}
+.bedsideCare .bedsideCare_pribg {
+  background-color: var(--bs-success);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 36px;
+  width: 30%;
+  height: 60%;
+}
+.bedsideCare .bedsideCare_nurse {
+  position: absolute;
+  bottom: 0;
+  left: -8vw;
+}
+.bedsideCare .bedsideCare_content {
+  position: absolute;
+  top: 0;
+}
+.bedsideCare .bedsideCare_cart {
+  position: absolute;
+  bottom: 0;
+  right: -8vw;
+}
+.bedsideCare .bedsideCare_bed {
+  position: absolute;
+  bottom: 0vw;
+  right: 0vw;
+  width: auto;
+  height: 35vh;
 }
 
-.polygonTriangleAfter::after {
-  content: "";
-  display: block;
-  height: 210px;
-  width: 100%;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 100%);
-  background: #fff;
+.aiAssistant {
+  min-height: 940px;
+}
+.aiAssistant .aiAssistant_venus {
+  position: absolute;
+  left: 0;
+  bottom: 4vh;
+}
+.aiAssistant .aiAssistant_pribg {
+  background-color: var(--bs-success);
+  position: absolute;
+  bottom: 0;
+  right: -8vw;
+  border-radius: 36px;
+  width: 40%;
+  height: 50%;
+}
+.aiAssistant .aiAssistant_224 {
+  position: absolute;
+  bottom: 37%;
+  right: 21%;
+  width: 33%;
+  height: auto;
+  transform: rotate(10deg);
+}
+.aiAssistant .aiAssistant_robot {
+  position: absolute;
+  bottom: 0;
+  right: -8vw;
+}
+
+.personalizedCare {
+  min-height: 940px;
+}
+.personalizedCare .personalizedCare_pribg {
+  background-color: var(--bs-success);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 36px;
+  width: 30%;
+  height: 60%;
 }
 
 .contentSection {
