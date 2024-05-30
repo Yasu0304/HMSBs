@@ -6,177 +6,499 @@
   font-size: 4.5rem;
   line-height: 1.2;
   color: $hmspri;
-
-  @include s {
-    font-size: 2.3rem;
-    font-weight: 900;
-    color: $hms-bk-00;
-  }
 }
 
 .bedsideCare {
-  min-height: 940px;
+  min-height: 1000px;
+
+  @include sm {
+    min-height: 920px;
+  }
+
+  @include md {
+    min-height: 940px;
+  }
+
+  @include lg {
+    min-height: 1060px;
+  }
+
+  @include xl {
+    min-height: 1038px;
+  }
+
+  @include xxl {
+    min-height: 940px;
+  }
 
   .bedsideCare_pribg {
-    background-color: var(--bs-success);
     position: absolute;
-    bottom: 0;
-    left: 0;
+    background-color: var(--bs-success);
     border-radius: 36px;
-    width: 30%;
-    height: 60%;
+    width: 45%;
+    height: 50%;
+    left: 3%;
+    bottom: 0;
+
+    @include sm {
+      width: 45%;
+      height: 50%;
+      left: 3%;
+      bottom: 0;
+
+    }
+
+    @include lg {
+      width: 34%;
+      height: 54%;
+    }
+
+    @include xl {
+      left: 6%
+    }
+
+    @include xxl {
+      width: 30%;
+      height: 60%;
+      left: 0;
+    }
   }
 
   .bedsideCare_nurse {
     position: absolute;
     bottom: 0;
     left: -8vw;
+    width: 80%;
+    height: auto;
+
+    @include sm {
+      bottom: 0;
+      left: -8vw;
+      width: 80%;
+    }
+
+    @include md {
+      width: 70%;
+    }
+
+    @include lg {
+      width: 60%;
+    }
+
+    @include xl {
+      left: 1%;
+      width: 50%;
+    }
   }
 
   .bedsideCare_content {
     position: absolute;
-    top: 0;
+
+    @include sm {
+      min-width: 80%;
+    }
+
+    @include lg {
+      max-width: 70%;
+    }
+
+    @include xl {
+      min-width: 70%;
+      left: 50%;
+    }
+
+    @include xxl {
+      min-width: 50%;
+    }
   }
 
   .bedsideCare_cart {
     position: absolute;
-    bottom: 0;
-    right: -8vw;
+
+    @include sm {
+      bottom: 0;
+      right: 2%;
+      width: 37%;
+      height: auto;
+    }
+
+    @include md {
+      width: 34%;
+    }
+
+    @include lg {
+      right: 2%;
+      width: 32%;
+      height: auto;
+    }
+
+    @include xl {
+      width: 24%;
+      height: auto;
+      right: 2%;
+    }
+
+    @include xxl {
+      width: 24%;
+      height: auto;
+      // bottom: 0;
+      right: -2%;
+    }
   }
 
   .bedsideCare_bed {
     position: absolute;
-    bottom: 0vw;
-    right: 0vw;
-    width: auto;
-    height: 35vh;
+
+    @include sm {
+      bottom: 0;
+      right: 3%;
+      width: 100%;
+      height: auto;
+    }
+
+    @include md {
+      width: 92%;
+    }
+
+    @include lg {
+      bottom: 0;
+      right: 10%;
+      width: 80%;
+      height: auto;
+    }
+
+    @include xl {
+      bottom: 0;
+      right: 10%;
+      width: 65%;
+      height: auto;
+    }
+
+    @include xxl {
+      bottom: 0;
+      right: 0;
+      width: 65%;
+      height: auto;
+    }
   }
 }
 
 .aiAssistant {
-  min-height: 940px;
+
+  @include sm {
+    min-height: 677px;
+  }
+
+  @include md {
+    min-height: 749px;
+  }
+
+  @include lg {
+    min-height: 800px;
+  }
+
+  @include xl {
+    min-height: 880px;
+  }
+
+  @include xxl {
+    min-height: 834px;
+  }
+
+  .aiAssistant_content {
+    position: absolute;
+
+    @include sm {
+      margin: 0 auto;
+      max-width: 90%;
+    }
+
+    @include xl {
+      max-width: 60%;
+      left: 2%;
+    }
+  }
 
   .aiAssistant_venus {
     position: absolute;
-    left: 0;
-    bottom: 4vh;
+
+    @include sm {
+      display: none;
+    }
+
+    @include md {
+      display: none;
+    }
+
+    @include lg {
+      display: flex;
+      height: 180px;
+      bottom: -2%;
+    }
+
+    @include xl {
+      display: flex;
+      height: 240px;
+      bottom: -2%;
+    }
+
+    @include xxl {
+      display: flex;
+      left: 0;
+      bottom: 4vh;
+      height: 240px;
+    }
+
   }
 
   .aiAssistant_pribg {
     background-color: var(--bs-success);
     position: absolute;
-    bottom: 0;
-    right: -8vw;
     border-radius: 36px;
-    width: 40%;
-    height: 50%;
+
+    // width: 40%;
+    // height: 50%;
+    @include sm {
+      right: 3%;
+      width: 50%;
+      height: 32%;
+      bottom: 0;
+    }
+
+    @include lg {
+      width: 32%;
+      height: 60%;
+    }
+
+    @include xl {
+      width: 32%;
+      height: 60%;
+    }
+
+    @include xxl {
+      width: 40%;
+      height: 50%;
+      bottom: 0;
+      right: -8vw;
+    }
   }
 
   .aiAssistant_224 {
     position: absolute;
-    bottom: 37%;
-    right: 21%;
-    width: 33%;
-    height: auto;
-    transform: rotate(10deg);
+    // bottom: 37%;
+    // right: 21%;
+    // width: 33%;
+    // height: auto;
+    // transform: rotate(10deg);
+
+    @include sm {
+      transform: rotate(10deg);
+      bottom: 23%;
+      right: 40%;
+      width: 45%;
+      height: auto;
+    }
+
+    @include md {
+      bottom: 36%;
+      width: 37%;
+      height: auto;
+    }
+
+    @include lg {
+      bottom: 36%;
+      width: 30%;
+      height: auto;
+      right: 23%;
+    }
+
+    @include xl {
+      bottom: 36%;
+      width: 30%;
+      height: auto;
+      right: 23%;
+    }
+
+    @include xxl {
+      bottom: 37%;
+      right: 21%;
+      width: 33%;
+      height: auto;
+      transform: rotate(10deg);
+    }
   }
 
   .aiAssistant_robot {
     position: absolute;
-    bottom: 0;
-    right: -8vw;
+    // bottom: 0;
+    // right: -8vw;
+
+    @include sm {
+      bottom: 0;
+      right: -8vw;
+      width: 78%;
+      height: auto;
+    }
+
+    @include md {
+      width: 67%;
+    }
+
+    @include lg {
+      width: 50%;
+      height: auto;
+    }
+
+    @include xl {
+      width: 50%;
+      height: auto;
+    }
+
   }
 
 }
 
 .personalizedCare {
-  min-height: 940px;
+
+  @include sm {
+    min-height: 688px;
+  }
+
+  @include lg {
+    min-height: 900px;
+  }
+
+  @include xl {
+    min-height: 940px;
+  }
+
+  @include xxl {
+    min-height: 940px;
+  }
 
   .personalizedCare_pribg {
     background-color: var(--bs-success);
     position: absolute;
-    bottom: 0;
-    left: 0;
     border-radius: 36px;
-    width: 30%;
-    height: 60%;
-  }
-}
 
-
-.contentSection {
-  display: flex;
-  align-items: center;
-  margin-bottom: 2rem;
-
-  // contentSection底下的第一個人，此為交錯版面的關鍵
-  &> :first-child {
-    margin-right: -10%;
-  }
-
-  @include s {
-    flex-direction: column;
-
-    &> :first-child {
-      margin-right: 0%;
+    @include sm {
+      bottom: 0;
+      left: 5%;
+      width: 38%;
+      height: 49%;
     }
 
-    // &:nth-child(even) {
-    //   flex-direction: column-reverse;
-    // }
-  }
-
-  .contentImg {
-    width: 80%;
-    flex-shrink: 0;
-    border-radius: 24px;
-    overflow: hidden;
-    position: relative;
-    z-index: 1;
-
-    @include s {
-      width: 100%;
-      border-radius: 12px 12px 0 0;
+    @include xxl {
+      bottom: 0;
+      left: 5%;
+      width: 38%;
+      height: 49%;
     }
   }
 
-  .contentArticle {
-    width: 30%;
-    flex-shrink: 0;
-    background-color: $hms-bk-00;
-    border-radius: 24px;
-    position: relative;
-    z-index: 2;
-    padding: 2rem;
+  .personalizedCare_vemus {
+    position: absolute;
 
-    img {
-      width: 70px;
-      height: 70px;
-      margin-bottom: 12px;
+    // bottom: -20%;
+    @include sm {
+      bottom: -20%;
+      left: 16%;
+      width: 53%;
+      height: auto;
     }
 
-    @include s {
-      width: 100%;
-      border-radius: 0 0 12px 12px;
+    @include lg {
+      bottom: -20%;
+      left: 18%;
+      width: 48%;
+      height: auto;
+    }
 
-      img {
-        width: 15%;
-        height: 15%;
-      }
+    @include xl {
+      bottom: -20%;
+      left: 13%;
+      width: 38%;
+      height: auto;
+    }
+
+    @include xxl {
+      bottom: -20%;
+      left: 12%;
+      width: 45%;
+      height: auto;
     }
   }
-}
 
-.sectionReverse {
-  @include s {
-    flex-direction: column-reverse;
+  .personalizedCare_nurs {
+    position: absolute;
+
+    @include sm {
+      bottom: 0;
+      left: 2%;
+      width: 84%;
+      height: auto;
+    }
+
+    @include lg {
+      width: 75%;
+      left: 4%;
+    }
+
+    @include xl {
+      left: 2%;
+      width: 65%;
+    }
+
+    @include xxl {
+      height: auto;
+
+    }
   }
-}
 
-.lightBoxRWD {
-  width: 25%;
+  .personalizedCare_ui {
+    position: absolute;
 
-  @include s {
-    width: 50%;
+    @include sm {
+      bottom: 17%;
+      left: 4%;
+      width: 81%;
+      height: auto;
+    }
+
+    @include lg {
+      bottom: 17%;
+      width: 75%;
+    }
+
+    @include xl {
+      left: 4%;
+      width: 60%;
+
+    }
+
+    @include xxl {
+      bottom: 28%;
+      left: 0;
+      width: 70%;
+      height: auto;
+    }
+  }
+
+  .personalizedCare_content {
+    position: absolute;
+
+    @include sm {
+      max-width: 90%;
+      margin: 0 auto;
+    }
+
+    @include xl {
+      right: 2%;
+    }
+
+    @include xxl {
+      top: 0;
+      right: 0;
+    }
   }
 }

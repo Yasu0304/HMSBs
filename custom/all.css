@@ -13,7 +13,7 @@ body .bebas-neue-regular {
   height: 75px;
   width: auto;
 }
-@media (max-width: 576px) {
+@media (mmin-width: 576px) {
   .navbar-brand img {
     height: 45px;
     width: auto;

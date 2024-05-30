@@ -3,7 +3,7 @@
 @import "media";
 
 .indexBgSm {
-  @include s {
+  @include sm {
     background-image: url(../images/index/bn-sm.webp);
     background-repeat: no-repeat;
     background-position: top center;
@@ -12,7 +12,7 @@
 }
 
 .positionSm {
-  @include s {
+  @include sm {
     margin-top: 8rem;
   }
 }
@@ -21,7 +21,7 @@
   color: var(--bs-gray-600);
   margin-bottom: 2.5rem;
 
-  @include s {
+  ƒ {
     color: var(--bs-white);
     margin-bottom: 0;
   }
@@ -35,12 +35,12 @@
   &.color_alr {
     color: $hmsalr;
 
-    @include s {
+    @include sm {
       color: var(--bs-white);
     }
   }
 
-  @include s {
+  @include sm {
     font-size: 2.3rem;
     line-height: 1;
     font-weight: 900;
@@ -51,7 +51,7 @@
 .positionSm_bg {
   background-color: var(--bs-white);
 
-  @include s {
+  @include sm {
     background-color: var(--bs-success);
   }
 }
@@ -60,7 +60,7 @@
   padding: 0;
   background-color: var(--bs-success);
 
-  @include s {
+  @include sm {
     border-radius: 24pt;
     background-color: var(--bs-primary);
     margin-top: -3rem;
@@ -71,7 +71,7 @@
 .positionSm_scetion {
   margin-top: 28rem;
 
-  @include s {
+  @include sm {
     // margin-top: 2rem;
     margin-top: 50rem;
   }
@@ -79,7 +79,7 @@
 
 .hmsPoint {
   img {
-    @include s {
+    @include sm {
       width: 100px;
       height: 100px;
     }
@@ -87,13 +87,13 @@
 }
 
 .positionSm_icon {
-  @include s {
+  @include sm {
     // margin-top: 44rem;
     margin-bottom: 5rem;
   }
 
   img {
-    @include s {
+    @include sm {
       width: 40pt;
       height: 40pt;
     }
@@ -118,7 +118,7 @@
     margin-right: -10%;
   }
 
-  @include s {
+  @include sm {
     flex-direction: column;
 
     &> :first-child {
@@ -138,7 +138,7 @@
     position: relative;
     z-index: 1;
 
-    @include s {
+    @include sm {
       width: 100%;
       border-radius: 12px 12px 0 0;
     }
@@ -159,7 +159,7 @@
       margin-bottom: 12px;
     }
 
-    @include s {
+    @include sm {
       width: 100%;
       border-radius: 0 0 12px 12px;
 

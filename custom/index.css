@@ -1,4 +1,5 @@
-@media (max-width: 576px) {
+@charset "UTF-8";
+@media (min-width: 576px) {
   .indexBgSm {
     background-image: url(../images/index/bn-sm.webp);
     background-repeat: no-repeat;
@@ -7,7 +8,7 @@
   }
 }
 
-@media (max-width: 576px) {
+@media (min-width: 576px) {
   .positionSm {
     margin-top: 8rem;
   }
@@ -17,11 +18,9 @@
   color: var(--bs-gray-600);
   margin-bottom: 2.5rem;
 }
-@media (max-width: 576px) {
-  .positionSm_p {
-    color: var(--bs-white);
-    margin-bottom: 0;
-  }
+.positionSm_p ƒ {
+  color: var(--bs-white);
+  margin-bottom: 0;
 }
 
 .h1Title {
@@ -32,12 +31,12 @@
 .h1Title.color_alr {
   color: #e56130;
 }
-@media (max-width: 576px) {
+@media (min-width: 576px) {
   .h1Title.color_alr {
     color: var(--bs-white);
   }
 }
-@media (max-width: 576px) {
+@media (min-width: 576px) {
   .h1Title {
     font-size: 2.3rem;
     line-height: 1;
@@ -49,7 +48,7 @@
 .positionSm_bg {
   background-color: var(--bs-white);
 }
-@media (max-width: 576px) {
+@media (min-width: 576px) {
   .positionSm_bg {
     background-color: var(--bs-success);
   }
@@ -59,7 +58,7 @@
   padding: 0;
   background-color: var(--bs-success);
 }
-@media (max-width: 576px) {
+@media (min-width: 576px) {
   .positionSm_card {
     border-radius: 24pt;
     background-color: var(--bs-primary);
@@ -71,25 +70,25 @@
 .positionSm_scetion {
   margin-top: 28rem;
 }
-@media (max-width: 576px) {
+@media (min-width: 576px) {
   .positionSm_scetion {
     margin-top: 50rem;
   }
 }
 
-@media (max-width: 576px) {
+@media (min-width: 576px) {
   .hmsPoint img {
     width: 100px;
     height: 100px;
   }
 }
 
-@media (max-width: 576px) {
+@media (min-width: 576px) {
   .positionSm_icon {
     margin-bottom: 5rem;
   }
 }
-@media (max-width: 576px) {
+@media (min-width: 576px) {
   .positionSm_icon img {
     width: 40pt;
     height: 40pt;
@@ -124,7 +123,7 @@
 .contentSection > :first-child {
   margin-right: -10%;
 }
-@media (max-width: 576px) {
+@media (min-width: 576px) {
   .contentSection {
     flex-direction: column;
   }
@@ -143,7 +142,7 @@
   position: relative;
   z-index: 1;
 }
-@media (max-width: 576px) {
+@media (min-width: 576px) {
   .contentSection .contentImg {
     width: 100%;
     border-radius: 12px 12px 0 0;
@@ -163,7 +162,7 @@
   height: 70px;
   margin-bottom: 12px;
 }
-@media (max-width: 576px) {
+@media (min-width: 576px) {
   .contentSection .contentArticle {
     width: 100%;
     border-radius: 0 0 12px 12px;
