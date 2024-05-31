@@ -5,11 +5,11 @@
 .h1Title {
   font-size: 4.5rem;
   line-height: 1.2;
-  color: $hmspri;
+  color: var(--bs-primary);
 }
 
 .bedsideCare {
-  min-height: 1000px;
+  min-height: 890px;
 
   @include sm {
     min-height: 920px;
@@ -67,14 +67,12 @@
   .bedsideCare_nurse {
     position: absolute;
     bottom: 0;
-    left: -8vw;
+    left: -7vw;
     width: 80%;
     height: auto;
 
     @include sm {
-      bottom: 0;
       left: -8vw;
-      width: 80%;
     }
 
     @include md {
@@ -93,17 +91,17 @@
 
   .bedsideCare_content {
     position: absolute;
-
-    @include sm {
-      min-width: 80%;
-    }
+    min-width: 80%;
+    // @include sm {
+    //   min-width: 80%;
+    // }
 
     @include lg {
       max-width: 70%;
     }
 
     @include xl {
-      min-width: 70%;
+      // min-width: 70%;
       left: 50%;
     }
 
@@ -114,33 +112,36 @@
 
   .bedsideCare_cart {
     position: absolute;
-
-    @include sm {
-      bottom: 0;
-      right: 2%;
-      width: 37%;
-      height: auto;
-    }
+    bottom: 0;
+    right: 2%;
+    width: 37%;
+    height: auto;
+    // @include sm {
+    //   bottom: 0;
+    //   right: 2%;
+    //   width: 37%;
+    //   height: auto;
+    // }
 
     @include md {
       width: 34%;
     }
 
     @include lg {
-      right: 2%;
+      // right: 2%;
       width: 32%;
-      height: auto;
+      // height: auto;
     }
 
     @include xl {
       width: 24%;
-      height: auto;
-      right: 2%;
+      // height: auto;
+      // right: 2%;
     }
 
     @include xxl {
       width: 24%;
-      height: auto;
+      // height: auto;
       // bottom: 0;
       right: -2%;
     }
@@ -148,42 +149,46 @@
 
   .bedsideCare_bed {
     position: absolute;
-
-    @include sm {
-      bottom: 0;
-      right: 3%;
-      width: 100%;
-      height: auto;
-    }
+    bottom: 0;
+    right: 3%;
+    width: 100%;
+    height: auto;
+    // @include sm {
+    //   bottom: 0;
+    //   right: 3%;
+    //   width: 100%;
+    //   height: auto;
+    // }
 
     @include md {
       width: 92%;
     }
 
     @include lg {
-      bottom: 0;
+      // bottom: 0;
       right: 10%;
       width: 80%;
-      height: auto;
+      // height: auto;
     }
 
     @include xl {
-      bottom: 0;
+      // bottom: 0;
       right: 10%;
       width: 65%;
-      height: auto;
+      // height: auto;
     }
 
     @include xxl {
-      bottom: 0;
+      // bottom: 0;
       right: 0;
-      width: 65%;
-      height: auto;
+      // width: 65%;
+      // height: auto;
     }
   }
 }
 
 .aiAssistant {
+  min-height: 710px;
 
   @include sm {
     min-height: 677px;
@@ -207,11 +212,12 @@
 
   .aiAssistant_content {
     position: absolute;
-
-    @include sm {
-      margin: 0 auto;
-      max-width: 90%;
-    }
+    margin: 0 auto;
+    max-width: 90%;
+    // @include sm {
+    //   margin: 0 auto;
+    //   max-width: 90%;
+    // }
 
     @include xl {
       max-width: 60%;
@@ -221,14 +227,14 @@
 
   .aiAssistant_venus {
     position: absolute;
+    display: none;
+    // @include sm {
+    //   display: none;
+    // }
 
-    @include sm {
-      display: none;
-    }
-
-    @include md {
-      display: none;
-    }
+    // @include md {
+    //   display: none;
+    // }
 
     @include lg {
       display: flex;
@@ -237,16 +243,16 @@
     }
 
     @include xl {
-      display: flex;
+      // display: flex;
       height: 240px;
-      bottom: -2%;
+      // bottom: -2%;
     }
 
     @include xxl {
-      display: flex;
+      // display: flex;
       left: 0;
       bottom: 4vh;
-      height: 240px;
+      // height: 240px;
     }
 
   }
@@ -255,25 +261,26 @@
     background-color: var(--bs-success);
     position: absolute;
     border-radius: 36px;
-
-    // width: 40%;
-    // height: 50%;
-    @include sm {
-      right: 3%;
-      width: 50%;
-      height: 32%;
-      bottom: 0;
-    }
+    right: 3%;
+    width: 50%;
+    height: 32%;
+    bottom: 0;
+    // @include sm {
+    //   right: 3%;
+    //   width: 50%;
+    //   height: 32%;
+    //   bottom: 0;
+    // }
 
     @include lg {
       width: 32%;
       height: 60%;
     }
 
-    @include xl {
-      width: 32%;
-      height: 60%;
-    }
+    // @include xl {
+    //   width: 32%;
+    //   height: 60%;
+    // }
 
     @include xxl {
       width: 40%;
@@ -285,59 +292,61 @@
 
   .aiAssistant_224 {
     position: absolute;
-    // bottom: 37%;
-    // right: 21%;
-    // width: 33%;
-    // height: auto;
-    // transform: rotate(10deg);
+    bottom: 29%;
+    right: 36%;
+    width: 41%;
+    height: auto;
+    transform: rotate(10deg);
 
     @include sm {
-      transform: rotate(10deg);
+      // transform: rotate(10deg);
       bottom: 23%;
       right: 40%;
       width: 45%;
-      height: auto;
+      // height: auto;
     }
 
     @include md {
       bottom: 36%;
       width: 37%;
-      height: auto;
+      // height: auto;
     }
 
     @include lg {
-      bottom: 36%;
+      // bottom: 36%;
       width: 30%;
-      height: auto;
+      // height: auto;
       right: 23%;
     }
 
     @include xl {
-      bottom: 36%;
-      width: 30%;
-      height: auto;
-      right: 23%;
+      // bottom: 36%;
+      // width: 30%;
+      // height: auto;
+      // right: 23%;
     }
 
     @include xxl {
       bottom: 37%;
       right: 21%;
       width: 33%;
-      height: auto;
-      transform: rotate(10deg);
+      // height: auto;
+      // transform: rotate(10deg);
     }
   }
 
   .aiAssistant_robot {
     position: absolute;
-    // bottom: 0;
-    // right: -8vw;
+    bottom: 0;
+    right: -8vw;
+    width: 75%;
+    height: auto;
 
     @include sm {
-      bottom: 0;
-      right: -8vw;
+      // bottom: 0;
+      // right: -8vw;
       width: 78%;
-      height: auto;
+      // height: auto;
     }
 
     @include md {
@@ -346,12 +355,12 @@
 
     @include lg {
       width: 50%;
-      height: auto;
+      // height: auto;
     }
 
     @include xl {
       width: 50%;
-      height: auto;
+      // height: auto;
     }
 
   }
@@ -359,7 +368,7 @@
 }
 
 .personalizedCare {
-
+  min-height: 688px;
   @include sm {
     min-height: 688px;
   }
@@ -380,64 +389,73 @@
     background-color: var(--bs-success);
     position: absolute;
     border-radius: 36px;
-
-    @include sm {
-      bottom: 0;
-      left: 5%;
-      width: 38%;
-      height: 49%;
-    }
+    bottom: 0;
+    left: 5%;
+    width: 38%;
+    height: 49%;
+    // @include sm {
+    //   bottom: 0;
+    //   left: 5%;
+    //   width: 38%;
+    //   height: 49%;
+    // }
 
     @include xxl {
-      bottom: 0;
-      left: 5%;
-      width: 38%;
-      height: 49%;
+      // bottom: 0;
+      // left: 5%;
+      // width: 38%;
+      // height: 49%;
     }
   }
 
   .personalizedCare_vemus {
     position: absolute;
-
+    bottom: -20%;
+    left: 16%;
+    width: 53%;
+    height: auto;
     // bottom: -20%;
-    @include sm {
-      bottom: -20%;
-      left: 16%;
-      width: 53%;
-      height: auto;
-    }
+    // @include sm {
+    //   bottom: -20%;
+    //   left: 16%;
+    //   width: 53%;
+    //   height: auto;
+    // }
 
     @include lg {
-      bottom: -20%;
+      // bottom: -20%;
       left: 18%;
       width: 48%;
-      height: auto;
+      // height: auto;
     }
 
     @include xl {
-      bottom: -20%;
+      // bottom: -20%;
       left: 13%;
       width: 38%;
-      height: auto;
+      // height: auto;
     }
 
     @include xxl {
-      bottom: -20%;
+      // bottom: -20%;
       left: 12%;
       width: 45%;
-      height: auto;
+      // height: auto;
     }
   }
 
   .personalizedCare_nurs {
     position: absolute;
-
-    @include sm {
-      bottom: 0;
-      left: 2%;
-      width: 84%;
-      height: auto;
-    }
+    bottom: 0;
+    left: 2%;
+    width: 84%;
+    height: auto;
+    // @include sm {
+    //   bottom: 0;
+    //   left: 2%;
+    //   width: 84%;
+    //   height: auto;
+    // }
 
     @include lg {
       width: 75%;
@@ -449,24 +467,27 @@
       width: 65%;
     }
 
-    @include xxl {
-      height: auto;
+    // @include xxl {
+    //   height: auto;
 
-    }
+    // }
   }
 
   .personalizedCare_ui {
     position: absolute;
-
-    @include sm {
-      bottom: 17%;
-      left: 4%;
-      width: 81%;
-      height: auto;
-    }
+    bottom: 17%;
+    left: 4%;
+    width: 81%;
+    height: auto;
+    // @include sm {
+    //   bottom: 17%;
+    //   left: 4%;
+    //   width: 81%;
+    //   height: auto;
+    // }
 
     @include lg {
-      bottom: 17%;
+      // bottom: 17%;
       width: 75%;
     }
 
@@ -480,17 +501,18 @@
       bottom: 28%;
       left: 0;
       width: 70%;
-      height: auto;
+      // height: auto;
     }
   }
 
   .personalizedCare_content {
     position: absolute;
-
-    @include sm {
-      max-width: 90%;
-      margin: 0 auto;
-    }
+    max-width: 90%;
+    margin: 0 auto;
+    // @include sm {
+    //   max-width: 90%;
+    //   margin: 0 auto;
+    // }
 
     @include xl {
       right: 2%;

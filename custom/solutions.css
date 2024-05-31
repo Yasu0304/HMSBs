@@ -1,11 +1,11 @@
 .h1Title {
   font-size: 4.5rem;
   line-height: 1.2;
-  color: #0F5385;
+  color: var(--bs-primary);
 }
 
 .bedsideCare {
-  min-height: 1000px;
+  min-height: 890px;
 }
 @media (min-width: 576px) {
   .bedsideCare {
@@ -70,15 +70,13 @@
 .bedsideCare .bedsideCare_nurse {
   position: absolute;
   bottom: 0;
-  left: -8vw;
+  left: -7vw;
   width: 80%;
   height: auto;
 }
 @media (min-width: 576px) {
   .bedsideCare .bedsideCare_nurse {
-    bottom: 0;
     left: -8vw;
-    width: 80%;
   }
 }
 @media (min-width: 768px) {
@@ -99,11 +97,7 @@
 }
 .bedsideCare .bedsideCare_content {
   position: absolute;
-}
-@media (min-width: 576px) {
-  .bedsideCare .bedsideCare_content {
-    min-width: 80%;
-  }
+  min-width: 80%;
 }
 @media (min-width: 992px) {
   .bedsideCare .bedsideCare_content {
@@ -112,7 +106,6 @@
 }
 @media (min-width: 1200px) {
   .bedsideCare .bedsideCare_content {
-    min-width: 70%;
     left: 50%;
   }
 }
@@ -123,14 +116,10 @@
 }
 .bedsideCare .bedsideCare_cart {
   position: absolute;
-}
-@media (min-width: 576px) {
-  .bedsideCare .bedsideCare_cart {
-    bottom: 0;
-    right: 2%;
-    width: 37%;
-    height: auto;
-  }
+  bottom: 0;
+  right: 2%;
+  width: 37%;
+  height: auto;
 }
 @media (min-width: 768px) {
   .bedsideCare .bedsideCare_cart {
@@ -139,35 +128,26 @@
 }
 @media (min-width: 992px) {
   .bedsideCare .bedsideCare_cart {
-    right: 2%;
     width: 32%;
-    height: auto;
   }
 }
 @media (min-width: 1200px) {
   .bedsideCare .bedsideCare_cart {
     width: 24%;
-    height: auto;
-    right: 2%;
   }
 }
 @media (min-width: 1400px) {
   .bedsideCare .bedsideCare_cart {
     width: 24%;
-    height: auto;
     right: -2%;
   }
 }
 .bedsideCare .bedsideCare_bed {
   position: absolute;
-}
-@media (min-width: 576px) {
-  .bedsideCare .bedsideCare_bed {
-    bottom: 0;
-    right: 3%;
-    width: 100%;
-    height: auto;
-  }
+  bottom: 0;
+  right: 3%;
+  width: 100%;
+  height: auto;
 }
 @media (min-width: 768px) {
   .bedsideCare .bedsideCare_bed {
@@ -176,29 +156,25 @@
 }
 @media (min-width: 992px) {
   .bedsideCare .bedsideCare_bed {
-    bottom: 0;
     right: 10%;
     width: 80%;
-    height: auto;
   }
 }
 @media (min-width: 1200px) {
   .bedsideCare .bedsideCare_bed {
-    bottom: 0;
     right: 10%;
     width: 65%;
-    height: auto;
   }
 }
 @media (min-width: 1400px) {
   .bedsideCare .bedsideCare_bed {
-    bottom: 0;
     right: 0;
-    width: 65%;
-    height: auto;
   }
 }
 
+.aiAssistant {
+  min-height: 710px;
+}
 @media (min-width: 576px) {
   .aiAssistant {
     min-height: 677px;
@@ -226,12 +202,8 @@
 }
 .aiAssistant .aiAssistant_content {
   position: absolute;
-}
-@media (min-width: 576px) {
-  .aiAssistant .aiAssistant_content {
-    margin: 0 auto;
-    max-width: 90%;
-  }
+  margin: 0 auto;
+  max-width: 90%;
 }
 @media (min-width: 1200px) {
   .aiAssistant .aiAssistant_content {
@@ -241,16 +213,7 @@
 }
 .aiAssistant .aiAssistant_venus {
   position: absolute;
-}
-@media (min-width: 576px) {
-  .aiAssistant .aiAssistant_venus {
-    display: none;
-  }
-}
-@media (min-width: 768px) {
-  .aiAssistant .aiAssistant_venus {
-    display: none;
-  }
+  display: none;
 }
 @media (min-width: 992px) {
   .aiAssistant .aiAssistant_venus {
@@ -261,39 +224,25 @@
 }
 @media (min-width: 1200px) {
   .aiAssistant .aiAssistant_venus {
-    display: flex;
     height: 240px;
-    bottom: -2%;
   }
 }
 @media (min-width: 1400px) {
   .aiAssistant .aiAssistant_venus {
-    display: flex;
     left: 0;
     bottom: 4vh;
-    height: 240px;
   }
 }
 .aiAssistant .aiAssistant_pribg {
   background-color: var(--bs-success);
   position: absolute;
   border-radius: 36px;
-}
-@media (min-width: 576px) {
-  .aiAssistant .aiAssistant_pribg {
-    right: 3%;
-    width: 50%;
-    height: 32%;
-    bottom: 0;
-  }
+  right: 3%;
+  width: 50%;
+  height: 32%;
+  bottom: 0;
 }
 @media (min-width: 992px) {
-  .aiAssistant .aiAssistant_pribg {
-    width: 32%;
-    height: 60%;
-  }
-}
-@media (min-width: 1200px) {
   .aiAssistant .aiAssistant_pribg {
     width: 32%;
     height: 60%;
@@ -309,36 +258,28 @@
 }
 .aiAssistant .aiAssistant_224 {
   position: absolute;
+  bottom: 29%;
+  right: 36%;
+  width: 41%;
+  height: auto;
+  transform: rotate(10deg);
 }
 @media (min-width: 576px) {
   .aiAssistant .aiAssistant_224 {
-    transform: rotate(10deg);
     bottom: 23%;
     right: 40%;
     width: 45%;
-    height: auto;
   }
 }
 @media (min-width: 768px) {
   .aiAssistant .aiAssistant_224 {
     bottom: 36%;
     width: 37%;
-    height: auto;
   }
 }
 @media (min-width: 992px) {
   .aiAssistant .aiAssistant_224 {
-    bottom: 36%;
     width: 30%;
-    height: auto;
-    right: 23%;
-  }
-}
-@media (min-width: 1200px) {
-  .aiAssistant .aiAssistant_224 {
-    bottom: 36%;
-    width: 30%;
-    height: auto;
     right: 23%;
   }
 }
@@ -347,19 +288,18 @@
     bottom: 37%;
     right: 21%;
     width: 33%;
-    height: auto;
-    transform: rotate(10deg);
   }
 }
 .aiAssistant .aiAssistant_robot {
   position: absolute;
+  bottom: 0;
+  right: -8vw;
+  width: 75%;
+  height: auto;
 }
 @media (min-width: 576px) {
   .aiAssistant .aiAssistant_robot {
-    bottom: 0;
-    right: -8vw;
     width: 78%;
-    height: auto;
   }
 }
 @media (min-width: 768px) {
@@ -370,16 +310,17 @@
 @media (min-width: 992px) {
   .aiAssistant .aiAssistant_robot {
     width: 50%;
-    height: auto;
   }
 }
 @media (min-width: 1200px) {
   .aiAssistant .aiAssistant_robot {
     width: 50%;
-    height: auto;
   }
 }
 
+.personalizedCare {
+  min-height: 688px;
+}
 @media (min-width: 576px) {
   .personalizedCare {
     min-height: 688px;
@@ -404,68 +345,42 @@
   background-color: var(--bs-success);
   position: absolute;
   border-radius: 36px;
-}
-@media (min-width: 576px) {
-  .personalizedCare .personalizedCare_pribg {
-    bottom: 0;
-    left: 5%;
-    width: 38%;
-    height: 49%;
-  }
-}
-@media (min-width: 1400px) {
-  .personalizedCare .personalizedCare_pribg {
-    bottom: 0;
-    left: 5%;
-    width: 38%;
-    height: 49%;
-  }
+  bottom: 0;
+  left: 5%;
+  width: 38%;
+  height: 49%;
 }
 .personalizedCare .personalizedCare_vemus {
   position: absolute;
-}
-@media (min-width: 576px) {
-  .personalizedCare .personalizedCare_vemus {
-    bottom: -20%;
-    left: 16%;
-    width: 53%;
-    height: auto;
-  }
+  bottom: -20%;
+  left: 16%;
+  width: 53%;
+  height: auto;
 }
 @media (min-width: 992px) {
   .personalizedCare .personalizedCare_vemus {
-    bottom: -20%;
     left: 18%;
     width: 48%;
-    height: auto;
   }
 }
 @media (min-width: 1200px) {
   .personalizedCare .personalizedCare_vemus {
-    bottom: -20%;
     left: 13%;
     width: 38%;
-    height: auto;
   }
 }
 @media (min-width: 1400px) {
   .personalizedCare .personalizedCare_vemus {
-    bottom: -20%;
     left: 12%;
     width: 45%;
-    height: auto;
   }
 }
 .personalizedCare .personalizedCare_nurs {
   position: absolute;
-}
-@media (min-width: 576px) {
-  .personalizedCare .personalizedCare_nurs {
-    bottom: 0;
-    left: 2%;
-    width: 84%;
-    height: auto;
-  }
+  bottom: 0;
+  left: 2%;
+  width: 84%;
+  height: auto;
 }
 @media (min-width: 992px) {
   .personalizedCare .personalizedCare_nurs {
@@ -479,25 +394,15 @@
     width: 65%;
   }
 }
-@media (min-width: 1400px) {
-  .personalizedCare .personalizedCare_nurs {
-    height: auto;
-  }
-}
 .personalizedCare .personalizedCare_ui {
   position: absolute;
-}
-@media (min-width: 576px) {
-  .personalizedCare .personalizedCare_ui {
-    bottom: 17%;
-    left: 4%;
-    width: 81%;
-    height: auto;
-  }
+  bottom: 17%;
+  left: 4%;
+  width: 81%;
+  height: auto;
 }
 @media (min-width: 992px) {
   .personalizedCare .personalizedCare_ui {
-    bottom: 17%;
     width: 75%;
   }
 }
@@ -512,17 +417,12 @@
     bottom: 28%;
     left: 0;
     width: 70%;
-    height: auto;
   }
 }
 .personalizedCare .personalizedCare_content {
   position: absolute;
-}
-@media (min-width: 576px) {
-  .personalizedCare .personalizedCare_content {
-    max-width: 90%;
-    margin: 0 auto;
-  }
+  max-width: 90%;
+  margin: 0 auto;
 }
 @media (min-width: 1200px) {
   .personalizedCare .personalizedCare_content {
