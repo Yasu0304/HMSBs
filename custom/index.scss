@@ -1,9 +1,10 @@
 @import "base";
 @import "components";
-@import "media";
+// @import "media";
+@import "midiaForModify";
 
 .indexBgSm {
-  @include sm {
+  @include s {
     background-image: url(../images/index/bn-sm.webp);
     background-repeat: no-repeat;
     background-position: top center;
@@ -12,7 +13,7 @@
 }
 
 .positionSm {
-  @include sm {
+  @include s {
     margin-top: 8rem;
   }
 }
@@ -30,17 +31,18 @@
 .h1Title {
   font-size: 4.5rem;
   line-height: 1.2;
-  color: $hmspri;
+  color:     var(--bs-primary)
+  ;
 
   &.color_alr {
     color: $hmsalr;
 
-    @include sm {
+    @include s {
       color: var(--bs-white);
     }
   }
 
-  @include sm {
+  @include s {
     font-size: 2.3rem;
     line-height: 1;
     font-weight: 900;
@@ -51,7 +53,7 @@
 .positionSm_bg {
   background-color: var(--bs-white);
 
-  @include sm {
+  @include s {
     background-color: var(--bs-success);
   }
 }
@@ -60,7 +62,7 @@
   padding: 0;
   background-color: var(--bs-success);
 
-  @include sm {
+  @include s {
     border-radius: 24pt;
     background-color: var(--bs-primary);
     margin-top: -3rem;
@@ -71,7 +73,7 @@
 .positionSm_scetion {
   margin-top: 28rem;
 
-  @include sm {
+  @include s {
     // margin-top: 2rem;
     margin-top: 50rem;
   }
@@ -79,7 +81,7 @@
 
 .hmsPoint {
   img {
-    @include sm {
+    @include s {
       width: 100px;
       height: 100px;
     }
@@ -87,13 +89,13 @@
 }
 
 .positionSm_icon {
-  @include sm {
+  @include s {
     // margin-top: 44rem;
     margin-bottom: 5rem;
   }
 
   img {
-    @include sm {
+    @include s {
       width: 40pt;
       height: 40pt;
     }
@@ -118,7 +120,7 @@
     margin-right: -10%;
   }
 
-  @include sm {
+  @include s {
     flex-direction: column;
 
     &> :first-child {
@@ -138,7 +140,7 @@
     position: relative;
     z-index: 1;
 
-    @include sm {
+    @include s {
       width: 100%;
       border-radius: 12px 12px 0 0;
     }
@@ -159,7 +161,7 @@
       margin-bottom: 12px;
     }
 
-    @include sm {
+    @include s {
       width: 100%;
       border-radius: 0 0 12px 12px;
 
