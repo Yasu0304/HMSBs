@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @media (max-width: 576px) {
   .indexBgSm {
     background-image: url(../images/index/bn-sm.webp);
@@ -18,9 +17,11 @@
   color: var(--bs-gray-600);
   margin-bottom: 2.5rem;
 }
-.positionSm_p ƒ {
-  color: var(--bs-white);
-  margin-bottom: 0;
+@media (max-width: 576px) {
+  .positionSm_p {
+    color: var(--bs-white);
+    margin-bottom: 0;
+  }
 }
 
 .h1Title {

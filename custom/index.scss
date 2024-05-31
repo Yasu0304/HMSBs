@@ -22,7 +22,7 @@
   color: var(--bs-gray-600);
   margin-bottom: 2.5rem;
 
-  ƒ {
+  @include s {
     color: var(--bs-white);
     margin-bottom: 0;
   }
@@ -31,8 +31,7 @@
 .h1Title {
   font-size: 4.5rem;
   line-height: 1.2;
-  color:     var(--bs-primary)
-  ;
+  color: var(--bs-primary);
 
   &.color_alr {
     color: $hmsalr;

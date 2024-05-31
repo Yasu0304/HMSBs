@@ -9,7 +9,7 @@
 }
 
 .bedsideCare {
-  min-height: 890px;
+  min-height: 823px;
 
   @include sm {
     min-height: 920px;
@@ -36,15 +36,15 @@
     background-color: var(--bs-success);
     border-radius: 36px;
     width: 45%;
-    height: 50%;
+    height: 35%;
     left: 3%;
     bottom: 0;
 
     @include sm {
-      width: 45%;
+      // width: 45%;
       height: 50%;
-      left: 3%;
-      bottom: 0;
+      // left: 3%;
+      // bottom: 0;
 
     }
 
@@ -188,7 +188,7 @@
 }
 
 .aiAssistant {
-  min-height: 710px;
+  min-height: 685px;
 
   @include sm {
     min-height: 677px;
@@ -292,9 +292,9 @@
 
   .aiAssistant_224 {
     position: absolute;
-    bottom: 29%;
+    bottom: 20%;
     right: 36%;
-    width: 41%;
+    width: 46%;
     height: auto;
     transform: rotate(10deg);
 
@@ -369,6 +369,7 @@
 
 .personalizedCare {
   min-height: 688px;
+
   @include sm {
     min-height: 688px;
   }
@@ -392,13 +393,11 @@
     bottom: 0;
     left: 5%;
     width: 38%;
-    height: 49%;
-    // @include sm {
-    //   bottom: 0;
-    //   left: 5%;
-    //   width: 38%;
-    //   height: 49%;
-    // }
+    height: 29%;
+
+    @include sm {
+      height: 49%;
+    }
 
     @include xxl {
       // bottom: 0;
@@ -410,17 +409,16 @@
 
   .personalizedCare_vemus {
     position: absolute;
-    bottom: -20%;
+    bottom: -14%;
     left: 16%;
     width: 53%;
     height: auto;
+
     // bottom: -20%;
-    // @include sm {
-    //   bottom: -20%;
-    //   left: 16%;
-    //   width: 53%;
-    //   height: auto;
-    // }
+    @include sm {
+      bottom: -20%;
+
+    }
 
     @include lg {
       // bottom: -20%;
