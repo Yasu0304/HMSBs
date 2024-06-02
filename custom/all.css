@@ -10,13 +10,13 @@ body .bebas-neue-regular {
 }
 
 .navbar-brand img {
-  height: 75px;
-  width: auto;
+  width: 110px;
+  height: auto;
 }
-@media (max-width: 576px) {
+@media (min-width: 768px) {
   .navbar-brand img {
-    height: 45px;
-    width: auto;
+    width: 150px;
+    height: auto;
   }
 }
 

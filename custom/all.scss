@@ -2,8 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital,wght@0,100..900;1,100..900&@400&display=swap");
 @import "base";
 @import "components";
-// @import "media";
-@import "midiaForModify";
+@import "media";
 
 html {
   scroll-padding-top: 66px; //header 高度
@@ -19,12 +18,13 @@ body {
 
 .navbar-brand {
   img {
-    height: 75px;
-    width: auto;
 
-    @include s {
-      height: 45px;
-      width: auto;
+    width: 110px;
+    height: auto;
+
+    @include md {
+      width: 150px;
+      height: auto;
     }
   }
 }
