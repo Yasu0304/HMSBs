@@ -1,103 +1,97 @@
 @import "base";
 @import "components";
-// @import "media";
-@import "midiaForModify";
+@import "media";
 
 .indexBgSm {
-  @include s {
-    background-image: url(../images/index/bn-sm.webp);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: contain;
+  background-image: url(../images/index/bn-sm.webp);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+
+  @include sm {
+    background-image: none;
   }
 }
 
 .positionSm {
-  @include s {
-    margin-top: 8rem;
+  margin-top: 40%;
+
+  @include sm {
+    margin-top: 0;
   }
 }
 
 .positionSm_p {
-  color: var(--bs-gray-600);
-  margin-bottom: 2.5rem;
+  color: var(--bs-white);
+  margin-bottom: 0;
 
-  @include s {
-    color: var(--bs-white);
-    margin-bottom: 0;
+  @include sm {
+    color: var(--bs-gray-600);
+    margin-bottom: 2.5rem;
   }
 }
 
 .h1Title {
-  font-size: 4.5rem;
-  line-height: 1.2;
-  color: var(--bs-primary);
+  font-size: 2.3rem;
+  line-height: 1;
+  font-weight: 700;
+  color: var(--bs-white);
 
-  &.color_alr {
-    color: $hmsalr;
+  @include sm {
+    font-size: 4.5rem;
+    line-height: 1.2;
+    color: var(--bs-primary);
 
-    @include s {
-      color: var(--bs-white);
+    &.color_alr {
+      color: $hmsalr;
     }
-  }
-
-  @include s {
-    font-size: 2.3rem;
-    line-height: 1;
-    font-weight: 900;
-    color: var(--bs-white);
   }
 }
 
 .positionSm_bg {
-  background-color: var(--bs-white);
+  background-color: var(--bs-success);
 
-  @include s {
-    background-color: var(--bs-success);
+  @include sm {
+    background-color: var(--bs-white);
   }
 }
 
 .positionSm_card {
-  padding: 0;
-  background-color: var(--bs-success);
+  border-radius: 24pt;
+  background-color: var(--bs-primary);
+  margin-top: -3rem;
+  padding: 3rem 2rem;
 
-  @include s {
-    border-radius: 24pt;
-    background-color: var(--bs-primary);
-    margin-top: -3rem;
-    padding: 3rem 2rem;
+  @include sm {
+    border-radius: 0;
+    margin-top: 0;
+    padding: 0;
+    background-color: var(--bs-success);
   }
 }
 
 .positionSm_scetion {
-  margin-top: 28rem;
+  margin-top: 50rem;
 
-  @include s {
-    // margin-top: 2rem;
-    margin-top: 50rem;
+  @include sm {
+    margin-top: 28rem;
   }
 }
 
+
 .hmsPoint {
   img {
-    @include s {
-      width: 100px;
-      height: 100px;
-    }
+    width: 100px;
+    height: 100px;
   }
 }
 
 .positionSm_icon {
-  @include s {
-    // margin-top: 44rem;
-    margin-bottom: 5rem;
-  }
+  margin-bottom: 5rem;
 
   img {
-    @include s {
-      width: 40pt;
-      height: 40pt;
-    }
+    width: 40pt;
+    height: 40pt;
   }
 }
 
@@ -110,63 +104,67 @@
 }
 
 .contentSection {
-  display: flex;
-  align-items: center;
+  flex-direction: column;
   margin-bottom: 5rem;
+  margin-right: 0%;
 
   // contentSection底下的第一個人，此為交錯版面的關鍵
-  &> :first-child {
+  &>:first-child {
     margin-right: -10%;
   }
 
-  @include s {
-    flex-direction: column;
+  &:nth-child(even) {
+    display: flex;
+    flex-direction: column-reverse;
 
-    &> :first-child {
-      margin-right: 0%;
-    }
-
-    &:nth-child(even) {
-      flex-direction: column-reverse;
+    @include sm {
+      flex-direction: row;
     }
   }
 
+  @include sm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+  }
+
   .contentImg {
-    width: 80%;
-    flex-shrink: 0;
-    border-radius: 24px;
+    width: 100%;
+    border-radius: 12px 12px 0 0;
     overflow: hidden;
     position: relative;
     z-index: 1;
+    flex-shrink: 0;
 
-    @include s {
-      width: 100%;
-      border-radius: 12px 12px 0 0;
+    @include sm {
+      width: 80%;
+      border-radius: 24px;
     }
   }
 
   .contentArticle {
-    width: 30%;
-    flex-shrink: 0;
+    width: 100%;
+    border-radius: 0 0 12px 12px;
     background-color: var(--bs-white);
-    border-radius: 24px;
+    padding: 2rem;
     position: relative;
     z-index: 2;
-    padding: 2rem;
 
-    img {
-      width: 70px;
-      height: 70px;
-      margin-bottom: 12px;
+    @include sm {
+      border-radius: 24px;
+      width: 30%;
+      flex-shrink: 0;
     }
 
-    @include s {
-      width: 100%;
-      border-radius: 0 0 12px 12px;
+    img {
+      width: 15%;
+      height: 15%;
 
-      img {
-        width: 15%;
-        height: 15%;
+      @include sm {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 12px;
       }
     }
   }
