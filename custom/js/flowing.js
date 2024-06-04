@@ -1,5 +1,5 @@
-const MIN_SPEED = 0.1;
-const MAX_SPEED = 7;
+const MIN_SPEED = 0.9;
+const MAX_SPEED = 5;
 
 function randomNumber(min, max) {
   return Math.random() * (max - min) + min;

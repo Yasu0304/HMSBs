@@ -85,17 +85,15 @@
         </ul>
       </div>
     </nav>
-    <div class="container-fluid flex-grow-1 p-0" style="overflow: hidden;">
-      <div style="display: grid;place-content: center;">
-        <div class="blobs">
-          <div class="blob"></div>
-          <div class="blob"></div>
-          <div class="blob"></div>
-          <div class="blob"></div>
-          <div class="blob"></div>
-          <div class="blob"></div>
-          <div class="blob"></div>
-        </div>
+    <div class="container-fluid flex-grow-1 p-0">
+      <div class="blobs">
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
       </div>
       <!-- hero↓ -->
       <div class="py-3 container-xxl">
@@ -248,67 +246,6 @@
   body {
     height: 100%;
     margin: 0;
-  }
-
-  :root {
-    --cr-main-1: #2ac9de;
-    --cr-main-2: #f087f4;
-    --cr-1: color-mix(in srgb, var(--cr-main-1), var(--cr-main-2) 20%);
-    --cr-2: color-mix(in srgb, var(--cr-main-1), var(--cr-main-2) 35%);
-    --cr-3: color-mix(in srgb, var(--cr-main-1), var(--cr-main-2) 50%);
-    --cr-4: color-mix(in srgb, var(--cr-main-1), var(--cr-main-2) 65%);
-    --cr-5: color-mix(in srgb, var(--cr-main-1), var(--cr-main-2) 80%);
-  }
-
-  .blobs {
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 40%;
-    pointer-events: none;
-    filter: blur(100px);
-  }
-
-  .blob {
-    width: max(240px, 240px);
-    aspect-ratio: 1;
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    transform-origin: center;
-  }
-
-  .blob:nth-of-type(1) {
-    background: var(--cr-main-1);
-  }
-
-  .blob:nth-of-type(2) {
-    background: var(--cr-main-2);
-  }
-
-  .blob:nth-of-type(3) {
-    background: var(--cr-1);
-  }
-
-  .blob:nth-of-type(4) {
-    background: whitesmoke;
-  }
-
-  .blob:nth-of-type(5) {
-    background: var(--cr-3);
-  }
-
-  .blob:nth-of-type(6) {
-    background: var(--cr-4);
-  }
-
-  .blob:nth-of-type(7) {
-    background: var(--cr-2);
   }
 </style>
 
