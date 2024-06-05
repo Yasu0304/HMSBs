@@ -1,4 +1,3 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
 @keyframes upDownFlow {
   0% {
     transform: translateY(45px);
@@ -34,14 +33,45 @@
     opacity: 1;
   }
 }
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes heartBeat {
+  0% {
+    transform: scale(1);
+  }
+  14% {
+    transform: scale(1.1);
+  }
+  28% {
+    transform: scale(1);
+  }
+  42% {
+    transform: scale(1.1);
+  }
+  70% {
+    transform: scale(1);
+  }
+}
 .h1Title {
   font-size: 4.5rem;
   line-height: 1.2;
   color: var(--bs-primary);
 }
 
-.elem:hover img {
-  animation: upDownFlow;
-  animation-duration: 2s;
-  transition: 2s;
+.card {
+  cursor: pointer;
+}
+
+.hoverHeartBeat:hover img {
+  animation-name: heartBeat;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  transition: 2S;
 }/*# sourceMappingURL=hospital_at_home.css.map */
