@@ -1,0 +1,20 @@
+@import "base";
+@import "components";
+@import "media";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+
+.h1Title {
+  font-size: 4.5rem;
+  line-height: 1.2;
+  color: var(--bs-primary);
+}
+
+.elem {
+  &:hover {
+    img {
+      animation: upDownFlow;
+      animation-duration: 2s;
+      transition: 2s;
+    }
+  }
+}
