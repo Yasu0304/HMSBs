@@ -1,3 +1,38 @@
+@keyframes upDownFlow {
+  0% {
+    transform: translateY(45px);
+    animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    transform: translateY(24px);
+    animation-timing-function: ease-in;
+  }
+  65% {
+    transform: translateY(12px);
+    animation-timing-function: ease-in;
+  }
+  82% {
+    transform: translateY(6px);
+    animation-timing-function: ease-in;
+  }
+  93% {
+    transform: translateY(4px);
+    animation-timing-function: ease-in;
+  }
+  25%, 55%, 75%, 87% {
+    transform: translateY(0px);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translateY(0px);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
 .h1Title {
   font-size: 4.5rem;
   line-height: 1.2;
@@ -5,8 +40,8 @@
 }
 
 :root {
-  --cr-main-1: #2ac9de;
-  --cr-main-2: #f087f4;
+  --cr-main-1: #3ce2ff3b;
+  --cr-main-2: #4d50ff34;
   --cr-1: color-mix(in srgb, var(--cr-main-1), var(--cr-main-2) 20%);
   --cr-2: color-mix(in srgb, var(--cr-main-1), var(--cr-main-2) 35%);
   --cr-3: color-mix(in srgb, var(--cr-main-1), var(--cr-main-2) 50%);
@@ -23,14 +58,13 @@
   max-width: 100%;
   height: 40%;
   pointer-events: none;
-  filter: blur(100px);
+  filter: blur(50px);
 }
-
-.blob {
+.blobs .blob {
   display: none;
 }
 @media (min-width: 576px) {
-  .blob {
+  .blobs .blob {
     display: grid;
     place-content: center;
     width: 500px;
@@ -43,33 +77,94 @@
     transform-origin: center;
   }
 }
-
-.blob:nth-of-type(1) {
+.blobs .blob:nth-of-type(1) {
   background: var(--cr-main-1);
 }
-
-.blob:nth-of-type(2) {
+.blobs .blob:nth-of-type(2) {
   background: var(--cr-main-2);
 }
-
-.blob:nth-of-type(3) {
+.blobs .blob:nth-of-type(3) {
   background: var(--cr-1);
 }
-
-.blob:nth-of-type(4) {
+.blobs .blob:nth-of-type(4) {
   background: whitesmoke;
 }
-
-.blob:nth-of-type(5) {
+.blobs .blob:nth-of-type(5) {
   background: var(--cr-3);
 }
-
-.blob:nth-of-type(6) {
+.blobs .blob:nth-of-type(6) {
   background: var(--cr-4);
 }
-
-.blob:nth-of-type(7) {
+.blobs .blob:nth-of-type(7) {
   background: var(--cr-2);
+}
+
+.fri {
+  animation: upDownFlow 22s linear infinite alternate-reverse;
+}
+
+.sec {
+  animation: upDownFlow 20s linear infinite alternate-reverse;
+}
+
+.thr {
+  animation: upDownFlow 25s linear infinite alternate-reverse;
+}
+
+.mobileNursingBg {
+  min-height: 468px;
+}
+@media (min-width: 576px) {
+  .mobileNursingBg {
+    min-height: 480px;
+  }
+}
+@media (min-width: 768px) {
+  .mobileNursingBg {
+    min-height: 480px;
+  }
+}
+.mobileNursingBg .mobileNursingBg-03 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.mobileNursingBg .mobileNursingBg-02 {
+  position: absolute;
+  top: 0;
+  right: 46%;
+  width: 55%;
+}
+@media (min-width: 576px) {
+  .mobileNursingBg .mobileNursingBg-02 {
+    top: -1%;
+    right: 43%;
+    width: 45%;
+  }
+}
+@media (min-width: 768px) {
+  .mobileNursingBg .mobileNursingBg-02 {
+    top: 0%;
+    right: 35%;
+    width: 38%;
+  }
+}
+.mobileNursingBg .mobileNursingBg-01 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 65%;
+}
+@media (min-width: 576px) {
+  .mobileNursingBg .mobileNursingBg-01 {
+    top: -7%;
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  .mobileNursingBg .mobileNursingBg-01 {
+    width: 41%;
+  }
 }
 
 .bedsideCare {

@@ -9,8 +9,8 @@
 }
 
 :root {
-  --cr-main-1: #2ac9de;
-  --cr-main-2: #f087f4;
+  --cr-main-1: #3ce2ff3b;
+  --cr-main-2: #4d50ff34;
   --cr-1: color-mix(in srgb, var(--cr-main-1), var(--cr-main-2) 20%);
   --cr-2: color-mix(in srgb, var(--cr-main-1), var(--cr-main-2) 35%);
   --cr-3: color-mix(in srgb, var(--cr-main-1), var(--cr-main-2) 50%);
@@ -27,54 +27,120 @@
   max-width: 100%;
   height: 40%;
   pointer-events: none;
-  filter: blur(100px);
+  filter: blur(50px);
 
-}
+  .blob {
+    display: none;
 
-.blob {
-  display: none;
+    @include sm {
+      display: grid;
+      place-content: center;
+      width: max(240px, 500px);
+      aspect-ratio: 1;
+      border-radius: 50%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      transform-origin: center;
+    }
 
-  @include sm {
-    display: grid;
-    place-content: center;
-    width: max(240px, 500px);
-    aspect-ratio: 1;
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    transform-origin: center;
   }
 
+  .blob:nth-of-type(1) {
+    background: var(--cr-main-1);
+  }
+
+  .blob:nth-of-type(2) {
+    background: var(--cr-main-2);
+  }
+
+  .blob:nth-of-type(3) {
+    background: var(--cr-1);
+  }
+
+  .blob:nth-of-type(4) {
+    background: whitesmoke;
+  }
+
+  .blob:nth-of-type(5) {
+    background: var(--cr-3);
+  }
+
+  .blob:nth-of-type(6) {
+    background: var(--cr-4);
+  }
+
+  .blob:nth-of-type(7) {
+    background: var(--cr-2);
+  }
 }
 
-.blob:nth-of-type(1) {
-  background: var(--cr-main-1);
+
+
+.fri {
+  @include upDownFlow(22s)
 }
 
-.blob:nth-of-type(2) {
-  background: var(--cr-main-2);
+.sec {
+  @include upDownFlow(20s)
 }
 
-.blob:nth-of-type(3) {
-  background: var(--cr-1);
+.thr {
+  @include upDownFlow(25s)
 }
 
-.blob:nth-of-type(4) {
-  background: whitesmoke;
-}
+.mobileNursingBg {
+  min-height: 468px;
 
-.blob:nth-of-type(5) {
-  background: var(--cr-3);
-}
+  @include sm {
+    min-height: 480px;
+  }
 
-.blob:nth-of-type(6) {
-  background: var(--cr-4);
-}
+  @include md {
+    min-height: 480px;
+  }
 
-.blob:nth-of-type(7) {
-  background: var(--cr-2);
+  .mobileNursingBg-03 {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .mobileNursingBg-02 {
+    position: absolute;
+    top: 0;
+    right: 46%;
+    width: 55%;
+
+    @include sm {
+      top: -1%;
+      right: 43%;
+      width: 45%;
+    }
+
+    @include md {
+      top: 0%;
+      right: 35%;
+      width: 38%;
+    }
+  }
+
+  .mobileNursingBg-01 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 65%;
+
+    @include sm {
+      top: -7%;
+      width: 50%;
+    }
+
+    @include md {
+      width: 41%;
+    }
+  }
 }
 
 .bedsideCare {
