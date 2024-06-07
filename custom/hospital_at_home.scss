@@ -7,9 +7,21 @@
   line-height: 1.2;
   color: var(--bs-primary);
 }
-.card{
+
+.changeBg {
+  background-image: url("../images/solutions/hospital_at_home/bn-sm.webp");
+  @include bg-center-cover;
+
+  @include sm {
+    background-image: url("../images/solutions/hospital_at_home/bn-xl.webp");
+  }
+}
+
+
+.card {
   cursor: pointer;
 }
+
 .hoverHeartBeat {
   &:hover {
     img {
