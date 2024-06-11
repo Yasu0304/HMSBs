@@ -10,31 +10,11 @@
   }
 }
 
-.positionSm {
-  margin-top: 40%;
-}
-@media (min-width: 576px) {
-  .positionSm {
-    margin-top: 0;
-  }
-}
-
-.positionSm_p {
-  color: var(--bs-white);
-  margin-bottom: 0;
-}
-@media (min-width: 576px) {
-  .positionSm_p {
-    color: var(--bs-gray-600);
-    margin-bottom: 2.5rem;
-  }
-}
-
 .h1Title {
   font-size: 2.3rem;
   line-height: 1;
   font-weight: 700;
-  color: var(--bs-white);
+  color: #fff;
 }
 @media (min-width: 576px) {
   .h1Title {
@@ -42,4 +22,8 @@
     line-height: 1.2;
     color: var(--bs-primary);
   }
+}
+
+.h1P {
+  color: var(--bs-gray-800);
 }/*# sourceMappingURL=about.css.map */
