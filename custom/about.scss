@@ -1,0 +1,48 @@
+@import "base";
+@import "media";
+
+.indexBgSm {
+    background-image: url(../images/about/bn-sm.webp);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+
+    @include sm {
+        background-image: none;
+    }
+}
+
+.positionSm {
+    margin-top: 40%;
+
+    @include sm {
+        margin-top: 0;
+    }
+}
+
+.positionSm_p {
+    color: var(--bs-white);
+    margin-bottom: 0;
+
+    @include sm {
+        color: var(--bs-gray-600);
+        margin-bottom: 2.5rem;
+    }
+}
+
+.h1Title {
+    font-size: 2.3rem;
+    line-height: 1;
+    font-weight: 700;
+    color: var(--bs-white);
+
+    @include sm {
+        font-size: 4.5rem;
+        line-height: 1.2;
+        color: var(--bs-primary);
+
+        // &.color_alr {
+        //     color: $hmsalr;
+        // }
+    }
+}
