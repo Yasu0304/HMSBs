@@ -12,6 +12,14 @@
     }
 }
 
+.indexBgMa {
+    margin-bottom: 21rem;
+
+    @include sm {
+        margin-bottom: 3rem;
+    }
+}
+
 .h1Title {
     font-size: 2.3rem;
     line-height: 1;
