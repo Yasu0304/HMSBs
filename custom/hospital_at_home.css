@@ -79,6 +79,11 @@
 .card {
   cursor: pointer;
 }
+.card .imgCard {
+  padding-top: 100%;
+  overflow: hidden;
+  width: 100%;
+}
 
 .hoverHeartBeat:hover img {
   animation-name: heartBeat;

@@ -20,6 +20,10 @@
 
 .card {
   cursor: pointer;
+
+  .imgCard {
+    @include card(100%);
+  }
 }
 
 .hoverHeartBeat {
