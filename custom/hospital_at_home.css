@@ -76,6 +76,16 @@
   }
 }
 
+.cardBg {
+  padding-top: 100%;
+  overflow: hidden;
+  width: 100%;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
 .card {
   cursor: pointer;
 }
@@ -85,9 +95,9 @@
   width: 100%;
 }
 
-.hoverHeartBeat:hover img {
+.hoverHeartBeat:hover {
   animation-name: heartBeat;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-timing-function: ease-in-out;
-  transition: 2S;
+  transition: 5S;
 }/*# sourceMappingURL=hospital_at_home.css.map */

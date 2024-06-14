@@ -17,6 +17,10 @@
   }
 }
 
+.cardBg {
+  @include card(100%);
+  @include bg-center-contain;
+}
 
 .card {
   cursor: pointer;
@@ -28,9 +32,7 @@
 
 .hoverHeartBeat {
   &:hover {
-    img {
-      @include heartBeat(3s);
-      transition: 2S;
-    }
+    @include heartBeat(5s);
+    transition: 5S;
   }
 }
