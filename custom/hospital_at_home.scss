@@ -33,6 +33,6 @@
 .hoverHeartBeat {
   &:hover {
     @include heartBeat(5s);
-    transition: 5S;
+    transition: 5s;
   }
 }
