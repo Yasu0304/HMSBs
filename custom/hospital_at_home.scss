@@ -19,7 +19,7 @@
 
 .cardBg {
   @include card(100%);
-  @include bg-center-contain;
+  @include bg-contain(top, center);
 }
 
 .card {

@@ -4,13 +4,20 @@
         @content
 }
 
-@mixin bg-center-contain {
-        background-position: center center;
+@mixin bg-top-cover {
+        background-position: top center;
+        background-size: cover;
+        @content
+}
+
+@mixin bg-contain($position1, $position2) {
+        background-position: $position1 $position2;
         background-size: contain;
         background-repeat: no-repeat;
         overflow: hidden;
         @content
 }
+
 
 
 @mixin card($size) {
