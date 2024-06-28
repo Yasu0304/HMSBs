@@ -3,7 +3,7 @@ let min = 0;
 let max = 99;
 
 while (true) {
-    let guessAns = parseInt(prompt("請輸入你的猜測 (" + min + " ~ " + max + ")"));
+    let guessAns = parseInt(prompt("此遊戲為終極密碼，請輸入一個數字，進行遊戲 (" + min + " ~ " + max + ")"));
     console.log(guessAns, ansNum, min, max)
     if (guessAns < min || guessAns > max) {
         alert(`請重新猜一個數字`);
