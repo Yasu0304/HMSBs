@@ -1,0 +1,39 @@
+@import "../_base.sass";
+@import "../_media";
+
+// .indexBgSm {
+//     background-image: url(../images/about/bn-sm.webp);
+//     background-repeat: no-repeat;
+//     background-position: top center;
+//     background-size: contain;
+
+//     @include sm {
+//         background-image: none;
+//     }
+// }
+
+.indexBgMa {
+    margin-bottom: 21rem;
+
+    @include sm {
+        margin-bottom: 3rem;
+    }
+}
+
+.h1Title {
+    font-size: 2.3rem;
+    line-height: 1;
+    font-weight: 700;
+    color: $hms-bk-00;
+
+    @include sm {
+        font-size: 4.5rem;
+        line-height: 1.2;
+        color: var(--bs-primary);
+    }
+}
+
+.h1P {
+    color: var(--bs-gray-800);
+
+}
