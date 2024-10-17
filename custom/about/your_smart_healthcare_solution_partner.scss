@@ -1,5 +1,6 @@
 @import "../_base.sass";
 @import "../_media";
+@import "../components";
 // .indexBgSm {
 //     background-image: url(../images/about/bn-sm.webp);
 //     background-repeat: no-repeat;
@@ -38,4 +39,8 @@
 
 .btn-outline-light {
   --bs-btn-hover-color: var(--bs-primary);
+}
+
+.markpen {
+  @include markpen_y;
 }
