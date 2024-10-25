@@ -61,12 +61,12 @@
 
 
 //段落前後加三角形
-@mixin polygonTriangleBefore($width, $height, $color) {
+@mixin polygonTriangleBefore($height, $width, $color) {
         &::before {
                 content: "";
                 display: block;
-                height: $width;
-                width: $height;
+                height: $height;
+                width: $width;
                 clip-path: polygon(100% 0, 0 100%, 100% 100%);
                 background: $color
         }
@@ -74,17 +74,41 @@
 
 }
 
-@mixin polygonTriangleAfter($width, $height, $color) {
+@mixin polygonTriangleAfter($height, $width, $color) {
         &::after {
                 content: "";
                 display: block;
-                height: $width;
-                width: $height;
+                height: $height;
+                width: $width;
                 clip-path: polygon(0 0, 100% 0, 100% 100%);
                 background: $color
         }
 
 }
+
+//段落前後加逆三角形
+@mixin polygonTriangleBefore_reflection($height, $width, $color) {
+        &::after {
+                content: "";
+                display: block;
+                height: $height;
+                width: $width;
+                clip-path: polygon(0 100%, 0 0, 100% 100%);
+                background: $color
+        }
+}
+
+@mixin polygonTriangleAfter_reflection($height, $width, $color) {
+        &::before {
+                content: "";
+                display: block;
+                height: $height;
+                width: $width;
+                clip-path: polygon(0 100%, 0 0, 100% 0);
+                background: $color
+        }
+}
+
 
 @mixin upDownFlow($sec) {
         -webkit-animation: upDownFlow $sec linear infinite alternate-reverse;

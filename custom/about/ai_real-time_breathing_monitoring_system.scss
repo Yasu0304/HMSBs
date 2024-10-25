@@ -1,5 +1,5 @@
-@import "../_base.sass";
-@import "../_media";
+@import "../base";
+@import "../media";
 @import "../components";
 // .indexBgSm {
 //     background-image: url(../images/about/bn-sm.webp);
@@ -35,4 +35,20 @@
             color: $hmsalr;
         }
     }
+}
+
+.polygonTriangleBefore {
+    @include polygonTriangleBefore(216px, 100%, $hmssec)
+}
+
+.polygonTriangleAfter {
+    @include polygonTriangleAfter(216px, 100%, $hmssec)
+}
+
+.polygonTriangleBefore_reflection {
+    @include polygonTriangleBefore_reflection(216px, 100%, $hmskeep)
+}
+
+.polygonTriangleAfter_reflection {
+    @include polygonTriangleAfter_reflection(216px, 100%, $hmskeep)
 }

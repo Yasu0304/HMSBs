@@ -83,4 +83,44 @@
   .h1Title.color_alr {
     color: #e56130;
   }
-}/*# sourceMappingURL=AI_real-time_breathing_monitoring_system.css.map */
+}
+
+.polygonTriangleBefore::before {
+  content: "";
+  display: block;
+  height: 216px;
+  width: 100%;
+  -webkit-clip-path: polygon(100% 0, 0 100%, 100% 100%);
+          clip-path: polygon(100% 0, 0 100%, 100% 100%);
+  background: #3493C3;
+}
+
+.polygonTriangleAfter::after {
+  content: "";
+  display: block;
+  height: 216px;
+  width: 100%;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%);
+  background: #3493C3;
+}
+
+.polygonTriangleBefore_reflection::after {
+  content: "";
+  display: block;
+  height: 216px;
+  width: 100%;
+  -webkit-clip-path: polygon(0 100%, 0 0, 100% 100%);
+          clip-path: polygon(0 100%, 0 0, 100% 100%);
+  background: #00B0C1;
+}
+
+.polygonTriangleAfter_reflection::before {
+  content: "";
+  display: block;
+  height: 216px;
+  width: 100%;
+  -webkit-clip-path: polygon(0 100%, 0 0, 100% 0);
+          clip-path: polygon(0 100%, 0 0, 100% 0);
+  background: #00B0C1;
+}/*# sourceMappingURL=ai_real-time_breathing_monitoring_system.css.map */
