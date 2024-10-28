@@ -197,4 +197,30 @@
     bottom: -100px;
     left: -110px;
   }
-}/*# sourceMappingURL=ai_real-time_breathing_monitoring_system.css.map */
+}
+
+.aiRealTime_01 {
+  top: -12rem;
+  left: -8rem;
+  scale: 0.5;
+}
+
+.contentHeigh_04 {
+  margin-bottom: 11rem;
+}
+
+.aiRealTime_02 {
+  top: -17rem;
+  left: -1rem;
+  scale: 0.6;
+}
+@media (min-width: 576px) {
+  .aiRealTime_02 {
+    scale: 0.7;
+  }
+}
+
+.certificationsIcon {
+  width: 70%;
+  margin: 0 auto;
+}/*# sourceMappingURL=AI_real-time_breathing_monitoring_system.css.map */
