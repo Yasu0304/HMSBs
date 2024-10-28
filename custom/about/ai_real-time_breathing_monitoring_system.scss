@@ -38,17 +38,61 @@
 }
 
 .polygonTriangleBefore {
-    @include polygonTriangleBefore(216px, 100%, $hmssec)
+    @include polygonTriangleBefore(50px, 100%, $hmssec);
+
+    @include sm {
+        @include polygonTriangleBefore(216px, 100%, $hmssec);
+    }
 }
 
 .polygonTriangleAfter {
-    @include polygonTriangleAfter(216px, 100%, $hmssec)
+    @include polygonTriangleAfter(50px, 100%, $hmssec);
+
+    @include sm {
+        @include polygonTriangleAfter(216px, 100%, $hmssec)
+    }
 }
 
 .polygonTriangleBefore_reflection {
-    @include polygonTriangleBefore_reflection(216px, 100%, $hmskeep)
+    @include polygonTriangleBefore_reflection(50px, 100%, $hmskeep);
+
+    @include sm {
+        @include polygonTriangleBefore_reflection(216px, 100%, $hmskeep);
+    }
 }
 
 .polygonTriangleAfter_reflection {
-    @include polygonTriangleAfter_reflection(216px, 100%, $hmskeep)
+    @include polygonTriangleAfter_reflection(50px, 100%, $hmskeep);
+
+    @include sm {
+        @include polygonTriangleAfter_reflection(216px, 100%, $hmskeep);
+    }
+}
+
+.contentHeigh_01 {
+    height: 19rem;
+}
+
+.content {
+    z-index: 1;
+
+    @include sm {
+        z-index: 0;
+    }
+}
+
+.contentHeigh_02 {
+    height: 25rem;
+}
+
+.patientSafety {
+    bottom: -24rem;
+    left: -2rem;
+    scale: 0.4;
+    z-index: 0;
+
+    @include sm {
+        bottom: -100px;
+        left: -110px;
+    }
 }
