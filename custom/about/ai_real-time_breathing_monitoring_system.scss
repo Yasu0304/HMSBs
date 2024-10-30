@@ -92,6 +92,7 @@
     z-index: 0;
 
     @include sm {
+        scale: 1;
         bottom: -100px;
         left: -110px;
     }
@@ -99,8 +100,14 @@
 
 .aiRealTime_01 {
     top: -12rem;
-    left: -8rem;
+    left:-2vw;
     scale: 0.5;
+
+    @include sm {
+        scale: 0.9;
+        top: -16rem;
+        left:60vw;
+    }
 }
 
 .contentHeigh_04 {
@@ -119,5 +126,9 @@
 
 .certificationsIcon {
     width: 70%;
-    margin: 0 auto;
+    margin: 0 1rem;
+
+    @include sm {
+        width: 50%;
+    }
 }

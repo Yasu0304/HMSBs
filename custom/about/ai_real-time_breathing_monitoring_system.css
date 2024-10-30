@@ -194,6 +194,7 @@
 }
 @media (min-width: 576px) {
   .patientSafety {
+    scale: 1;
     bottom: -100px;
     left: -110px;
   }
@@ -201,8 +202,15 @@
 
 .aiRealTime_01 {
   top: -12rem;
-  left: -8rem;
+  left: -2vw;
   scale: 0.5;
+}
+@media (min-width: 576px) {
+  .aiRealTime_01 {
+    scale: 0.9;
+    top: -16rem;
+    left: 60vw;
+  }
 }
 
 .contentHeigh_04 {
@@ -222,5 +230,10 @@
 
 .certificationsIcon {
   width: 70%;
-  margin: 0 auto;
+  margin: 0 1rem;
+}
+@media (min-width: 576px) {
+  .certificationsIcon {
+    width: 50%;
+  }
 }/*# sourceMappingURL=AI_real-time_breathing_monitoring_system.css.map */
