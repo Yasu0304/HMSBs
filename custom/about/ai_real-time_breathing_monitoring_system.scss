@@ -1,14 +1,15 @@
 @import "../base";
 @import "../media";
 @import "../components";
+
 // .indexBgSm {
-//     background-image: url(../images/about/bn-sm.webp);
+//     background-image: url(../../images/about/ai_real_time_breathing_monitoring_system-hero-sm.webp);
 //     background-repeat: no-repeat;
 //     background-position: top center;
 //     background-size: contain;
 
 //     @include sm {
-//         background-image: none;
+//         background-image: url(../../images/about/ai_real_time_breathing_monitoring_system-hero.webp);
 //     }
 // }
 
@@ -24,12 +25,11 @@
     font-size: 2.3rem;
     line-height: 1;
     font-weight: 700;
-    color: var(--bs-white);
+    color: var(--bs-primary);
 
     @include sm {
         font-size: 4.5rem;
         line-height: 1.2;
-        color: var(--bs-primary);
 
         &.color_alr {
             color: $hmsalr;
@@ -86,27 +86,28 @@
 }
 
 .patientSafety {
-    bottom: -24rem;
-    left: -2rem;
-    scale: 0.4;
-    z-index: 0;
+    bottom: -28rem;
+    left: 2rem;
+    scale: 0.5;
+    z-index: -1;
 
     @include sm {
         scale: 1;
-        bottom: -100px;
-        left: -110px;
+        bottom: -20rem;
+        left: -49rem;
     }
 }
 
 .aiRealTime_01 {
-    top: -12rem;
-    left:-2vw;
+    z-index: 1;
+    top: -6rem;
+    left: -2vw;
     scale: 0.5;
 
     @include sm {
         scale: 0.9;
         top: -16rem;
-        left:60vw;
+        left: 25rem;
     }
 }
 
@@ -115,12 +116,14 @@
 }
 
 .aiRealTime_02 {
-    top: -17rem;
-    left: -1rem;
+    top: 6rem;
+    left: 0rem;
     scale: 0.6;
 
     @include sm {
-        scale: 0.7;
+        scale: 0.8;
+        top: -7rem;
+        left: -37rem;
     }
 }
 

@@ -72,13 +72,12 @@
   font-size: 2.3rem;
   line-height: 1;
   font-weight: 700;
-  color: var(--bs-white);
+  color: var(--bs-primary);
 }
 @media (min-width: 576px) {
   .h1Title {
     font-size: 4.5rem;
     line-height: 1.2;
-    color: var(--bs-primary);
   }
   .h1Title.color_alr {
     color: #e56130;
@@ -187,21 +186,22 @@
 }
 
 .patientSafety {
-  bottom: -24rem;
-  left: -2rem;
-  scale: 0.4;
-  z-index: 0;
+  bottom: -28rem;
+  left: 2rem;
+  scale: 0.5;
+  z-index: -1;
 }
 @media (min-width: 576px) {
   .patientSafety {
     scale: 1;
-    bottom: -100px;
-    left: -110px;
+    bottom: -20rem;
+    left: -49rem;
   }
 }
 
 .aiRealTime_01 {
-  top: -12rem;
+  z-index: 1;
+  top: -6rem;
   left: -2vw;
   scale: 0.5;
 }
@@ -209,7 +209,7 @@
   .aiRealTime_01 {
     scale: 0.9;
     top: -16rem;
-    left: 60vw;
+    left: 25rem;
   }
 }
 
@@ -218,13 +218,15 @@
 }
 
 .aiRealTime_02 {
-  top: -17rem;
-  left: -1rem;
+  top: 6rem;
+  left: 0rem;
   scale: 0.6;
 }
 @media (min-width: 576px) {
   .aiRealTime_02 {
-    scale: 0.7;
+    scale: 0.8;
+    top: -7rem;
+    left: -37rem;
   }
 }
 
@@ -236,4 +238,4 @@
   .certificationsIcon {
     width: 50%;
   }
-}/*# sourceMappingURL=AI_real-time_breathing_monitoring_system.css.map */
+}/*# sourceMappingURL=ai_real-time_breathing_monitoring_system.css.map */
