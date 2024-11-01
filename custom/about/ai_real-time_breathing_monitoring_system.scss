@@ -54,18 +54,18 @@
 }
 
 .polygonTriangleBefore_reflection {
-    @include polygonTriangleBefore_reflection(50px, 100%, $hmskeep);
+    @include polygonTriangleBefore_reflection(50px, 100%, $hmssec);
 
     @include sm {
-        @include polygonTriangleBefore_reflection(216px, 100%, $hmskeep);
+        @include polygonTriangleBefore_reflection(216px, 100%, $hmssec);
     }
 }
 
 .polygonTriangleAfter_reflection {
-    @include polygonTriangleAfter_reflection(50px, 100%, $hmskeep);
+    @include polygonTriangleAfter_reflection(50px, 100%, $hmssec);
 
     @include sm {
-        @include polygonTriangleAfter_reflection(216px, 100%, $hmskeep);
+        @include polygonTriangleAfter_reflection(216px, 100%, $hmssec);
     }
 }
 

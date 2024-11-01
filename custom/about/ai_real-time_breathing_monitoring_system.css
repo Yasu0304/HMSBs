@@ -133,7 +133,7 @@
   width: 100%;
   -webkit-clip-path: polygon(0 100%, 0 0, 100% 100%);
           clip-path: polygon(0 100%, 0 0, 100% 100%);
-  background: #00B0C1;
+  background: #3493C3;
 }
 @media (min-width: 576px) {
   .polygonTriangleBefore_reflection::after {
@@ -143,7 +143,7 @@
     width: 100%;
     -webkit-clip-path: polygon(0 100%, 0 0, 100% 100%);
             clip-path: polygon(0 100%, 0 0, 100% 100%);
-    background: #00B0C1;
+    background: #3493C3;
   }
 }
 
@@ -154,7 +154,7 @@
   width: 100%;
   -webkit-clip-path: polygon(0 100%, 0 0, 100% 0);
           clip-path: polygon(0 100%, 0 0, 100% 0);
-  background: #00B0C1;
+  background: #3493C3;
 }
 @media (min-width: 576px) {
   .polygonTriangleAfter_reflection::before {
@@ -164,7 +164,7 @@
     width: 100%;
     -webkit-clip-path: polygon(0 100%, 0 0, 100% 0);
             clip-path: polygon(0 100%, 0 0, 100% 0);
-    background: #00B0C1;
+    background: #3493C3;
   }
 }
 
@@ -238,4 +238,4 @@
   .certificationsIcon {
     width: 35%;
   }
-}/*# sourceMappingURL=AI_real-time_breathing_monitoring_system.css.map */
+}/*# sourceMappingURL=ai_real-time_breathing_monitoring_system.css.map */
