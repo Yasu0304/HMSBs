@@ -49,23 +49,23 @@
     @include polygonTriangleAfter(50px, 100%, $hmssec);
 
     @include sm {
-        @include polygonTriangleAfter(216px, 100%, $hmssec)
+        @include polygonTriangleAfter(216px, 100%, $hmssec);
     }
 }
 
 .polygonTriangleBefore_reflection {
-    @include polygonTriangleBefore_reflection(50px, 100%, $hms-bk-500);
+    @include polygonTriangleBefore_reflection(50px, 100%, $hmspri);
 
     @include sm {
-        @include polygonTriangleBefore_reflection(216px, 100%, $hms-bk-500);
+        @include polygonTriangleBefore_reflection(216px, 100%, $hmspri);
     }
 }
 
 .polygonTriangleAfter_reflection {
-    @include polygonTriangleAfter_reflection(50px, 100%, $hms-bk-500);
+    @include polygonTriangleAfter_reflection(50px, 100%, $hmspri);
 
     @include sm {
-        @include polygonTriangleAfter_reflection(216px, 100%, $hms-bk-500);
+        @include polygonTriangleAfter_reflection(216px, 100%, $hmspri);
     }
 }
 
