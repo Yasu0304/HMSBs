@@ -54,18 +54,18 @@
 }
 
 .polygonTriangleBefore_reflection {
-    @include polygonTriangleBefore_reflection(50px, 100%, $hmskeep);
+    @include polygonTriangleBefore_reflection(50px, 100%, $hms-bk-500);
 
     @include sm {
-        @include polygonTriangleBefore_reflection(216px, 100%, $hmskeep);
+        @include polygonTriangleBefore_reflection(216px, 100%, $hms-bk-500);
     }
 }
 
 .polygonTriangleAfter_reflection {
-    @include polygonTriangleAfter_reflection(50px, 100%, $hmskeep);
+    @include polygonTriangleAfter_reflection(50px, 100%, $hms-bk-500);
 
     @include sm {
-        @include polygonTriangleAfter_reflection(216px, 100%, $hmskeep);
+        @include polygonTriangleAfter_reflection(216px, 100%, $hms-bk-500);
     }
 }
 
@@ -87,7 +87,7 @@
 
 .patientSafety {
     bottom: -28rem;
-    left: 2rem;
+    left: -3rem;
     scale: 0.5;
     z-index: -1;
 
@@ -132,6 +132,6 @@
     margin: 0 1rem;
 
     @include sm {
-        width: 50%;
+        width: 35%;
     }
 }

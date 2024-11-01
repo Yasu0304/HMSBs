@@ -133,7 +133,7 @@
   width: 100%;
   -webkit-clip-path: polygon(0 100%, 0 0, 100% 100%);
           clip-path: polygon(0 100%, 0 0, 100% 100%);
-  background: #00B0C1;
+  background: #adb5bd;
 }
 @media (min-width: 576px) {
   .polygonTriangleBefore_reflection::after {
@@ -143,7 +143,7 @@
     width: 100%;
     -webkit-clip-path: polygon(0 100%, 0 0, 100% 100%);
             clip-path: polygon(0 100%, 0 0, 100% 100%);
-    background: #00B0C1;
+    background: #adb5bd;
   }
 }
 
@@ -154,7 +154,7 @@
   width: 100%;
   -webkit-clip-path: polygon(0 100%, 0 0, 100% 0);
           clip-path: polygon(0 100%, 0 0, 100% 0);
-  background: #00B0C1;
+  background: #adb5bd;
 }
 @media (min-width: 576px) {
   .polygonTriangleAfter_reflection::before {
@@ -164,7 +164,7 @@
     width: 100%;
     -webkit-clip-path: polygon(0 100%, 0 0, 100% 0);
             clip-path: polygon(0 100%, 0 0, 100% 0);
-    background: #00B0C1;
+    background: #adb5bd;
   }
 }
 
@@ -187,7 +187,7 @@
 
 .patientSafety {
   bottom: -28rem;
-  left: 2rem;
+  left: -3rem;
   scale: 0.5;
   z-index: -1;
 }
@@ -236,6 +236,6 @@
 }
 @media (min-width: 576px) {
   .certificationsIcon {
-    width: 50%;
+    width: 35%;
   }
 }/*# sourceMappingURL=ai_real-time_breathing_monitoring_system.css.map */
