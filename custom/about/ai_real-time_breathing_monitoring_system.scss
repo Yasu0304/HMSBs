@@ -38,34 +38,34 @@
 }
 
 .polygonTriangleBefore {
-    @include polygonTriangleBefore(50px, 100%, $hmssec);
+    @include polygonTriangleBefore(50px, 100%, $hmsinfo);
 
     @include sm {
-        @include polygonTriangleBefore(216px, 100%, $hmssec);
+        @include polygonTriangleBefore(216px, 100%, $hmsinfo);
     }
 }
 
 .polygonTriangleAfter {
-    @include polygonTriangleAfter(50px, 100%, $hmssec);
+    @include polygonTriangleAfter(50px, 100%, $hmsinfo);
 
     @include sm {
-        @include polygonTriangleAfter(216px, 100%, $hmssec);
+        @include polygonTriangleAfter(216px, 100%, $hmsinfo);
     }
 }
 
 .polygonTriangleBefore_reflection {
-    @include polygonTriangleBefore_reflection(50px, 100%, $hmspri);
+    @include polygonTriangleBefore_reflection(50px, 100%, $hmskeep);
 
     @include sm {
-        @include polygonTriangleBefore_reflection(216px, 100%, $hmspri);
+        @include polygonTriangleBefore_reflection(216px, 100%, $hmskeep);
     }
 }
 
 .polygonTriangleAfter_reflection {
-    @include polygonTriangleAfter_reflection(50px, 100%, $hmspri);
+    @include polygonTriangleAfter_reflection(50px, 100%, $hmskeep);
 
     @include sm {
-        @include polygonTriangleAfter_reflection(216px, 100%, $hmspri);
+        @include polygonTriangleAfter_reflection(216px, 100%, $hmskeep);
     }
 }
 
@@ -86,8 +86,8 @@
 }
 
 .patientSafety {
-    bottom: -28rem;
-    left: -3rem;
+    bottom: -29rem;
+    left: -4rem;
     scale: 0.5;
     z-index: -1;
 
@@ -100,8 +100,8 @@
 
 .aiRealTime_01 {
     z-index: 1;
-    top: -6rem;
-    left: -2vw;
+    top: -4rem;
+    left: -24vw;
     scale: 0.5;
 
     @include sm {
@@ -116,8 +116,8 @@
 }
 
 .aiRealTime_02 {
-    top: 6rem;
-    left: 0rem;
+    top: 11rem;
+    left: -1rem;
     scale: 0.6;
 
     @include sm {
