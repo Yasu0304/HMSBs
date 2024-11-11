@@ -21,7 +21,6 @@
 
 .contenctSection {
     flex-direction: column;
-    margin-bottom: 5rem;
     margin-right: 0%;
 
     &>:first-child {
@@ -33,7 +32,7 @@
         flex-direction: column-reverse;
 
         @include sm {
-            flex-direction: row;
+            flex-direction: row-reverse;
         }
     }
 
@@ -51,7 +50,7 @@
         flex-shrink: 0;
 
         @include sm {
-            width: 30%;
+            width: 60%;
         }
     }
 
@@ -63,7 +62,7 @@
         z-index: 2;
 
         @include sm {
-            width: 30%;
+            width: 50%;
             flex-shrink: 0;
         }
     }
