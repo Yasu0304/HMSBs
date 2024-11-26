@@ -77,6 +77,13 @@
   color: var(--bs-gray-800);
 }
 
+.viedoLocation {
+  padding-top: 56.25%;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
 .contenctSection {
   flex-direction: column;
   margin-right: 0%;
