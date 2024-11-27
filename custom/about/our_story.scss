@@ -24,6 +24,11 @@
     position: relative;
 }
 
+.squareCard {
+    @include card(100%);
+    position: relative;
+}
+
 .contenctSection {
     flex-direction: column;
     margin-right: 0%;

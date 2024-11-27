@@ -84,6 +84,13 @@
   position: relative;
 }
 
+.squareCard {
+  padding-top: 100%;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
 .contenctSection {
   flex-direction: column;
   margin-right: 0%;
