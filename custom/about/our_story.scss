@@ -27,6 +27,15 @@
 .squareCard {
     @include card(100%);
     position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cardContent {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .contenctSection {
