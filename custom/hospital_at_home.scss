@@ -9,11 +9,11 @@
 }
 
 .changeBg {
-  background-image: url("../images/solutions/hospital_at_home/bn-sm.webp");
+  background-image: url("https://healthmit.services/images/solutions/hospital_at_home/bn-sm.webp");
   @include bg-center-cover;
 
   @include sm {
-    background-image: url("../images/solutions/hospital_at_home/bn-xl.webp");
+    background-image: url("https://healthmit.services/images/solutions/hospital_at_home/bn-xl.webp");
   }
 }
 

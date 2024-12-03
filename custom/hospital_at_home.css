@@ -66,13 +66,13 @@
 }
 
 .changeBg {
-  background-image: url("../images/solutions/hospital_at_home/bn-sm.webp");
+  background-image: url("https://healthmit.services/images/solutions/hospital_at_home/bn-sm.webp");
   background-position: center center;
   background-size: cover;
 }
 @media (min-width: 576px) {
   .changeBg {
-    background-image: url("../images/solutions/hospital_at_home/bn-xl.webp");
+    background-image: url("https://healthmit.services/images/solutions/hospital_at_home/bn-xl.webp");
   }
 }
 
