@@ -35,7 +35,7 @@
     <link rel="icon" href="https://healthmit.services/hmsLogo.ico" type="image/x-icon" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
-    <link rel="stylesheet" href="https://healthmit.services/custom/coustom.css" />
+    <link rel="stylesheet" href="../../custom/coustom.css" />
     <link rel="stylesheet" href="https://healthmit.services/custom/all.css" />
 </head>
 
@@ -44,7 +44,7 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PL2L4CH6" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <div class="d-flex flex-column flex-grow-1 indexBgSm">
+    <div class="d-flex flex-column flex-grow-1">
         <nav id="hmsNav" class="navbar navbar-expand-lg  px-3  position-sticky top-0 shadow-sm"
             style="background-color: #ffffffa5;z-index: 3;margin-bottom: 2.5rem;backdrop-filter: blur(8px);">
             <a class="navbar-brand" href="https://healthmit.services/index.html"> <img
@@ -58,7 +58,7 @@
             <div class="collapse navbar-collapse m-n3" id="navbarSupportedContent">
                 <ul class="navbar-nav nav-underline ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link px-3 fw-bold text-primary active" aria-current="page"
+                        <a class="nav-link px-3 fw-bold text-primary" aria-current="page"
                             href="https://healthmit.services/index.html">Home</a>
                     </li>
                     <li class="nav-item text-primary dropdown">
@@ -143,148 +143,77 @@
                 </ul>
             </div>
         </nav>
-        <div class="container-fluid flex-grow-1 p-0 positionSm ">
-            <!-- hero↓ -->
-            <div class="py-3">
-                <p class="text-center bebas-neue-regular py-1 my-0 h1Title color_alr">Path to Hospital Intelligence</p>
-                <p class="text-center jost-regular fs-4 positionSm_p">A more intelligent and humane hospital
-                    environment.</p>
-            </div>
-
-            <div class="container-fluid" style="margin-bottom: 2.5rem;">
-                <img src="https://healthmit.services/images/index/bn-xl.webp" class="img-fluid d-none d-sm-block"
-                    alt="" />
-            </div>
-            <div class="container-xxl d-none d-sm-flex flex-wrap justify-content-around">
-                <img src="https://healthmit.services/images/index/ISO9001.svg" alt="" />
-                <img src="https://healthmit.services/images/index/ISO13485.svg" alt="" />
-                <img src="https://healthmit.services/images/index/CUL.svg" alt="" />
-                <img src="https://healthmit.services/images/index/CSA.svg" alt="" />
-                <img src="https://healthmit.services/images/index/GMP.svg" alt="" />
-                <img src="https://healthmit.services/images/index/EN60601-1.svg" alt="" />
-                <img src="https://healthmit.services/images/index/FCC.svg" alt="" />
-                <img src="https://healthmit.services/images/index/FDA.svg" alt="" />
-            </div>
-            <!-- hero↑ -->
-            <section class="positionSm_bg" style="overflow: hidden">
-                <div class="polygonTriangleBefore d-none d-sm-block"></div>
-                <div class="container-fluid z-1 position-absolute p-sm-0 p-3 z-1">
-                    <div class="positionSm_card">
-                        <p class="text-center text-white bebas-neue-regular py-1 my-0 h1Title">First in Care, Always
-                            There</p>
-                        <p class="text-center text-white jost-regular fs-4" style="margin-bottom: 2.5rem">
-                            Innovative healthcare, <br />
-                            unwavering care.
+        <div class="container-fluid flex-grow-1 p-0">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Solutions</a></li>
+                    <li class="breadcrumb-item"><a href="#">AI-assisted Monitoring</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">AI Real-Time Breathing Monitoring System</li>
+                </ol>
+            </nav>
+            <section style="overflow: hidden">
+                <div class="row mb-5">
+                    <div class="col-12 col-sm-6"></div>
+                    <div class="col-12 col-sm-6">
+                        <p class="fs-2 text-primary fw-bold mb-0">
+                            AI Real-Time Breathing Monitoring System
                         </p>
-                        <div class="container-xxl">
-                            <div class="d-flex flex-wrap justify-content-center justify-content-sm-between hmsPoint">
-                                <div class="d-flex flex-column align-items-center mb-3 mb-sm-0" data-aos="fade-down"
-                                    data-aos-easing="linear" data-aos-duration="3500">
-                                    <img src="https://healthmit.services/images/index/Personal_Protective_Equipment.svg"
-                                        alt="" />
-                                    <p class=" text-white text-center fs-5">Personal Protective Equipment</p>
-                                </div>
-                                <div class="d-flex flex-column align-items-center mb-3 mb-sm-0" data-aos="fade-down"
-                                    data-aos-easing="linear" data-aos-duration="1500">
-                                    <img src="https://healthmit.services/images/index/Medical_Devices_And_Equipment.svg"
-                                        alt="" />
-                                    <p class=" text-white text-center fs-5">Medical Devices And Equipment</p>
-                                </div>
-                                <div class="d-flex flex-column align-items-center mb-3 mb-sm-0" data-aos="fade-down"
-                                    data-aos-easing="linear" data-aos-duration="2500">
-                                    <img src="https://healthmit.services/images/index/Telemedicine_Solutions.svg"
-                                        alt="" />
-                                    <p class=" text-white text-center fs-5">Telemedicine Solutions</p>
-                                </div>
-                            </div>
+                        <p class="fs-5" style="color: var(--bs-gray-600)">
+                            Visualizing Breath, Protecting Life
+                        </p>
+                        <div>
+                            <img src="../../images/index/FDA.svg" alt="">
+                        </div>
+                        <p class="fs-4 text-primary fw-bold mb-0">
+                            Feature
+                        </p>
+                        <ul class="list-group list-group-flush mb-5" style="max-width: 40vw;">
+                            <li class="list-group-item">Real-time monitoring & alerts</li>
+                            <li class="list-group-item">Multi-level sedation assessment</li>
+                            <li class="list-group-item">Airway obstruction detection</li>
+                            <li class="list-group-item">Enhanced Patient Safety</li>
+                        </ul>
+                        <div>
+                            <button type="button" class="btn btn-primary">Primary</button>
+                            <button type="button" class="btn btn-primary">Primary</button>
                         </div>
                     </div>
+                </div>
+                <div class="container-fluid bg-success" style="height: 120px;">
+                    <ul class="nav nav-underline justify-content-center align-items-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Description" data-bs-toggle="tab">Description</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Application" data-bs-toggle="tab">Application</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Disposable Sensors" data-bs-toggle="tab">Disposable Sensors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Specification" data-bs-toggle="tab">Specification</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <div id="Description">
+                        <p>
+                            Provides continuous respiratory sound monitoring, transforming breathing sounds into visual
+                            spectrograms. Enhanced by AI deep learning for abnormal sound detection and real-time
+                            alerts, improving patient safety.
+                        </p>
 
-                    <div class="polygonTriangleAfter d-none d-sm-block"></div>
-                </div>
-                <div class="container-xxl positionSm_scetion mx-auto">
-                    <div class="contentSection">
-                        <div class="contentImg" data-aos="fade-right" data-aos-duration="3000">
-                            <img class="img-fluid"
-                                src="https://healthmit.services/images/index/AdobeStock_217273829_modify.webp" alt="" />
-                        </div>
-                        <div class="shadow contentArticle" data-aos="fade-left" data-aos-duration="3000">
-                            <img src="https://healthmit.services/images/index/Personal_Protective_Equipment.svg"
-                                alt="Personal Protective Equipment" />
-                            <p class="fs-4 text-primary fw-bolder">Personal Protective Equipment</p>
-                            <p class="mb-5" style="color: var(--bs-gray-600)">HMS provides a comprehensive range of
-                                personal
-                                protective equipment, safeguarding every healthcare worker.</p>
-                            <div class="d-flex">
-                                <a href="https://healthcarearmor.com/?product_cat=medical-supplies" type="button"
-                                    class="btn btn-primary text-white ms-auto" style="border-radius: 9em;" tabindex="-1"
-                                    role="button" aria-disabled="true">Read more<i
-                                        class="bi bi-arrow-right mx-2"></i></a>
-                            </div>
-                        </div>
                     </div>
-                    <div class="contentSection">
-                        <div class="shadow contentArticle" data-aos="fade-right" data-aos-duration="3000">
-                            <img src="https://healthmit.services/images/index/Medical_Devices_And_Equipment.svg"
-                                alt="Medical Devices And Equipment" />
-                            <p class="fs-4 text-primary fw-bolder">Medical Devices And Equipment</p>
-                            <p class="mb-5" style="color: var(--bs-gray-600)">Top-tier medical equipment and diagnostic
-                                tools,
-                                providing more precise and rapid medical services.</p>
-                            <div class="d-flex">
-                                <a href="https://healthcarearmor.com/?product_cat=medical-devices-and-equipment"
-                                    type="button" class="btn btn-primary text-white ms-auto" style="border-radius: 9em;"
-                                    tabindex="-1" role="button" aria-disabled="true">Read more<i
-                                        class="bi bi-arrow-right mx-2"></i></a>
-                            </div>
-                        </div>
-                        <div class="contentImg" data-aos="fade-left" data-aos-duration="3000">
-                            <img class="img-fluid"
-                                src="https://healthmit.services/images/index//AdobeStock_396955244_modify.webp"
-                                alt="" />
-                        </div>
-                    </div>
-                    <div class="contentSection">
-                        <div class="contentImg" data-aos="fade-right" data-aos-duration="3000">
-                            <img class="img-fluid"
-                                src="https://healthmit.services/images/index/AdobeStock_542691981_modify.webp" alt="" />
-                        </div>
-                        <div class="shadow contentArticle" data-aos="fade-left" data-aos-duration="3000">
-                            <img src="https://healthmit.services/images/index/Telemedicine_Solutions.svg"
-                                alt="Telemedicine Solutions" />
-                            <p class="fs-4 text-primary fw-bolder">Telemedicine Solutions</p>
-                            <p class="mb-5" style="color: var(--bs-gray-600)">HMS leads the way in healthcare
-                                innovation. Our
-                                telemedicine solutions, IT solutions, mobile nursing, and patient infotainment tools are
-                                revolutionizing
-                                patient care.</p>
-                            <div class="d-flex flex-column">
-                                <a href="https://healthmit.services/solutions/telemedicine_solutions/mobile_nursing.html"
-                                    type="button" class="btn btn-primary text-white ms-auto mb-3"
-                                    style="border-radius: 9em;" tabindex="-1" role="button" aria-disabled="true">Mobile
-                                    Nursing<i class="bi bi-arrow-right mx-2"></i></a>
-                                <a href="https://healthmit.services/solutions/telemedicine_solutions/hospital_at_home.html"
-                                    type="button" class="btn btn-primary text-white ms-auto" style="border-radius: 9em;"
-                                    tabindex="-1" role="button" aria-disabled="true">Hospital at Home<i
-                                        class="bi bi-arrow-right mx-2"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container-xxl d-block  d-sm-none positionSm_icon z-1">
-                        <div class="d-flex justify-content-around">
-                            <img src="https://healthmit.services/images/index/ISO9001-w.svg" alt="ISO9001" />
-                            <img src="https://healthmit.services/images/index/ISO13485-w.svg" alt="ISO13485" />
-                            <img src="https://healthmit.services/images/index/CUL-w.svg" alt="CUL" />
-                            <img src="https://healthmit.services/images/index/CSA-w.svg" alt="CSA" />
-                        </div>
-                        <div class="d-flex justify-content-around">
-                            <img src="https://healthmit.services/images/index/GMP-w.svg" alt="GMP" />
-                            <img src="https://healthmit.services/images/index/EN60601-1-w.svg" alt="EN60601" />
-                            <img src="https://healthmit.services/images/index/FCC-w.svg" alt="FCC" />
-                            <img src="https://healthmit.services/images/index/FDA-w.svg" alt="FDA" />
-                        </div>
+                    <div id="Application">
+                        <p>
+                            Compliant with North American Society of Anesthesiologists guidelines for oral moderate
+                            sedation monitoring
+                        </p>
+
                     </div>
                 </div>
+
             </section>
         </div>
     </div>
