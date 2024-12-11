@@ -1,0 +1,17 @@
+.h1Title {
+  font-size: 2.3rem;
+  line-height: 1;
+  font-weight: 700;
+  color: #fff;
+}
+@media (min-width: 576px) {
+  .h1Title {
+    font-size: 4.5rem;
+    line-height: 1.2;
+    color: var(--bs-primary);
+  }
+}
+
+.h1P {
+  color: var(--bs-gray-800);
+}/*# sourceMappingURL=news.css.map */
