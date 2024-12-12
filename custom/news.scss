@@ -1,20 +1,24 @@
 @import "base";
 @import "media";
+@import "components";
 
 .h1Title {
-    font-size: 2.3rem;
-    line-height: 1;
-    font-weight: 700;
-    color: $hms-bk-00;
+  font-size: 2.3rem;
+  line-height: 1;
+  font-weight: 700;
+  color: $hms-bk-00;
 
-    @include sm {
-        font-size: 4.5rem;
-        line-height: 1.2;
-        color: var(--bs-primary);
-    }
+  @include sm {
+    font-size: 4.5rem;
+    line-height: 1.2;
+    color: var(--bs-primary);
+  }
 }
 
 .h1P {
-    color: var(--bs-gray-800);
+  color: var(--bs-gray-800);
+}
 
+.lightBoxCard {
+  @include card(100%);
 }
