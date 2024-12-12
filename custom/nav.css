@@ -1,13 +1,13 @@
-.hoverList:hover .show {
-  position: absolute;
-  top: 100px;
-  right: 0;
-  left: 0;
-  transition: 0.5s;
+.mainNav {
+  z-index: 1000;
 }
-.hoverList .show {
+.mainNav:hover ~ .show {
+  top: 115px;
+}
+
+.show {
   position: absolute;
-  top: -50px;
-  right: 0;
+  top: -20px;
   left: 0;
+  transition: all 0.3s ease-in-out;
 }/*# sourceMappingURL=nav.css.map */
