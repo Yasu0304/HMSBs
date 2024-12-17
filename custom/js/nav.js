@@ -1,33 +1,48 @@
-let showData = {
-[
+let showList = [
   {
-    showTitle: ["Our Story", "News", "Why Choose HMS"],
-    showList: ["HMS Brief intro", "Core Competency", "Contact"],
+    name: "Our Story ",
+    section: [
+      {
+        sectionName: "HMS Brief intro.",
+        sectionList: ["Smart Healthcare Solution Partner", "History"],
+      },
+      {
+        sectionName: "Core Competency",
+        sectionList: ["Intelligent Healthcare Solution-as-a-Service", "Medical Device Solution-as-a-Service"],
+      },
+      {
+        sectionName: "Our Support",
+        sectionList: ["服務項目"],
+      },
+    ],
   },
   {
-    showTitle: "News",
-    showList: ["參展 / 獲獎消息", "Gallery"],
+    name: "News",
+    section: [
+      {
+        sectionName: "參展消息",
+        sectionList: ["獲獎NEWS"],
+      },
+      {
+        sectionName: "Gallery",
+        sectionList: ["展場類"],
+      },
+    ],
   },
   {
-    showTitle: "Why Choose HMS",
-    showList: ["Your Smart Healthcare Solution Partner", "AI Real-Time Breathing Monitoring System"],
+    name: "Why Choose HMS",
+    section: [
+      {
+        sectionName: "會場問卷",
+        sectionList: ["RSNA", "HIMSS"],
+      },
+      {
+        sectionName: "New product lanuch",
+        sectionList: ["Air Mode"],
+      },
+    ],
   },
-],
-[
-    {
-      showTitle: ["Our Story", "News", "Why Choose HMS"],
-      showList: ["HMS Brief intro", "Core Competency", "Contact"],
-    },
-    {
-      showTitle: "News",
-      showList: ["參展 / 獲獎消息", "Gallery"],
-    },
-    {
-      showTitle: "Why Choose HMS",
-      showList: ["Your Smart Healthcare Solution Partner", "AI Real-Time Breathing Monitoring System"],
-    },
-  ],
-},
+];
 
 // const nav = document.querySelector(`.mainNav`);
 
