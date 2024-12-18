@@ -17,7 +17,7 @@ let showList = [
     ],
   },
   {
-    name: "News",
+    listTitle: "News",
     section: [
       {
         sectionName: "參展消息",
@@ -30,7 +30,7 @@ let showList = [
     ],
   },
   {
-    name: "Why Choose HMS",
+    listTitle: "Why Choose HMS",
     section: [
       {
         sectionName: "會場問卷",
@@ -60,17 +60,9 @@ let showList = [
 
 const navList = document.querySelector(`.navList`);
 // console.log(navList)
-function init(){
-  let str = "";
-  showList,forEach(function(item,index){
-    let content = `<p></p>
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>`
-                        console.log(content)
-  })
-}
-init();
-
+let str = "";
+showList.forEach(function (item, index) {
+  if ((0 <= showList.length, showList.length <= 3, i++)) {
+    console.log(showList[0].listTitle);
+  }
+});
