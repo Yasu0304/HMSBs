@@ -2,6 +2,7 @@
 @import "media";
 
 .mainNav {
+  position: absolute;
   z-index: 1000;
   &:hover ~ .show {
     top: 115px;

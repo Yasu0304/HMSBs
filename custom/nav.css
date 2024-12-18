@@ -1,4 +1,5 @@
 .mainNav {
+  position: absolute;
   z-index: 1000;
 }
 .mainNav:hover ~ .show {
