@@ -1,6 +1,6 @@
 let showList = [
   {
-    name: "Our Story ",
+    listTitle: "Our Story ",
     section: [
       {
         sectionName: "HMS Brief intro.",
@@ -57,3 +57,20 @@ let showList = [
 //   nav.innerHTML = str;
 // }
 // init();
+
+const navList = document.querySelector(`.navList`);
+// console.log(navList)
+function init(){
+  let str = "";
+  showList,forEach(function(item,index){
+    let content = `<p></p>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>`
+                        console.log(content)
+  })
+}
+init();
+
