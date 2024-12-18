@@ -58,34 +58,47 @@ let showList = [
 // }
 // init();
 
-const showContainer = document.querySelector(".show");
+// const showContainer = document.querySelector(".show");
 
-showList.forEach((item) => {
-  const navList = document.createElement("div");
-  navList.className = "navList";
+// showList.forEach((item) => {
+//   const navList = document.createElement("div");
+//   navList.className = "navList";
 
-  // Render listTitle
-  const title = document.createElement("p");
-  title.textContent = item.listTitle;
-  navList.appendChild(title);
+//   // Render listTitle
+//   const title = document.createElement("p");
+//   title.textContent = item.listTitle;
+//   navList.appendChild(title);
 
-  // Render sections
-  item.section.forEach((sec) => {
-    const sectionName = document.createElement("p");
-    sectionName.textContent = sec.sectionName;
-    navList.appendChild(sectionName);
+//   // Render sections
+//   item.section.forEach((sec) => {
+//     const sectionName = document.createElement("p");
+//     sectionName.textContent = sec.sectionName;
+//     navList.appendChild(sectionName);
 
-    const ul = document.createElement("ul");
-    sec.sectionList.forEach((listItem) => {
-      const li = document.createElement("li");
-      li.textContent = listItem;
-      ul.appendChild(li);
-    });
-    navList.appendChild(ul);
-  });
+//     const ul = document.createElement("ul");
+//     sec.sectionList.forEach((listItem) => {
+//       const li = document.createElement("li");
+//       li.textContent = listItem;
+//       ul.appendChild(li);
+//     });
+//     navList.appendChild(ul);
+//   });
 
-  showContainer.appendChild(navList);
-});
+//   showContainer.appendChild(navList);
+// });
 // console.log(showList);
 // console.log(showList[0].section[0]);
 // console.log(showList[0].section[0].sectionName)
+
+const mainNav = document.querySelector(".mainNav");
+mainNav.addEventListener("click", (e) => {
+  console.log(e.target.value);
+  // if (e.target.value == undefined) {
+  //   console.log("點歪");
+  //   return;
+  // }
+});
+
+// }
+// console.log(mainNav);
+// console.log(mainNav.target.value);
