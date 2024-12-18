@@ -58,11 +58,34 @@ let showList = [
 // }
 // init();
 
-const navList = document.querySelector(`.navList`);
-// console.log(navList)
-let str = "";
-showList.forEach(function (item, index) {
-  if ((0 <= showList.length, showList.length <= 3, i++)) {
-    console.log(showList[0].listTitle);
-  }
+const showContainer = document.querySelector(".show");
+
+showList.forEach((item) => {
+  const navList = document.createElement("div");
+  navList.className = "navList";
+
+  // Render listTitle
+  const title = document.createElement("p");
+  title.textContent = item.listTitle;
+  navList.appendChild(title);
+
+  // Render sections
+  item.section.forEach((sec) => {
+    const sectionName = document.createElement("p");
+    sectionName.textContent = sec.sectionName;
+    navList.appendChild(sectionName);
+
+    const ul = document.createElement("ul");
+    sec.sectionList.forEach((listItem) => {
+      const li = document.createElement("li");
+      li.textContent = listItem;
+      ul.appendChild(li);
+    });
+    navList.appendChild(ul);
+  });
+
+  showContainer.appendChild(navList);
 });
+// console.log(showList);
+// console.log(showList[0].section[0]);
+// console.log(showList[0].section[0].sectionName)
