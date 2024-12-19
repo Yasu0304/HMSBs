@@ -90,15 +90,49 @@ let showList = [
 // console.log(showList[0].section[0]);
 // console.log(showList[0].section[0].sectionName)
 
-const mainNav = document.querySelector(".mainNav");
-mainNav.addEventListener("click", (e) => {
-  console.log(e.target.value);
-  // if (e.target.value == undefined) {
-  //   console.log("點歪");
-  //   return;
-  // }
-});
+// const mainNav = document.querySelector(".mainNav");
+// mainNav.addEventListener("click", (e) => {
+//   console.log(e.target.value);
+//   if (e.target.value == undefined) {
+//     console.log("點歪");
+//     return;
+//   } else if (e.target.value == `About`) {
+//     console.log(e.target.value);
+//   }
+// });
 
 // }
 // console.log(mainNav);
 // console.log(mainNav.target.value);
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const navLinkAbout = document.querySelector(".navLink_about");
+  const navLinkSolution = document.querySelector(".navLink_solution");
+  const showAbout = document.querySelector(".show_about");
+  const showSolution = document.querySelector(".show_solution");
+
+  const showDropdown = (dropdown) => {
+    dropdown.style.display = "flex";
+    setTimeout(() => {
+      dropdown.style.top = "100%";
+      dropdown.style.opacity = "1";
+    }, 10);
+  };
+
+  const hideDropdown = (dropdown) => {
+    dropdown.style.top = "-50px";
+    dropdown.style.opacity = "0";
+    setTimeout(() => {
+      dropdown.style.display = "none";
+    }, 300);
+  };
+
+  // About hover
+  navLinkAbout.addEventListener("mouseenter", () => showDropdown(showAbout));
+  navLinkAbout.addEventListener("mouseleave", () => hideDropdown(showAbout));
+
+  // Solution hover
+  navLinkSolution.addEventListener("mouseenter", () => showDropdown(showSolution));
+  navLinkSolution.addEventListener("mouseleave", () => hideDropdown(showSolution));
+});

@@ -1,18 +1,21 @@
 @import "base";
 @import "media";
 
-.mainNav {
-  z-index: 1000;
-  &:hover ~ .show {
-    top: 115px;
-  }
-}
+// .mainNav {
+//   position: absolute;
+//   z-index: 1000;
+// }
 
-.show {
-  position: absolute;
-  top: -20px;
-  left: 0;
+// .show_about {
+//   position: absolute;
+//   top: -20px;
+// }
+// .navLink_about {
+//   &:hover ~ .show_about {
+//     top: 500px;
+//   }
+// }
+
+.show_about, .show_solution {
   transition: all 0.3s ease-in-out;
-  // opacity: 0;
-  // visibility: hidden;
 }
