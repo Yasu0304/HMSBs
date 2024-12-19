@@ -105,7 +105,6 @@ let showList = [
 // console.log(mainNav);
 // console.log(mainNav.target.value);
 
-
 document.addEventListener("DOMContentLoaded", () => {
   const navLinkAbout = document.querySelector(".navLink_about");
   const navLinkSolution = document.querySelector(".navLink_solution");
@@ -115,13 +114,13 @@ document.addEventListener("DOMContentLoaded", () => {
   const showDropdown = (dropdown) => {
     dropdown.style.display = "flex";
     setTimeout(() => {
-      dropdown.style.top = "100%";
+      dropdown.style.top = "131px";
       dropdown.style.opacity = "1";
     }, 10);
   };
 
   const hideDropdown = (dropdown) => {
-    dropdown.style.top = "-50px";
+    dropdown.style.top = "-20px";
     dropdown.style.opacity = "0";
     setTimeout(() => {
       dropdown.style.display = "none";

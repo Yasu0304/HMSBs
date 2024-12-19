@@ -1,21 +1,21 @@
 @import "base";
 @import "media";
 
-// .mainNav {
-//   position: absolute;
-//   z-index: 1000;
-// }
+.mainNav {
+  position: absolute;
+  z-index: 1000;
+}
 
-// .show_about {
-//   position: absolute;
-//   top: -20px;
-// }
-// .navLink_about {
-//   &:hover ~ .show_about {
-//     top: 500px;
-//   }
-// }
+.navLink {
+  padding: 1rem;
+  font-weight: 600;
+  color: $hms-bk-600;
+  font-size: 1rem;
+}
 
-.show_about, .show_solution {
+.show_about {
+  transition: all 0.3s ease-in-out;
+}
+.show_solution {
   transition: all 0.3s ease-in-out;
 }
