@@ -1,0 +1,21 @@
+@import "base";
+@import "media";
+
+.mainNav {
+  position: absolute;
+  z-index: 1000;
+}
+
+.navLink {
+  padding: 1rem;
+  // font-weight: 600;
+  color: $hms-bk-600;
+  font-size: 1rem;
+}
+
+.show_about {
+  transition: all 0.3s ease-in-out;
+}
+.show_solution {
+  transition: all 0.3s ease-in-out;
+}
