@@ -48,7 +48,7 @@
     <!-- End Google Tag Manager (noscript) -->
     <div class="d-flex flex-column flex-grow-1">
         <div class="container-fluid flex-grow-1 p-0">
-            <nav id="hmsNav" class="navbar navbar-expand-lg  px-3  position-sticky top-0 shadow-sm"
+            <nav id="hmsNav" class="navbar navbar-expand-lg px-3 fixed-top shadow-sm"
                 style="background-color: #ffffffa5;z-index: 3;margin-bottom: 1rem;backdrop-filter: blur(8px);">
                 <a class="navbar-brand" href="https://healthmit.services/index.html"> <img
                         src="https://healthmit.services/images/HMSNav.svg"
@@ -189,7 +189,7 @@
                     </ul>
                 </div>
             </nav>
-            <section style="overflow: hidden">
+            <section style="overflow: hidden;padding-top:96px;">
                 <div class="container-fluid">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
@@ -291,23 +291,21 @@
                     </div>
                 </div>
             </section>
-        </div>
-        <div class="container-fluid p-0">
             <ul class="nav nav-underline mb-3 bg-success justify-content-center align-items-end" id="pills-tab"
-                role="tablist" style="height: 120px">
+                role="tablist" style="height: 142px;position: sticky;top:-30px">
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link active fs-4 text-white px-2" id="pills-description-tab"
+                    <button class="nav-link active fs-sm-4 fs-6 text-white px-2" id="pills-description-tab"
                         data-bs-toggle="pill" data-bs-target="#pills-description" type="button" role="tab"
                         aria-controls="pills-description" aria-selected="true">Description</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link fs-4 text-white px-2" id="pills-application-tab" data-bs-toggle="pill"
-                        data-bs-target="#pills-application" type="button" role="tab" aria-controls="pills-application"
-                        aria-selected="false">Application</button>
+                    <button class="nav-link fs-sm-4 fs-6 text-white px-2" id="pills-application-tab"
+                        data-bs-toggle="pill" data-bs-target="#pills-application" type="button" role="tab"
+                        aria-controls="pills-application" aria-selected="false">Application</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link fs-4 text-white px-2" id="pills-specification-tab" data-bs-toggle="pill"
-                        data-bs-target="#pills-specification" type="button" role="tab"
+                    <button class="nav-link fs-sm-4 fs-6 text-white px-2" id="pills-specification-tab"
+                        data-bs-toggle="pill" data-bs-target="#pills-specification" type="button" role="tab"
                         aria-controls="pills-specification" aria-selected="false">Specification</button>
                 </li>
             </ul>
