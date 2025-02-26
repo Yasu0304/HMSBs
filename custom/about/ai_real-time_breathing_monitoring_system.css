@@ -198,6 +198,16 @@
     left: -49rem;
   }
 }
+@media (min-width: 768px) {
+  .patientSafety {
+    bottom: -5rem;
+  }
+}
+@media (min-width: 992px) {
+  .patientSafety {
+    bottom: -15rem;
+  }
+}
 
 .aiRealTime_01 {
   z-index: 1;

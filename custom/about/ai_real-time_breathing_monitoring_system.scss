@@ -14,124 +14,130 @@
 // }
 
 .indexBgMa {
-    margin-bottom: 21rem;
+  margin-bottom: 21rem;
 
-    @include sm {
-        margin-bottom: 3rem;
-    }
+  @include sm {
+    margin-bottom: 3rem;
+  }
 }
 
 .h1Title {
-    font-size: 2.3rem;
-    line-height: 1;
-    font-weight: 700;
-    color: var(--bs-primary);
+  font-size: 2.3rem;
+  line-height: 1;
+  font-weight: 700;
+  color: var(--bs-primary);
 
-    @include sm {
-        font-size: 4.5rem;
-        line-height: 1.2;
+  @include sm {
+    font-size: 4.5rem;
+    line-height: 1.2;
 
-        &.color_alr {
-            color: $hmsalr;
-        }
+    &.color_alr {
+      color: $hmsalr;
     }
+  }
 }
 
 .polygonTriangleBefore {
-    @include polygonTriangleBefore(50px, 100%, $hmsinfo);
+  @include polygonTriangleBefore(50px, 100%, $hmsinfo);
 
-    @include sm {
-        @include polygonTriangleBefore(216px, 100%, $hmsinfo);
-    }
+  @include sm {
+    @include polygonTriangleBefore(216px, 100%, $hmsinfo);
+  }
 }
 
 .polygonTriangleAfter {
-    @include polygonTriangleAfter(50px, 100%, $hmsinfo);
+  @include polygonTriangleAfter(50px, 100%, $hmsinfo);
 
-    @include sm {
-        @include polygonTriangleAfter(216px, 100%, $hmsinfo);
-    }
+  @include sm {
+    @include polygonTriangleAfter(216px, 100%, $hmsinfo);
+  }
 }
 
 .polygonTriangleBefore_reflection {
-    @include polygonTriangleBefore_reflection(50px, 100%, $hmssec);
+  @include polygonTriangleBefore_reflection(50px, 100%, $hmssec);
 
-    @include sm {
-        @include polygonTriangleBefore_reflection(216px, 100%, $hmssec);
-    }
+  @include sm {
+    @include polygonTriangleBefore_reflection(216px, 100%, $hmssec);
+  }
 }
 
 .polygonTriangleAfter_reflection {
-    @include polygonTriangleAfter_reflection(50px, 100%, $hmssec);
+  @include polygonTriangleAfter_reflection(50px, 100%, $hmssec);
 
-    @include sm {
-        @include polygonTriangleAfter_reflection(216px, 100%, $hmssec);
-    }
+  @include sm {
+    @include polygonTriangleAfter_reflection(216px, 100%, $hmssec);
+  }
 }
 
 .contentHeigh_01 {
-    height: 19rem;
+  height: 19rem;
 }
 
 .content {
-    z-index: 1;
+  z-index: 1;
 
-    @include sm {
-        z-index: 0;
-    }
+  @include sm {
+    z-index: 0;
+  }
 }
 
 .contentHeigh_02 {
-    height: 25rem;
+  height: 25rem;
 }
 
 .patientSafety {
-    bottom: -29rem;
-    left: -4rem;
-    scale: 0.5;
-    z-index: -1;
+  bottom: -29rem;
+  left: -4rem;
+  scale: 0.5;
+  z-index: -1;
 
-    @include sm {
-        scale: 1;
-        bottom: -20rem;
-        left: -49rem;
-    }
+  @include sm {
+    scale: 1;
+    bottom: -20rem;
+    left: -49rem;
+  }
+  @include md {
+    bottom: -5rem;
+  }
+  @include lg {
+    bottom: -15rem;
+  }
 }
 
 .aiRealTime_01 {
-    z-index: 1;
-    top: -4rem;
-    left: -24vw;
-    scale: 0.5;
+  z-index: 1;
+  top: -4rem;
+  left: -24vw;
+  scale: 0.5;
 
-    @include sm {
-        scale: 0.9;
-        top: -16rem;
-        left: 25rem;
-    }
+  @include sm {
+    scale: 0.9;
+    top: -16rem;
+    left: 25rem;
+  }
 }
 
 .contentHeigh_04 {
-    margin-bottom: 11rem;
+  margin-bottom: 11rem;
 }
 
 .aiRealTime_02 {
-    top: 11rem;
-    left: -1rem;
-    scale: 0.6;
+  top: 11rem;
+  left: -1rem;
+  scale: 0.6;
 
-    @include sm {
-        scale: 0.8;
-        top: -7rem;
-        left: -37rem;
-    }
+  @include sm {
+    scale: 0.8;
+    top: -7rem;
+    left: -37rem;
+  }
 }
 
 .certificationsIcon {
-    width: 70%;
-    margin: 0 1rem;
+  width: 70%;
+  margin: 0 1rem;
 
-    @include sm {
-        width: 35%;
-    }
+  @include sm {
+    width: 35%;
+  }
 }
