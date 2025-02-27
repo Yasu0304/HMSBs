@@ -161,7 +161,7 @@
   width: 100%;
   -webkit-clip-path: polygon(100% 0, 0 100%, 100% 100%);
           clip-path: polygon(100% 0, 0 100%, 100% 100%);
-  background: #3493C3;
+  background: #3493c3;
 }
 
 .polygonTriangleAfter::after {
@@ -171,7 +171,7 @@
   width: 100%;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%);
           clip-path: polygon(0 0, 100% 0, 100% 100%);
-  background: #3493C3;
+  background: #3493c3;
 }
 
 .contentSection {
