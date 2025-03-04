@@ -1,4 +1,10 @@
+@import "base";
 @import "media";
+@import "components";
+
+.callout-priamry {
+  @include callout($hmspri, $hmsinfo-50, $hmssec);
+}
 
 .solutions-pt {
   overflow: hidden;

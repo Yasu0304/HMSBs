@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital,wght@0,100..900;1,100..900&@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 // 1. Include functions first
 @import "../node_modules/bootstrap/scss/functions";
 
 // 2. Include any default variable overrides here
-$font-family-sans-serif: Jost;
+$font-family-sans-serif: "Jost", sans-serif;
 $primary: #0f5385;
 $success: #3493c3;
 $info: #c2dfed;

@@ -1,5 +1,3 @@
-// font
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital,wght@0,100..900;1,100..900&@400&display=swap");
 @import "base";
 @import "components";
 @import "media";
@@ -11,7 +9,19 @@ html {
 body {
   .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
-    // font-weight: 400;
+    // font-family: "Public Sans", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  .public-sans-900 {
+    font-family: "Public Sans", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .public-sans-600 {
+    font-family: "Public Sans", sans-serif;
+    font-weight: 600;
     font-style: normal;
   }
 }
