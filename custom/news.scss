@@ -22,3 +22,7 @@
 .lightBoxCard {
   @include card(100%);
 }
+
+.callout_news {
+  @include callout($hmspri, $hmsinfo-50, $hmspri);
+}

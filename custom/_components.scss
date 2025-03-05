@@ -24,6 +24,7 @@
   width: 100%;
   @content;
 }
+
 // callout
 @mixin callout($color1, $color2, $color3) {
   padding-top: 1.25rem;
