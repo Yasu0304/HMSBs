@@ -2,6 +2,19 @@
 @import "media";
 @import "components";
 
+.h1Title {
+  font-size: 2.3rem;
+  line-height: 1;
+  font-weight: 700;
+  color: $hmspri;
+
+  @include sm {
+    font-size: 4.5rem;
+    line-height: 1.2;
+    color: $hmsalr;
+  }
+}
+
 .callout-priamry {
   @include callout($hmspri, $hmsinfo-50, $hmssec);
 }
@@ -38,4 +51,11 @@
       }
     }
   }
+}
+
+.dot {
+  @include card(100%);
+  background-color: rgba(52, 147, 195, 0.8);
+  border-radius: 999px;
+  overflow: hidden;
 }
