@@ -10,6 +10,14 @@
   @content;
 }
 
+@mixin bg-cover($position1, $position2) {
+  background-position: $position1 $position2;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  @content;
+}
+
 @mixin bg-contain($position1, $position2) {
   background-position: $position1 $position2;
   background-size: contain;

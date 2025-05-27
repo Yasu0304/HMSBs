@@ -68,19 +68,21 @@
 @media (min-width: 576px) {
   .h1Title {
     font-size: 4.5rem;
-    line-height: 1.2;
     color: #e56130;
   }
 }
 
-.callout-priamry {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-  padding-left: 1.25rem;
-  margin-bottom: 1.25rem;
-  color: #0f5385;
-  background-color: rgba(194, 223, 237, 0.3137254902);
-  border-left: 0.25rem solid #3493c3;
+.solutionHover:hover {
+  transition: 0.7s;
+}
+@media (min-width: 576px) {
+  .solutionHover {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    min-height: 20vh;
+  }
 }
 
 .solutions-pt {
@@ -125,4 +127,4 @@
   background-color: rgba(52, 147, 195, 0.8);
   border-radius: 999px;
   overflow: hidden;
-}/*# sourceMappingURL=solutions.css.map */
+}/*# sourceMappingURL=all_solutions.css.map */

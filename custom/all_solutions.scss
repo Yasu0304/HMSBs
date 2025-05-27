@@ -10,14 +10,24 @@
 
   @include sm {
     font-size: 4.5rem;
-    line-height: 1.2;
     color: $hmsalr;
   }
 }
 
-.callout-priamry {
-  @include callout($hmspri, $hmsinfo-50, $hmssec);
+// allSolution
+
+.solutionHover {
+  &:hover {
+    transition: 0.7s;
+  }
+
+  @include sm {
+    @include bg-cover(center, center);
+    min-height: 20vh;
+  }
 }
+
+// featurePage
 
 .solutions-pt {
   overflow: hidden;

@@ -1,0 +1,20 @@
+@import "base";
+@import "media";
+@import "components";
+
+.h1Title {
+  font-size: 2.3rem;
+  line-height: 1;
+  font-weight: 700;
+  color: $hmspri;
+
+  @include sm {
+    font-size: 4.5rem;
+    line-height: 1.2;
+    color: $hmsalr;
+  }
+}
+
+.callout-priamry {
+  @include callout($hmspri, $hmsinfo-50, $hmssec);
+}
