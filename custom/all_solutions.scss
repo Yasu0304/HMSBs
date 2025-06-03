@@ -21,12 +21,10 @@
   }
 
   @include sm {
-    @include bg-cover(center, center);
+    @include bg-setting(center, center, cover);
     min-height: 20vh;
   }
 }
-
-// featurePage
 
 .solutions-pt {
   overflow: hidden;
@@ -62,11 +60,69 @@
   }
 }
 
+// featurePage
+
+.imgWidth {
+  @include imgWidth(90%);
+  @include sm {
+    @include imgWidth(100%);
+  }
+}
+
+.imgFloatRwd {
+  @include imgWidth(100%);
+  @include sm {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    vertical-align: middle;
+    @include imgWidth(max-content);
+  }
+}
+
+.dotContainer_bg {
+  background-image: url(../images/solutions/smart_ward_and_mobile_nursing/point.webp);
+  @include bg-setting(-224%, 100%, 110%);
+  padding: 0 0 30% 0;
+  @include sm {
+    @include bg-setting(50%, 100%, 60%);
+    // padding: 0 0 30% 0;
+  }
+}
 .dotContainer-5 {
   .dotContainer {
     width: 45%;
     @include sm {
       width: 20%;
+    }
+  }
+  .dotContainer:nth-child(1) {
+    padding: 1rem;
+    @include sm {
+      padding: 20% 2rem 2rem 2rem;
+    }
+  }
+  .dotContainer:nth-child(2) {
+    padding: 1rem;
+    @include sm {
+      padding: 8% 2rem 2rem 2rem;
+    }
+  }
+  .dotContainer:nth-child(3) {
+    padding: 1rem;
+    @include sm {
+      padding: 0% 2rem 2rem 2rem;
+    }
+  }
+  .dotContainer:nth-child(4) {
+    padding: 1rem;
+    @include sm {
+      padding: 8% 2rem 2rem 2rem;
+    }
+  }
+  .dotContainer:nth-child(5) {
+    padding: 1rem;
+    @include sm {
+      padding: 20% 2rem 2rem 2rem;
     }
   }
 }
@@ -76,4 +132,11 @@
   background-color: rgba(52, 147, 195, 0.8);
   border-radius: 999px;
   overflow: hidden;
+}
+
+.contactsBg {
+  @include bg-setting(center, center, cover);
+  background-image: url(../images/solutions/smart_ward_and_mobile_nursing/contacts.webp);
+  margin-bottom: 5rem;
+  padding: 5rem 0;
 }

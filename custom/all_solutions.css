@@ -119,12 +119,95 @@
   }
 }
 
+.imgWidth {
+  max-width: 90%;
+  height: auto;
+}
+@media (min-width: 576px) {
+  .imgWidth {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.imgFloatRwd {
+  max-width: 100%;
+  height: auto;
+}
+@media (min-width: 576px) {
+  .imgFloatRwd {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    vertical-align: middle;
+    max-width: -moz-max-content;
+    max-width: max-content;
+    height: auto;
+  }
+}
+
+.dotContainer_bg {
+  background-image: url(../images/solutions/smart_ward_and_mobile_nursing/point.webp);
+  background-position: -224% 100%;
+  background-size: 110%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  padding: 0 0 30% 0;
+}
+@media (min-width: 576px) {
+  .dotContainer_bg {
+    background-position: 50% 100%;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+}
+
 .dotContainer-5 .dotContainer {
   width: 45%;
 }
 @media (min-width: 576px) {
   .dotContainer-5 .dotContainer {
     width: 20%;
+  }
+}
+.dotContainer-5 .dotContainer:nth-child(1) {
+  padding: 1rem;
+}
+@media (min-width: 576px) {
+  .dotContainer-5 .dotContainer:nth-child(1) {
+    padding: 20% 2rem 2rem 2rem;
+  }
+}
+.dotContainer-5 .dotContainer:nth-child(2) {
+  padding: 1rem;
+}
+@media (min-width: 576px) {
+  .dotContainer-5 .dotContainer:nth-child(2) {
+    padding: 8% 2rem 2rem 2rem;
+  }
+}
+.dotContainer-5 .dotContainer:nth-child(3) {
+  padding: 1rem;
+}
+@media (min-width: 576px) {
+  .dotContainer-5 .dotContainer:nth-child(3) {
+    padding: 0% 2rem 2rem 2rem;
+  }
+}
+.dotContainer-5 .dotContainer:nth-child(4) {
+  padding: 1rem;
+}
+@media (min-width: 576px) {
+  .dotContainer-5 .dotContainer:nth-child(4) {
+    padding: 8% 2rem 2rem 2rem;
+  }
+}
+.dotContainer-5 .dotContainer:nth-child(5) {
+  padding: 1rem;
+}
+@media (min-width: 576px) {
+  .dotContainer-5 .dotContainer:nth-child(5) {
+    padding: 20% 2rem 2rem 2rem;
   }
 }
 
@@ -135,4 +218,14 @@
   background-color: rgba(52, 147, 195, 0.8);
   border-radius: 999px;
   overflow: hidden;
+}
+
+.contactsBg {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-image: url(../images/solutions/smart_ward_and_mobile_nursing/contacts.webp);
+  margin-bottom: 5rem;
+  padding: 5rem 0;
 }/*# sourceMappingURL=all_solutions.css.map */

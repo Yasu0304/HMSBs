@@ -4,25 +4,17 @@
   @content;
 }
 
-@mixin bg-top-cover {
-  background-position: top center;
-  background-size: cover;
-  @content;
-}
-
-@mixin bg-cover($position1, $position2) {
+@mixin bg-setting($position1, $position2, $size) {
   background-position: $position1 $position2;
-  background-size: cover;
+  background-size: $size;
   background-repeat: no-repeat;
   overflow: hidden;
   @content;
 }
 
-@mixin bg-contain($position1, $position2) {
-  background-position: $position1 $position2;
-  background-size: contain;
-  background-repeat: no-repeat;
-  overflow: hidden;
+@mixin imgWidth($width) {
+  max-width: $width;
+  height: auto;
   @content;
 }
 
