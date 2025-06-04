@@ -145,7 +145,7 @@
   }
 }
 
-.dotContainer_bg {
+.dotContainer-smartWard_bg {
   background-image: url(../images/solutions/smart_ward_and_mobile_nursing/point.webp);
   background-position: -224% 100%;
   background-size: 110%;
@@ -154,11 +154,37 @@
   padding: 0 0 30% 0;
 }
 @media (min-width: 576px) {
-  .dotContainer_bg {
+  .dotContainer-smartWard_bg {
     background-position: 50% 100%;
-    background-size: 60%;
+    background-size: 55%;
     background-repeat: no-repeat;
     overflow: hidden;
+  }
+}
+
+.dotContainer-smartOperation_bg {
+  background-image: url(../images/solutions/smart_operation_room/point.webp);
+  background-position: 50% 165%;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  padding: 0 0 30% 0;
+}
+@media (min-width: 576px) {
+  .dotContainer-smartOperation_bg {
+    background-position: 100% 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+}
+
+.dotContainer-4 .dotContainer {
+  width: 50%;
+}
+@media (min-width: 576px) {
+  .dotContainer-4 .dotContainer {
+    width: 25%;
   }
 }
 

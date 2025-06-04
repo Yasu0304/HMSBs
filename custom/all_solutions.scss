@@ -79,13 +79,30 @@
   }
 }
 
-.dotContainer_bg {
+.dotContainer-smartWard_bg {
   background-image: url(../images/solutions/smart_ward_and_mobile_nursing/point.webp);
   @include bg-setting(-224%, 100%, 110%);
   padding: 0 0 30% 0;
   @include sm {
-    @include bg-setting(50%, 100%, 60%);
-    // padding: 0 0 30% 0;
+    @include bg-setting(50%, 100%, 55%);
+  }
+}
+
+.dotContainer-smartOperation_bg {
+  background-image: url(../images/solutions/smart_operation_room/point.webp);
+  @include bg-setting(50%, 165%, 60%);
+  padding: 0 0 30% 0;
+  @include sm {
+    @include bg-setting(100%, 100%, 100%);
+  }
+}
+
+.dotContainer-4 {
+  .dotContainer {
+    width: 50%;
+    @include sm {
+      width: 25%;
+    }
   }
 }
 .dotContainer-5 {
