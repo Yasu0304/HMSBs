@@ -60,8 +60,6 @@
   }
 }
 
-// featurePage
-
 .imgWidth {
   @include imgWidth(90%);
   @include sm {
@@ -79,32 +77,40 @@
   }
 }
 
-.dotContainer-smartWard_bg {
-  background-image: url(../images/solutions/smart_ward_and_mobile_nursing/point.webp);
-  @include bg-setting(-224%, 100%, 110%);
-  padding: 0 0 30% 0;
-  @include sm {
-    @include bg-setting(50%, 100%, 55%);
-  }
-}
-
-.dotContainer-smartOperation_bg {
-  background-image: url(../images/solutions/smart_operation_room/point.webp);
-  @include bg-setting(50%, 165%, 60%);
-  padding: 0 0 30% 0;
-  @include sm {
-    @include bg-setting(100%, 100%, 100%);
-  }
-}
-
 .dotContainer-4 {
+  width: 100%;
   .dotContainer {
     width: 50%;
     @include sm {
       width: 25%;
     }
   }
+  .dotContainer:nth-child(1) {
+    padding: 1rem;
+    @include sm {
+      padding: 20% 2rem 2rem 2rem;
+    }
+  }
+  .dotContainer:nth-child(2) {
+    padding: 1rem;
+    @include sm {
+      padding: 5% 2rem 2rem 2rem;
+    }
+  }
+  .dotContainer:nth-child(3) {
+    padding: 1rem;
+    @include sm {
+      padding: 5% 2rem 2rem 2rem;
+    }
+  }
+  .dotContainer:nth-child(4) {
+    padding: 1rem;
+    @include sm {
+      padding: 20% 2rem 2rem 2rem;
+    }
+  }
 }
+
 .dotContainer-5 {
   .dotContainer {
     width: 45%;
@@ -151,9 +157,55 @@
   overflow: hidden;
 }
 
-.contactsBg {
+// smartWardPage
+
+.dotContainer-smartWard_bg {
+  background-image: url(../images/solutions/smart_ward_and_mobile_nursing/point.webp);
+  @include bg-setting(-224%, 100%, 110%);
+  padding: 0 0 30% 0;
+  @include sm {
+    @include bg-setting(50%, 100%, 55%);
+  }
+}
+
+.contacts-smartWard_bg {
   @include bg-setting(center, center, cover);
   background-image: url(../images/solutions/smart_ward_and_mobile_nursing/contacts.webp);
+  margin-bottom: 5rem;
+  padding: 5rem 0;
+}
+
+// smartOperationPage
+.dotContainer-smartOperation_bg {
+  background-image: url(../images/solutions/smart_operation_room/point.webp);
+  @include bg-setting(50%, 112%, 100%);
+  padding: 0 0 30% 0;
+  @include sm {
+    @include bg-setting(50%, 100%, 60%);
+  }
+}
+
+.contacts-smartOperation_bg {
+  @include bg-setting(center, center, cover);
+  background-image: url(../images/solutions/smart_operation_room/contacts.webp);
+  margin-bottom: 5rem;
+  padding: 5rem 0;
+}
+
+// telehealthPage
+.dotContainer-telehealth_bg {
+  @include bg-setting(50%, 120%, 80%);
+  background-image: url(../images/solutions/telehealth_and_remote_care/point.webp);
+  // margin-bottom: 5rem;
+  padding: 0 0 30% 0;
+  @include sm {
+    @include bg-setting(50%, -95%, 60%);
+  }
+}
+
+.contacts-telehealth_bg {
+  @include bg-setting(center, center, cover);
+  background-image: url(../images/solutions/telehealth_and_remote_care/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
