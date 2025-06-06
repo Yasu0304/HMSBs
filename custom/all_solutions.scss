@@ -111,8 +111,9 @@
 }
 
 .dotContainer-5 {
+  width: 100%;
   .dotContainer {
-    width: 45%;
+    width: 50%;
     @include sm {
       width: 20%;
     }

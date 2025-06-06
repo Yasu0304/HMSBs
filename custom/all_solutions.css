@@ -128,8 +128,11 @@
   }
 }
 
+.dotContainer-5 {
+  width: 100%;
+}
 .dotContainer-5 .dotContainer {
-  width: 45%;
+  width: 50%;
 }
 @media (min-width: 576px) {
   .dotContainer-5 .dotContainer {
