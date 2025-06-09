@@ -23,41 +23,6 @@
   }
 }
 
-.solutions-pt {
-  overflow: hidden;
-  padding-top: 93px;
-}
-@media (min-width: 576px) {
-  .solutions-pt {
-    padding-top: 119px;
-  }
-}
-@media (min-width: 768px) {
-  .solutions-pt {
-    padding-top: 109px;
-  }
-}
-
-.solutions-tab {
-  z-index: 2;
-  height: 142px;
-  position: sticky;
-  top: -30px;
-}
-@media (min-width: 576px) {
-  .solutions-tab {
-    top: 0px;
-  }
-}
-.solutions-tab li button {
-  font-size: 1rem;
-}
-@media (min-width: 576px) {
-  .solutions-tab li button {
-    font-size: calc(1.275rem + 0.3vw);
-  }
-}
-
 .imgWidth {
   max-width: 90%;
   height: auto;

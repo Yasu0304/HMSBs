@@ -2,6 +2,40 @@
 @import "media";
 @import "components";
 
+.productsPt {
+  overflow: hidden;
+  padding-top: 93px;
+
+  @include sm {
+    padding-top: 119px;
+  }
+
+  @include md {
+    padding-top: 109px;
+  }
+}
+
+.productsTab {
+  z-index: 2;
+  height: 142px;
+  position: sticky;
+  top: -30px;
+
+  @include sm {
+    top: 0px;
+  }
+
+  li {
+    button {
+      font-size: 1rem;
+
+      @include sm {
+        font-size: calc(1.275rem + 0.3vw);
+      }
+    }
+  }
+}
+
 .h1Title {
   font-size: 2.3rem;
   line-height: 1;
