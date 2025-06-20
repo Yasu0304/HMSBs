@@ -7,16 +7,6 @@ body .bebas-neue-regular {
   font-weight: 900;
   font-style: normal;
 }
-body .public-sans-900 {
-  font-family: "Public Sans", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-body .public-sans-600 {
-  font-family: "Public Sans", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
 
 .navbar-brand img {
   width: 110px;
