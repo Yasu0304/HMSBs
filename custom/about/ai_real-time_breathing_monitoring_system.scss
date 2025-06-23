@@ -2,17 +2,6 @@
 @import "../media";
 @import "../components";
 
-// .indexBgSm {
-//     background-image: url(../../images/about/ai_real_time_breathing_monitoring_system-hero-sm.webp);
-//     background-repeat: no-repeat;
-//     background-position: top center;
-//     background-size: contain;
-
-//     @include sm {
-//         background-image: url(../../images/about/ai_real_time_breathing_monitoring_system-hero.webp);
-//     }
-// }
-
 .indexBgMa {
   margin-bottom: 21rem;
 
@@ -22,18 +11,10 @@
 }
 
 .h1Title {
-  font-size: 2.3rem;
-  line-height: 1;
-  font-weight: 700;
-  color: var(--bs-primary);
+  @include pageH1(2.3rem, 700, $hmsalr, 1);
 
   @include sm {
-    font-size: 4.5rem;
-    line-height: 1.2;
-
-    &.color_alr {
-      color: $hmsalr;
-    }
+    @include pageH1(4.5rem, 700, $hmsalr, 1.2);
   }
 }
 

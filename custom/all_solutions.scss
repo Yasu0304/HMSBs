@@ -2,45 +2,6 @@
 @import "media";
 @import "components";
 
-html {
-  scroll-padding-top: 66px; //header 高度
-}
-
-body {
-  .public-sans-900 {
-    font-weight: 900;
-  }
-}
-
-.navbar-brand {
-  img {
-    width: 110px;
-    height: auto;
-
-    @include sm {
-      width: 150px;
-      height: auto;
-    }
-  }
-}
-
-.navbar-toggler {
-  font-size: 16px;
-  padding: 8px;
-  border: 0;
-}
-
-.nav-link.active,
-.nav-link.active.dropdown-toggle {
-  // background-color: var(--bs-white);
-  font-weight: bold;
-}
-
-.dropdown-menu .dropdown-item {
-  color: var(--bs-gray-600);
-  background-color: var(--bs-white);
-}
-
 .h1Title {
   @include pageH1(2.3rem, 700, $hmsalr, 1);
 
