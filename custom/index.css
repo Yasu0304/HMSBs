@@ -1,3 +1,38 @@
+html {
+  scroll-padding-top: 66px;
+}
+
+body .public-sans-900 {
+  font-weight: 900;
+}
+
+.navbar-brand img {
+  width: 110px;
+  height: auto;
+}
+@media (min-width: 576px) {
+  .navbar-brand img {
+    width: 150px;
+    height: auto;
+  }
+}
+
+.navbar-toggler {
+  font-size: 16px;
+  padding: 8px;
+  border: 0;
+}
+
+.nav-link.active,
+.nav-link.active.dropdown-toggle {
+  font-weight: bold;
+}
+
+.dropdown-menu .dropdown-item {
+  color: var(--bs-gray-600);
+  background-color: var(--bs-white);
+}
+
 .indexBgSm {
   background-image: url(https://healthmit.services/images/index/bn-sm.webp);
   background-repeat: no-repeat;
@@ -31,19 +66,21 @@
 }
 
 .h1Title {
+  font-family: "Bebas Neue", sans-serif;
   font-size: 2.3rem;
-  line-height: 1;
   font-weight: 700;
-  color: var(--bs-white);
+  color: #fff;
+  line-hight: 1;
+  font-style: normal;
 }
 @media (min-width: 576px) {
   .h1Title {
+    font-family: "Bebas Neue", sans-serif;
     font-size: 4.5rem;
-    line-height: 1.2;
-    color: var(--bs-primary);
-  }
-  .h1Title.color_alr {
+    font-weight: 700;
     color: #e56130;
+    line-hight: 1.2;
+    font-style: normal;
   }
 }
 

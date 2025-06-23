@@ -11,3 +11,14 @@ $hms-bk-200: #e9ecef; //同--bs-gray-200
 $hms-bk-500: #adb5bd; //同--bs-gray-500
 $hms-bk-600: #6c757d; //同--bs-gray-600
 $hms-bk-800: #343a40; //同--bs-gray-800
+
+// font
+@mixin pageH1($fontSize, $fontWeight, $color, $lineHight) {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  color: $color;
+  line-hight: $lineHight;
+  font-style: normal;
+  @content;
+}

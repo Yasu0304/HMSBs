@@ -7,11 +7,8 @@ html {
 }
 
 body {
-  .bebas-neue-regular {
-    font-family: "Bebas Neue", sans-serif;
-    // font-family: "Public Sans", sans-serif;
+  .public-sans-900 {
     font-weight: 900;
-    font-style: normal;
   }
 }
 
@@ -32,21 +29,6 @@ body {
   padding: 8px;
   border: 0;
 }
-
-// .dropdown-item:active,
-// .dropdown-item.active {
-//   background-color: var(--bs-white);
-// }
-
-// .nav-link,
-// .dropdown-toggle.nav-link {
-//   color: $hms-bk-800;
-// }
-
-// .nav-link:hover,
-// .nav-link:focus {
-//   background-color: var(--bs-white);
-// }
 
 .nav-link.active,
 .nav-link.active.dropdown-toggle {

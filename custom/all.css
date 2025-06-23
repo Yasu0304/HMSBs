@@ -2,10 +2,8 @@ html {
   scroll-padding-top: 66px;
 }
 
-body .bebas-neue-regular {
-  font-family: "Bebas Neue", sans-serif;
+body .public-sans-900 {
   font-weight: 900;
-  font-style: normal;
 }
 
 .navbar-brand img {
