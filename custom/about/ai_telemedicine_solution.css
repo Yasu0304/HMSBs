@@ -8,21 +8,22 @@
 }
 
 .h1Title {
+  font-family: "Bebas Neue", sans-serif;
   font-size: 2.3rem;
-  line-height: 1;
   font-weight: 700;
   color: #fff;
+  line-hight: 1;
+  font-style: normal;
 }
 @media (min-width: 576px) {
   .h1Title {
+    font-family: "Bebas Neue", sans-serif;
     font-size: 4.5rem;
-    line-height: 1.2;
-    color: var(--bs-primary);
+    font-weight: 700;
+    color: #e56130;
+    line-hight: 1.2;
+    font-style: normal;
   }
-}
-
-.h1P {
-  color: var(--bs-gray-800);
 }
 
 .btn-outline-light {
@@ -32,4 +33,4 @@
 .markpen {
   background: linear-gradient(transparent 40%, rgba(255, 255, 255, 0) 40%, #fff176 90%, transparent 95%);
   padding: 2px 1px;
-}/*# sourceMappingURL=your_smart_healthcare_solution_partner.css.map */
+}/*# sourceMappingURL=ai_telemedicine_solution.css.map */

@@ -34,16 +34,21 @@
 }
 
 .h1Title {
+  font-family: "Bebas Neue", sans-serif;
   font-size: 2.3rem;
-  line-height: 1;
   font-weight: 700;
   color: #0f5385;
+  line-hight: 1;
+  font-style: normal;
 }
 @media (min-width: 576px) {
   .h1Title {
+    font-family: "Bebas Neue", sans-serif;
     font-size: 4.5rem;
-    line-height: 1.2;
+    font-weight: 700;
     color: #e56130;
+    line-hight: 1.2;
+    font-style: normal;
   }
 }
 
