@@ -172,3 +172,54 @@
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
+
+// smartDiagnosticPage
+.dotContainer-smartDiagnostic_bg {
+  @include bg-setting(50%, 120%, 80%);
+  background-image: url(#);
+  padding: 0 0 30% 0;
+  @include sm {
+    @include bg-setting(50%, -95%, 60%);
+  }
+}
+
+.contacts-smartDiagnostic_bg {
+  @include bg-setting(center, center, cover);
+  background-image: url(#);
+  margin-bottom: 5rem;
+  padding: 5rem 0;
+}
+
+// intelligentMonitoringPage
+.dotContainer-intelligentMonitoring_bg {
+  @include bg-setting(50%, 120%, 80%);
+  background-image: url(#);
+  padding: 0 0 30% 0;
+  @include sm {
+    @include bg-setting(50%, -95%, 60%);
+  }
+}
+
+.contacts-sintelligentMonitoring_bg {
+  @include bg-setting(center, center, cover);
+  background-image: url(#);
+  margin-bottom: 5rem;
+  padding: 5rem 0;
+}
+
+// medicalSuppliesPage
+.dotContainer-medicalSupplies_bg {
+  @include bg-setting(50%, 120%, 80%);
+  background-image: url(#);
+  padding: 0 0 30% 0;
+  @include sm {
+    @include bg-setting(50%, -95%, 60%);
+  }
+}
+
+.contacts-smedicalSupplies_bg {
+  @include bg-setting(center, center, cover);
+  background-image: url(#);
+  margin-bottom: 5rem;
+  padding: 5rem 0;
+}
