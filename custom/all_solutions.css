@@ -243,17 +243,17 @@
 }
 
 .dotContainer-smartDiagnostic_bg {
-  background-position: 50% 120%;
-  background-size: 80%;
+  background-position: 100% 120%;
+  background-size: 112%;
   background-repeat: no-repeat;
   overflow: hidden;
-  background-image: url(#);
+  background-image: url(../images/solutions/smart_diagnostic_and_imaging/point.webp);
   padding: 0 0 30% 0;
 }
 @media (min-width: 576px) {
   .dotContainer-smartDiagnostic_bg {
-    background-position: 50% -95%;
-    background-size: 60%;
+    background-position: 50% 150%;
+    background-size: 70%;
     background-repeat: no-repeat;
     overflow: hidden;
   }
@@ -264,50 +264,50 @@
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
-  background-image: url(#);
+  background-image: url(../images/solutions/smart_diagnostic_and_imaging/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
 
 .dotContainer-intelligentMonitoring_bg {
-  background-position: 50% 120%;
-  background-size: 80%;
+  background-position: center 100%;
+  background-size: 150%;
   background-repeat: no-repeat;
   overflow: hidden;
-  background-image: url(#);
+  background-image: url(../../images/solutions/intelligent_monitoring/point.webp);
   padding: 0 0 30% 0;
 }
 @media (min-width: 576px) {
   .dotContainer-intelligentMonitoring_bg {
-    background-position: 50% -95%;
-    background-size: 60%;
+    background-position: center 100%;
+    background-size: 100%;
     background-repeat: no-repeat;
     overflow: hidden;
   }
 }
 
-.contacts-sintelligentMonitoring_bg {
+.contacts-intelligentMonitoring_bg {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
-  background-image: url(#);
+  background-image: url(../../images/solutions/intelligent_monitoring/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
 
 .dotContainer-medicalSupplies_bg {
-  background-position: 50% 120%;
-  background-size: 80%;
+  background-position: center 100%;
+  background-size: 160%;
   background-repeat: no-repeat;
   overflow: hidden;
-  background-image: url(#);
+  background-image: url(../../images/solutions/medical_supplies_and_equipment/point.webp);
   padding: 0 0 30% 0;
 }
 @media (min-width: 576px) {
   .dotContainer-medicalSupplies_bg {
-    background-position: 50% -95%;
-    background-size: 60%;
+    background-position: center 110%;
+    background-size: 80%;
     background-repeat: no-repeat;
     overflow: hidden;
   }
@@ -318,7 +318,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
-  background-image: url(#);
+  background-image: url(../../images/solutions/medical_supplies_and_equipment/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }/*# sourceMappingURL=all_solutions.css.map */

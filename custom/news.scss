@@ -3,5 +3,5 @@
 @import "components";
 
 .callout_news {
-  @include callout($hmspri, $hmsinfo-50, $hmspri);
+  @include callout($hmspri, $hmsinfo-50);
 }
