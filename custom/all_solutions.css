@@ -3,7 +3,7 @@
   font-size: 2.3rem;
   font-weight: 700;
   color: #e56130;
-  line-hight: 1;
+  line-height: 1;
   font-style: normal;
 }
 @media (min-width: 576px) {
@@ -12,7 +12,7 @@
     font-size: 4.5rem;
     font-weight: 700;
     color: #e56130;
-    line-hight: 1;
+    line-height: 1;
     font-style: normal;
   }
 }
@@ -270,8 +270,8 @@
 }
 
 .dotContainer-intelligentMonitoring_bg {
-  background-position: center 100%;
-  background-size: 150%;
+  background-position: center 162%;
+  background-size: 162%;
   background-repeat: no-repeat;
   overflow: hidden;
   background-image: url(../../images/solutions/intelligent_monitoring/point.webp);
@@ -279,8 +279,8 @@
 }
 @media (min-width: 576px) {
   .dotContainer-intelligentMonitoring_bg {
-    background-position: center 100%;
-    background-size: cover;
+    background-position: center -50%;
+    background-size: 80%;
     background-repeat: no-repeat;
     overflow: hidden;
   }
