@@ -274,7 +274,7 @@
   background-size: 162%;
   background-repeat: no-repeat;
   overflow: hidden;
-  background-image: url(../../images/solutions/intelligent_monitoring/point.webp);
+  background-image: url(../images/solutions/intelligent_monitoring/point.webp);
   padding: 0 0 30% 0;
 }
 @media (min-width: 576px) {
