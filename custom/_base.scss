@@ -18,7 +18,7 @@ $hms-bk-800: #343a40; //同--bs-gray-800
   font-size: $fontSize;
   font-weight: $fontWeight;
   color: $color;
-  line-hight: $lineHight;
+  line-height: $lineHight;
   font-style: normal;
   @content;
 }

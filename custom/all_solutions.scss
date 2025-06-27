@@ -192,11 +192,11 @@
 
 // intelligentMonitoringPage
 .dotContainer-intelligentMonitoring_bg {
-  @include bg-setting(center, 100%, 150%);
+  @include bg-setting(center, 100%, -61%, 80%);
   background-image: url(../../images/solutions/intelligent_monitoring/point.webp);
   padding: 0 0 30% 0;
   @include sm {
-    @include bg-setting(center, 100%, 100%);
+    @include bg-setting(center, -61%, 80%);
   }
 }
 

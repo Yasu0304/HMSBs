@@ -280,7 +280,7 @@
 @media (min-width: 576px) {
   .dotContainer-intelligentMonitoring_bg {
     background-position: center 100%;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
   }
