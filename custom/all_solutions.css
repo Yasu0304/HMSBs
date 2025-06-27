@@ -291,7 +291,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
-  background-image: url(../../images/solutions/intelligent_monitoring/contacts.webp);
+  background-image: url(../images/solutions/intelligent_monitoring/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
@@ -301,7 +301,7 @@
   background-size: 160%;
   background-repeat: no-repeat;
   overflow: hidden;
-  background-image: url(../../images/solutions/medical_supplies_and_equipment/point.webp);
+  background-image: url(../images/solutions/medical_supplies_and_equipment/point.webp);
   padding: 0 0 30% 0;
 }
 @media (min-width: 576px) {
@@ -318,7 +318,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
-  background-image: url(../../images/solutions/medical_supplies_and_equipment/contacts.webp);
+  background-image: url(../images/solutions/medical_supplies_and_equipment/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }/*# sourceMappingURL=all_solutions.css.map */
