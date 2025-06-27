@@ -325,9 +325,9 @@
               <div class="row py-5 justify-content-center">
                 <div class="col-12 mb-5">
                   <!-- Swiper -->
-                  <div class="swiper mySwiper">
+                  <div class="swiper solutionIetmSwiper">
                     <div class="swiper-wrapper">
-                      <div class="swiper-slide mx-auto p-1 p-sm-0">
+                      <div class="swiper-slide mx-auto">
                         <div class="card h-100 py-5 px-3 border-0">
                           <img src="../../images/gallery/ratio32/ai_real-time_breathing_monitoring_system.webp" class="card-img-top" alt="..." />
                           <div class="card-body">
@@ -343,6 +343,8 @@
                       </div>
                     </div>
                     <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                   </div>
                 </div>
                 <a href="mailto:support@healthmit.services" class="btn btn-primary col-8">Contact Us</a>
@@ -382,12 +384,16 @@
       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
       <!-- Initialize Swiper -->
       <script>
-        var swiper = new Swiper(".mySwiper", {
-          slidesPerView: 2,
-          spaceBetween: 5,
+        var swiper = new Swiper(".solutionIetmSwiper", {
+          slidesPerView: 1,
+          spaceBetween: 10,
           pagination: {
             el: ".swiper-pagination",
             clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
           },
           breakpoints: {
             640: {
@@ -400,7 +406,7 @@
             },
             1024: {
               slidesPerView: 3,
-              spaceBetween: 50,
+              spaceBetween: 40,
             },
           },
         });
@@ -412,6 +418,10 @@
     body {
       height: 100%;
       margin: 0;
+    }
+    .swiper {
+      width: 90%;
+      height: 100%;
     }
   </style>
 </html>
