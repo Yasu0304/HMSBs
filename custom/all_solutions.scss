@@ -191,7 +191,7 @@
 
 // intelligentMonitoringPage
 .dotContainer-intelligentMonitoring_bg {
-  @include bg-setting(center, 162%, 162%);
+  @include bg-setting(center, 360%, 162%);
   background-image: url(../images/solutions/intelligent_monitoring/point.webp);
   padding: 0 0 30% 0;
   @include sm {
@@ -216,7 +216,7 @@
   }
 }
 
-.contacts-smedicalSupplies_bg {
+.contacts-medicalSupplies_bg {
   @include bg-setting(center, center, cover);
   background-image: url(../images/solutions/medical_supplies_and_equipment/contacts.webp);
   margin-bottom: 5rem;

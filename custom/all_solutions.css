@@ -270,7 +270,7 @@
 }
 
 .dotContainer-intelligentMonitoring_bg {
-  background-position: center 162%;
+  background-position: center 360%;
   background-size: 162%;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -313,7 +313,7 @@
   }
 }
 
-.contacts-smedicalSupplies_bg {
+.contacts-medicalSupplies_bg {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
