@@ -160,6 +160,19 @@
   border-radius: 999px;
   overflow: hidden;
 }
+.dot p {
+  font-size: 0.8rem;
+}
+@media (min-width: 390px) {
+  .dot p {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .dot p {
+    font-size: 1.25rem;
+  }
+}
 
 .dotContainer-smartWard_bg {
   background-image: url(../images/solutions/smart_ward_and_mobile_nursing/point.webp);
