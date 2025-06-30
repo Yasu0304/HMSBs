@@ -29,7 +29,7 @@
 }
 
 @mixin xs {
-  @media (min-width: 390px) {
+  @media (min-width: 391px) {
     @content;
   }
 }

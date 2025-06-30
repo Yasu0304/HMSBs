@@ -163,7 +163,7 @@
 .dot p {
   font-size: 0.8rem;
 }
-@media (min-width: 390px) {
+@media (min-width: 391px) {
   .dot p {
     font-size: 1rem;
   }
