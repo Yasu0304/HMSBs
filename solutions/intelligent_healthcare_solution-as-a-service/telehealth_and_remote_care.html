@@ -86,13 +86,13 @@
                   <p class="dropdown-item fw-bold text-primary mb-0">Medical Device Solution-as-a-Service</p>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="../medica_device_solution-as-a-service/smart_diagnostic_and_imaging.html"> <i class="bi bi-arrow-right-short"></i>Smart Diagnostic & Imaging</a>
+                  <a class="dropdown-item" href="../medical_device_solution-as-a-service/smart_diagnostic_and_imaging.html"> <i class="bi bi-arrow-right-short"></i>Smart Diagnostic & Imaging</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="../medica_device_solution-as-a-service/intelligent_monitoring.html"> <i class="bi bi-arrow-right-short"></i>Intelligent Monitoring</a>
+                  <a class="dropdown-item" href="../medical_device_solution-as-a-service/intelligent_monitoring.html"> <i class="bi bi-arrow-right-short"></i>Intelligent Monitoring</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="../medica_device_solution-as-a-service/medical_supplies_and_equipment.html"> <i class="bi bi-arrow-right-short"></i>Medical Supplies & Equipment</a>
+                  <a class="dropdown-item" href="../medical_device_solution-as-a-service/medical_supplies_and_equipment.html"> <i class="bi bi-arrow-right-short"></i>Medical Supplies & Equipment</a>
                 </li>
               </ul>
             </li>
@@ -257,7 +257,7 @@
                     <div class="position-absolute top-50 start-50 translate-middle" style="width: 90%">
                       <div class="d-flex flex-column align-items-center justify-content-center">
                         <i class="bi bi-door-open fs-1 text-white"></i>
-                        <p class="fs-5 text-white text-center">Fewer unnecessary return visits</p>
+                        <p class="text-white text-center">Fewer unnecessary return visits</p>
                       </div>
                     </div>
                   </div>
@@ -267,7 +267,7 @@
                     <div class="position-absolute top-50 start-50 translate-middle" style="width: 90%">
                       <div class="d-flex flex-column align-items-center justify-content-center">
                         <i class="bi bi-card-checklist fs-1 text-white"></i>
-                        <p class="fs-5 text-white text-center">Enhanced chronic disease management</p>
+                        <p class="text-white text-center">Enhanced chronic disease management</p>
                       </div>
                     </div>
                   </div>
@@ -277,7 +277,7 @@
                     <div class="position-absolute top-50 start-50 translate-middle" style="width: 90%">
                       <div class="d-flex flex-column align-items-center justify-content-center">
                         <i class="bi bi-exclamation-octagon fs-1 text-white"></i>
-                        <p class="fs-5 text-white text-center">Earlier detection and response for high-risk patients</p>
+                        <p class="text-white text-center">Earlier detection and response for high-risk patients</p>
                       </div>
                     </div>
                   </div>
@@ -287,7 +287,7 @@
                     <div class="position-absolute top-50 start-50 translate-middle" style="width: 90%">
                       <div class="d-flex flex-column align-items-center justify-content-center">
                         <i class="bi bi-clipboard-plus fs-1 text-white"></i>
-                        <p class="fs-5 text-white text-center">Empowered patients with greater care continuity</p>
+                        <p class="text-white text-center">Empowered patients with greater care continuity</p>
                       </div>
                     </div>
                   </div>
@@ -300,9 +300,9 @@
               <div class="row py-5 justify-content-center">
                 <div class="col-12 mb-5">
                   <!-- Swiper -->
-                  <div class="swiper mySwiper">
+                  <div class="swiper solutionIetmSwiper">
                     <div class="swiper-wrapper">
-                      <div class="swiper-slide mx-auto p-1 p-sm-0">
+                      <div class="swiper-slide mx-auto">
                         <div class="card h-100 py-5 px-3 border-0">
                           <img src="../../images/gallery/ratio32/md116e.webp" class="card-img-top" alt="..." />
                           <div class="card-body">
@@ -318,6 +318,8 @@
                       </div>
                     </div>
                     <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                   </div>
                 </div>
                 <a href="mailto:support@healthmit.services" class="btn btn-primary col-8">Contact Us</a>
@@ -357,12 +359,16 @@
       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
       <!-- Initialize Swiper -->
       <script>
-        var swiper = new Swiper(".mySwiper", {
-          slidesPerView: 2,
-          spaceBetween: 5,
+        var swiper = new Swiper(".solutionIetmSwiper", {
+          slidesPerView: 1,
+          spaceBetween: 10,
           pagination: {
             el: ".swiper-pagination",
             clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
           },
           breakpoints: {
             640: {
@@ -375,7 +381,7 @@
             },
             1024: {
               slidesPerView: 3,
-              spaceBetween: 50,
+              spaceBetween: 40,
             },
           },
         });
@@ -387,6 +393,10 @@
     body {
       height: 100%;
       margin: 0;
+    }
+    .swiper {
+      width: 90%;
+      height: 100%;
     }
   </style>
 </html>
