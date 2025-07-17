@@ -2,159 +2,16 @@
 @import "components";
 @import "media";
 
-.indexBgSm {
-  background-image: url(https://healthmit.services/images/index/bn-sm.webp);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: contain;
-
-  @include sm {
-    background-image: none;
-  }
-}
-
-.positionSm {
-  margin-top: 40%;
-
-  @include sm {
-    margin-top: 0;
-  }
-}
-
-.positionSm_p {
-  color: var(--bs-white);
-  margin-bottom: 0;
-
-  @include sm {
-    color: var(--bs-gray-600);
-    margin-bottom: 2.5rem;
-  }
-}
-
 .h1Title {
   @include pageH1(2.3rem, 700, $hms-bk-00, 1);
 
   @include sm {
-    @include pageH1(4.5rem, 700, $hmsalr, 1.2);
+    @include pageH1(4.5rem, 700, $hms-bk-00, 1.2);
   }
 }
 
-.positionSm_bg {
-  background-color: var(--bs-success);
-
-  @include sm {
-    background-color: var(--bs-white);
-  }
-}
-
-.positionSm_card {
-  border-radius: 24pt;
-  background-color: var(--bs-primary);
-  margin-top: -3rem;
-  padding: 3rem 2rem;
-
-  @include sm {
-    border-radius: 0;
-    margin-top: 0;
-    padding: 0;
-    background-color: var(--bs-success);
-  }
-}
-
-.positionSm_scetion {
-  margin-top: 50rem;
-
-  @include sm {
-    margin-top: 28rem;
-  }
-}
-
-.hmsPoint {
-  img {
-    width: 100px;
-    height: 100px;
-  }
-}
-
-.positionSm_icon {
-  margin-bottom: 5rem;
-
-  img {
-    width: 40pt;
-    height: 40pt;
-  }
-}
-
-.polygonTriangleBefore {
-  @include polygonTriangleBefore(210px, 100%, $hmssec);
-}
-
-.polygonTriangleAfter {
-  @include polygonTriangleAfter(210px, 100%, $hmssec);
-}
-
-.contentSection {
-  flex-direction: column;
-  margin-bottom: 5rem;
-  margin-right: 0%;
-
-  // contentSection底下的第一個人，此為交錯版面的關鍵
-  & > :first-child {
-    margin-right: -10%;
-  }
-
-  &:nth-child(even) {
-    display: flex;
-    flex-direction: column-reverse;
-
-    @include sm {
-      flex-direction: row;
-    }
-  }
-
-  @include sm {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .contentImg {
-    width: 100%;
-    border-radius: 12px 12px 0 0;
-    overflow: hidden;
-    position: relative;
-    z-index: 1;
-    flex-shrink: 0;
-
-    @include sm {
-      width: 80%;
-      border-radius: 24px;
-    }
-  }
-
-  .contentArticle {
-    width: 100%;
-    border-radius: 0 0 12px 12px;
-    background-color: var(--bs-white);
-    padding: 2rem;
-    position: relative;
-    z-index: 2;
-
-    @include sm {
-      border-radius: 24px;
-      width: 30%;
-      flex-shrink: 0;
-    }
-
-    img {
-      width: 15%;
-      height: 15%;
-
-      @include sm {
-        width: 70px;
-        height: 70px;
-        margin-bottom: 12px;
-      }
-    }
-  }
+.choose-card {
+  @include card(80%);
+  background-image: url(../images/index/AdobeStock_652293571.jpeg);
+  @include bg-setting(30%, center, cover);
 }

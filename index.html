@@ -43,17 +43,19 @@
     <link rel="icon" href="https://healthmit.services/hmsLogo.ico" type="image/x-icon" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://healthmit.services/custom/coustom.css" />
     <link rel="stylesheet" href="https://healthmit.services/custom/all.css" />
-    <link rel="stylesheet" href="https://healthmit.services/custom/index.css" />
+    <link rel="stylesheet" href="./custom/index.css" />
   </head>
 
   <body style="display: flex; flex-direction: column">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PL2L4CH6" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <div class="d-flex flex-column flex-grow-1 indexBgSm">
-      <nav id="hmsNav" class="navbar navbar-expand-lg px-3 position-sticky top-0 shadow-sm" style="background-color: #ffffff15; z-index: 3; margin-bottom: 1rem; backdrop-filter: blur(15px)">
+    <div class="d-flex flex-column flex-grow-1">
+      <nav id="hmsNav" class="navbar navbar-expand-lg px-3 position-sticky top-0 shadow-sm" style="background-color: #ffffff15; z-index: 3; backdrop-filter: blur(15px)">
         <a class="navbar-brand" href="https://healthmit.services/index.html"> <img src="https://healthmit.services/images/HMSNav.svg" alt="HMS - Smart Healthcare Solutions Partner" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -180,112 +182,217 @@
           </ul>
         </div>
       </nav>
-      <div class="container-fluid flex-grow-1 p-0 positionSm">
-        <!-- hero↓ -->
-        <div class="py-3">
-          <p class="text-center py-1 my-0 h1Title">Path to Hospital Intelligence</p>
-          <p class="text-center fs-4 positionSm_p">A more intelligent and humane hospital environment.</p>
-        </div>
+      <div class="container-fluid flex-grow-1 p-0">
+        <section style="overflow: hidden">
+          <!-- hero -->
+          <div style="background-image: url(./images/index/index_bg-first.svg); background-repeat: no-repeat; background-position: -20vw 0">
+            <div class="row justify-content-center py-5">
+              <div class="col-sm-10 col-12 mb-3">
+                <p class="py-1 my-0 h1Title">First in Care, Always There</p>
+                <p class="fs-4 text-white">
+                  Delivering AI-powered diagnostics, <br />
+                  real-time monitoring & connected care.
+                </p>
+              </div>
+              <div class="col-sm-10 col-12">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100 pb-3 border-0 shadow-sm">
+                      <img src="./images/index/card_img-intelligent.webp" class="card-img-top" alt="Intelligent Healthcare Solutions" />
+                      <div class="card-body">
+                        <h5 class="card-title text-primary">Intelligent Healthcare Solutions</h5>
+                        <p class="card-text" style="color: var(--bs-gray-600)">Smart OR, mobile nursing, and telehealth platforms designed to optimize care across departments and locations.</p>
+                      </div>
 
-        <div class="container-fluid" style="margin-bottom: 2.5rem">
-          <img src="https://healthmit.services/images/index/bn-xl.webp" class="img-fluid d-none d-sm-block" alt="" />
-        </div>
-        <div class="container-xxl d-none d-sm-flex flex-wrap justify-content-around">
-          <img src="https://healthmit.services/images/index/ISO9001.svg" alt="ISO9001" />
-          <img src="https://healthmit.services/images/index/ISO13485.svg" alt="ISO13485" />
-          <img src="https://healthmit.services/images/index/CUL.svg" alt="CUL" />
-          <img src="https://healthmit.services/images/index/CSA.svg" alt="CSA" />
-          <img src="https://healthmit.services/images/index/GMP.svg" alt="GMP" />
-          <img src="https://healthmit.services/images/index/EN60601-1.svg" alt="EN60601-1" />
-          <img src="https://healthmit.services/images/index/FCC.svg" alt="FCC" />
-          <img src="https://healthmit.services/images/index/FDA.svg" alt="FDA" />
-        </div>
-        <!-- hero↑ -->
-        <section class="positionSm_bg" style="overflow: hidden">
-          <div class="polygonTriangleBefore d-none d-sm-block"></div>
-          <div class="container-fluid z-1 position-absolute p-sm-0 p-3 z-1">
-            <div class="positionSm_card">
-              <p class="text-center text-white py-1 my-0 h1Title">First in Care, Always There</p>
-              <p class="text-center text-white fs-4" style="margin-bottom: 2.5rem">
-                Innovative healthcare, <br />
-                unwavering care.
-              </p>
-              <div class="container-xxl">
-                <div class="d-flex flex-wrap justify-content-center justify-content-sm-between hmsPoint">
-                  <div class="d-flex flex-column align-items-center mb-3 mb-sm-0" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3500">
-                    <img src="https://healthmit.services/images/index/Personal_Protective_Equipment.svg" alt="" />
-                    <p class="text-white text-center fs-4">Personal Protective Equipment</p>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                          <a href="https://healthmit.services/solutions/intelligent_healthcare_solution-as-a-service/smart_ward_and_mobile_nursing.html" class="card-link link-underline link-underline-opacity-0 text-success">Smart Ward & Mobile Nursing<i class="bi bi-arrow-right-short"></i></a>
+                        </li>
+                        <li class="list-group-item">
+                          <a href="https://healthmit.services/solutions/intelligent_healthcare_solution-as-a-service/telehealth_and_remote_care.html" class="card-link link-underline link-underline-opacity-0 text-success">Telehealth & Remote Care<i class="bi bi-arrow-right-short"></i></a>
+                        </li>
+                        <li class="list-group-item">
+                          <a href="ttps://healthmit.services/solutions/intelligent_healthcare_solution-as-a-service/smart_operation_room.html" class="card-link link-underline link-underline-opacity-0 text-success">Smart Operation Room<i class="bi bi-arrow-right-short"></i></a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
-                  <div class="d-flex flex-column align-items-center mb-3 mb-sm-0" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-                    <img src="https://healthmit.services/images/index/Medical_Devices_And_Equipment.svg" alt="" />
-                    <p class="text-white text-center fs-4">Medical Devices And Equipment</p>
+                  <div class="col">
+                    <div class="card h-100 pb-3 border-0 shadow-sm">
+                      <img src="./images/index/card_img-device.webp" class="card-img-top" alt="Medical Device-as-a-Service" />
+                      <div class="card-body">
+                        <h5 class="card-title text-primary">Medical Device-as-a-Service</h5>
+                        <p class="card-text" style="color: var(--bs-gray-600)">Tabletop diagnostics & imaging and AI-enabled monitoring, built for speed, safety, and mobility.</p>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                          <a href="https://healthmit.services/solutions/medical_device_solution-as-a-service/smart_diagnostic_and_imaging.html" class="card-link link-underline link-underline-opacity-0 text-success">Smart Diagnostic & Imaging<i class="bi bi-arrow-right-short"></i></a>
+                        </li>
+                        <li class="list-group-item">
+                          <a href="https://healthmit.services/solutions/medical_device_solution-as-a-service/intelligent_monitoring.html" class="card-link link-underline link-underline-opacity-0 text-success"> Intelligent Monitoring<i class="bi bi-arrow-right-short"></i></a>
+                        </li>
+                        <li class="list-group-item">
+                          <a href="https://healthmit.services/solutions/medical_device_solution-as-a-service/medical_supplies_and_equipment.html" class="card-link link-underline link-underline-opacity-0 text-success">Medical Supplies & Equipment<i class="bi bi-arrow-right-short"></i></a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
-                  <div class="d-flex flex-column align-items-center mb-3 mb-sm-0" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2500">
-                    <img src="https://healthmit.services/images/index/Telemedicine_Solutions.svg" alt="" />
-                    <p class="text-white text-center fs-4">Telemedicine Solutions</p>
+                  <div class="col">
+                    <div class="card h-100 pb-3 border-0 shadow-sm">
+                      <img src="./images/index/card_img-supplies.webp" class="card-img-top" alt="Medical Supplies & Equipment" />
+                      <div class="card-body">
+                        <h5 class="card-title text-primary">Medical Supplies & Equipment</h5>
+                        <p class="card-text" style="color: var(--bs-gray-600)">Certified PPE, mobile carts, and ready-to-deploy kits—supporting hospitals, clinics, and field teams worldwide.</p>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                          <a href="https://healthmit.services/all_products.html" class="card-link link-underline link-underline-opacity-0 text-success">All Products<i class="bi bi-arrow-right-short"></i></a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-
-            <div class="polygonTriangleAfter d-none d-sm-block"></div>
-          </div>
-          <div class="container-xxl positionSm_scetion mx-auto">
-            <div class="contentSection">
-              <div class="contentImg" data-aos="fade-right" data-aos-duration="3000">
-                <img class="img-fluid" src="https://healthmit.services/images/index/AdobeStock_217273829_modify.webp" alt="" />
-              </div>
-              <div class="shadow contentArticle" data-aos="fade-left" data-aos-duration="3000">
-                <img src="https://healthmit.services/images/index/Personal_Protective_Equipment.svg" alt="Personal Protective Equipment" class="mb-3" />
-                <p class="fs-4 text-primary mb-1 plus-jakarta-sans-800 text-uppercase">Personal Protective Equipment</p>
-                <p class="mb-5 fs-5" style="color: var(--bs-gray-600)">HMS provides a comprehensive range of personal protective equipment, safeguarding every healthcare worker.</p>
-                <div class="d-flex">
-                  <a href="https://healthcarearmor.com/?product_cat=medical-supplies" type="button" class="btn btn-primary text-white ms-auto" style="border-radius: 9em" tabindex="-1" role="button" aria-disabled="true">Read more<i class="bi bi-arrow-right mx-2"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="contentSection">
-              <div class="shadow contentArticle" data-aos="fade-right" data-aos-duration="3000">
-                <img src="https://healthmit.services/images/index/Medical_Devices_And_Equipment.svg" alt="Medical Devices And Equipment" />
-                <p class="fs-4 text-primary mb-1 plus-jakarta-sans-800 text-uppercase">Medical Devices And Equipment</p>
-                <p class="mb-5 fs-5" style="color: var(--bs-gray-600)">Top-tier medical equipment and diagnostic tools, providing more precise and rapid medical services.</p>
-                <div class="d-flex">
-                  <a href="https://healthcarearmor.com/?product_cat=medical-devices-and-equipment" type="button" class="btn btn-primary text-white ms-auto" style="border-radius: 9em" tabindex="-1" role="button" aria-disabled="true">Read more<i class="bi bi-arrow-right mx-2"></i></a>
-                </div>
-              </div>
-              <div class="contentImg" data-aos="fade-left" data-aos-duration="3000">
-                <img class="img-fluid" src="https://healthmit.services/images/index//AdobeStock_396955244_modify.webp" alt="" />
-              </div>
-            </div>
-            <div class="contentSection">
-              <div class="contentImg" data-aos="fade-right" data-aos-duration="3000">
-                <img class="img-fluid" src="https://healthmit.services/images/index/AdobeStock_542691981_modify.webp" alt="" />
-              </div>
-              <div class="shadow contentArticle" data-aos="fade-left" data-aos-duration="3000">
-                <img src="https://healthmit.services/images/index/Telemedicine_Solutions.svg" alt="Telemedicine Solutions" />
-                <p class="fs-4 text-primary mb-1 plus-jakarta-sans-800 text-uppercase">Telemedicine Solutions</p>
-                <p class="mb-5 fs-5" style="color: var(--bs-gray-600)">HMS leads the way in healthcare innovation. Our telemedicine solutions, IT solutions, mobile nursing, and patient infotainment tools are revolutionizing patient care.</p>
-                <div class="d-flex flex-column">
-                  <a href="https://healthmit.services/solutions/telemedicine_solutions/mobile_nursing.html" type="button" class="btn btn-primary text-white ms-auto mb-3" style="border-radius: 9em" tabindex="-1" role="button" aria-disabled="true">Mobile Nursing<i class="bi bi-arrow-right mx-2"></i></a>
-                  <a href="https://healthmit.services/solutions/telemedicine_solutions/hospital_at_home.html" type="button" class="btn btn-primary text-white ms-auto" style="border-radius: 9em" tabindex="-1" role="button" aria-disabled="true">Hospital at Home<i class="bi bi-arrow-right mx-2"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="container-xxl d-block d-sm-none positionSm_icon z-1">
-              <div class="d-flex justify-content-around">
-                <img src="https://healthmit.services/images/index/ISO9001-w.svg" alt="ISO9001" />
-                <img src="https://healthmit.services/images/index/ISO13485-w.svg" alt="ISO13485" />
-                <img src="https://healthmit.services/images/index/CUL-w.svg" alt="CUL" />
-                <img src="https://healthmit.services/images/index/CSA-w.svg" alt="CSA" />
-              </div>
-              <div class="d-flex justify-content-around">
-                <img src="https://healthmit.services/images/index/GMP-w.svg" alt="GMP" />
-                <img src="https://healthmit.services/images/index/EN60601-1-w.svg" alt="EN60601" />
-                <img src="https://healthmit.services/images/index/FCC-w.svg" alt="FCC" />
-                <img src="https://healthmit.services/images/index/FDA-w.svg" alt="FDA" />
               </div>
             </div>
           </div>
+          <!-- heroEnd -->
+          <!-- choose -->
+          <div class="row justify-content-center mb-5 align-items-center" style="background-image: url(./images/index/card_img-choose.svg); background-repeat: no-repeat; background-position: 70vw 0; padding-top: 6rem">
+            <div class="col-sm-10 col-12">
+              <div class="row">
+                <div class="col-sm-7 col-12">
+                  <p class="fs-2 text-primary mb-0 plus-jakarta-sans-800">Why Choose HMS</p>
+                  <p class="fs-5" style="color: var(--bs-gray-600)">
+                    Built for trust. Powered by AI. HMS delivers smart, <br />
+                    mobile medical tech that meets real clinical needs — safely and globally.
+                  </p>
+                  <div class="col-sm-12 d-sm-flex flex-wrap justify-content-around mb-3">
+                    <img src="https://healthmit.services/images/index/ISO9001.svg" alt="ISO9001" />
+                    <img src="https://healthmit.services/images/index/ISO13485.svg" alt="ISO13485" />
+                    <img src="https://healthmit.services/images/index/CUL.svg" alt="CUL" />
+                    <img src="https://healthmit.services/images/index/CSA.svg" alt="CSA" />
+                    <img src="https://healthmit.services/images/index/GMP.svg" alt="GMP" />
+                    <img src="https://healthmit.services/images/index/EN60601-1.svg" alt="EN60601-1" />
+                    <img src="https://healthmit.services/images/index/FCC.svg" alt="FCC" />
+                    <img src="https://healthmit.services/images/index/FDA.svg" alt="FDA" />
+                  </div>
+                  <div class="d-flex justify-content-end">
+                    <a href="https://healthmit.services/about/why_choose_hms/AI_telemedicine_solution.html" class="link-underline link-underline-opacity-0 text-success">Your Smart Healthcare Solution Partner<i class="bi bi-arrow-right-short"></i></a>
+                  </div>
+                </div>
+                <div class="col-sm-5 col-12">
+                  <div>
+                    <div class="choose-card"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- chooseEnd -->
+
+          <!-- carousel -->
+          <div class="row justify-content-center mb-5" style="padding: 8rem 0">
+            <div class="col-sm-10 col-12">
+              <div class="row align-items-center">
+                <div class="col-12 col-sm-4">
+                  <p class="fs-2 text-primary mb-3 plus-jakarta-sans-800">Featured Products</p>
+                </div>
+                <div class="col-12 col-sm-8">
+                  <div class="swiper indexSwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="card h-100 border-0">
+                          <img src="https://healthmit.services/images/gallery/ratio32/hand_diagnosis_radiography_imaging_system.webp" class="card-img-top" alt="..." />
+                          <div class="card-body">
+                            <h5 class="card-title text-primary">Tabletop X-Ray System</h5>
+                            <p class="card-text" style="color: var(--bs-gray-600)">80% less radiation, desktop size—no shielded room required</p>
+                          </div>
+                          <a href="https://healthmit.services/products/medical_imaging_equipment/hand_diagnosis_radiography_imaging_system.html" class="btn btn-primary col-9 mx-auto mb-auto">Read more</a>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card h-100 border-0">
+                          <img src="https://healthmit.services/images/gallery/ratio32/ai_real-time_breathing_monitoring_system.webp" class="card-img-top" alt="..." />
+                          <div class="card-body">
+                            <h5 class="card-title text-primary">AI Respiratory Monitoring</h5>
+                            <p class="card-text" style="color: var(--bs-gray-600)">Monitors respiratory sound with noise-filtering AI and alerts</p>
+                          </div>
+                          <a href="https://healthmit.services/products/intelligent_monitoring/ai_real-time_breathing_monitoring_system.html" class="btn btn-primary col-9 mx-auto mb-auto">Read more</a>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card h-100 border-0">
+                          <img src="https://healthmit.services/images/gallery/ratio32/clinical_chemistry_analyzer.webp" class="card-img-top" alt="..." />
+                          <div class="card-body">
+                            <h5 class="card-title text-primary">Clinical Chemistry Analyzer</h5>
+                            <p class="card-text" style="color: var(--bs-gray-600)">16 tests in 5 minutes with ＜90μL blood—ideal for point-of-care and remote use.</p>
+                          </div>
+                          <a href="https://healthmit.services/products/chemistry_analyzer/clinical_chemistry_analyzer.html" class="btn btn-primary col-9 mx-auto mb-auto">Read more</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- carouselEnd -->
+
+          <!-- news -->
+          <div class="row justify-content-center" style="background-image: url(./images/index/index_bg-news.svg); background-repeat: no-repeat; background-position: -3vw 0; padding-top: 15vh; margin-bottom: 5rem">
+            <div class="col-12 col-sm-10">
+              <p class="fs-2 text-primary mb-3 plus-jakarta-sans-800">Latest News & Events</p>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-sm-8">
+                <div data-bs-spy="scroll" data-bs-target="#navbar-all_news" data-bs-smooth-scroll="true" tabindex="0">
+                  <div id="hms_concludes_successful_exhibition_at_himss_2025">
+                    <div class="card mb-3 border-0 shadow-sm" style="overflow: hidden">
+                      <div class="row g-0">
+                        <div class="col-md-4" style="background-image: url(https://healthmit.services/images/news/himssThx_2025.webp); background-position: center center; background-size: cover; background-repeat: no-repeat"></div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title text-primary mb-5">HMS Concludes Successful Exhibition at HIMSS 2025, Showcasing Advanced Medical Solutions</h5>
+                            <a class="btn btn-primary btn-sm" href="https://healthmit.services/about/news/hms_at_himss_2025.html" role="button" style="border-radius: 999px">Read More <i class="bi bi-arrow-right"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="join_hms_at_himss_2025">
+                    <div class="card mb-3 border-0 shadow-sm" style="overflow: hidden">
+                      <div class="row g-0">
+                        <div class="col-md-4" style="background-image: url(https://healthmit.services/images/news/himss_2025.webp); background-position: center center; background-size: cover; background-repeat: no-repeat"></div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title text-primary mb-5">Join HMS at HIMSS 2025 - Experience the Future of Medical AI!</h5>
+                            <a class="btn btn-primary btn-sm mx-2" href="https://healthmit.services/about/news/join_hms_at_himss_2025.html" role="button" style="border-radius: 999px">Read More <i class="bi bi-arrow-right"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="hms_at_rsna_2024">
+                    <div class="card mb-3 border-0 shadow-sm" style="overflow: hidden">
+                      <div class="row g-0">
+                        <div class="col-md-4" style="background-image: url(https://healthmit.services/images/news/rsna_2024.webp); background-position: center center; background-size: cover; background-repeat: no-repeat"></div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title text-primary mb-5">HMS at RSNA 2024: A Celebration of Innovation in Healthcare</h5>
+                            <a class="btn btn-primary btn-sm mx-2" href="https://healthmit.services/about/news/hms_at_rsna_2024.html" role="button" style="border-radius: 999px">Read More <i class="bi bi-arrow-right"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- news -->
         </section>
       </div>
     </div>
@@ -315,12 +422,46 @@
     <script>
       AOS.init();
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".indexSwiper", {
+        slidesPerView: 1,
+        spaceBetween: 12,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 24,
+          },
+        },
+      });
+    </script>
   </body>
   <style>
     html,
     body {
       height: 100%;
       margin: 0;
+    }
+    .swiper {
+      width: 110%;
+      height: 25rem;
     }
   </style>
 </html>

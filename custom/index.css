@@ -1,35 +1,3 @@
-.indexBgSm {
-  background-image: url(https://healthmit.services/images/index/bn-sm.webp);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: contain;
-}
-@media (min-width: 576px) {
-  .indexBgSm {
-    background-image: none;
-  }
-}
-
-.positionSm {
-  margin-top: 40%;
-}
-@media (min-width: 576px) {
-  .positionSm {
-    margin-top: 0;
-  }
-}
-
-.positionSm_p {
-  color: var(--bs-white);
-  margin-bottom: 0;
-}
-@media (min-width: 576px) {
-  .positionSm_p {
-    color: var(--bs-gray-600);
-    margin-bottom: 2.5rem;
-  }
-}
-
 .h1Title {
   font-family: "Bebas Neue", sans-serif;
   font-size: 2.3rem;
@@ -43,139 +11,19 @@
     font-family: "Bebas Neue", sans-serif;
     font-size: 4.5rem;
     font-weight: 700;
-    color: #e56130;
+    color: #fff;
     line-height: 1.2;
     font-style: normal;
   }
 }
 
-.positionSm_bg {
-  background-color: var(--bs-success);
-}
-@media (min-width: 576px) {
-  .positionSm_bg {
-    background-color: var(--bs-white);
-  }
-}
-
-.positionSm_card {
-  border-radius: 24pt;
-  background-color: var(--bs-primary);
-  margin-top: -3rem;
-  padding: 3rem 2rem;
-}
-@media (min-width: 576px) {
-  .positionSm_card {
-    border-radius: 0;
-    margin-top: 0;
-    padding: 0;
-    background-color: var(--bs-success);
-  }
-}
-
-.positionSm_scetion {
-  margin-top: 50rem;
-}
-@media (min-width: 576px) {
-  .positionSm_scetion {
-    margin-top: 28rem;
-  }
-}
-
-.hmsPoint img {
-  width: 100px;
-  height: 100px;
-}
-
-.positionSm_icon {
-  margin-bottom: 5rem;
-}
-.positionSm_icon img {
-  width: 40pt;
-  height: 40pt;
-}
-
-.polygonTriangleBefore::before {
-  content: "";
-  display: block;
-  height: 210px;
-  width: 100%;
-  -webkit-clip-path: polygon(100% 0, 0 100%, 100% 100%);
-          clip-path: polygon(100% 0, 0 100%, 100% 100%);
-  background: #3493c3;
-}
-
-.polygonTriangleAfter::after {
-  content: "";
-  display: block;
-  height: 210px;
-  width: 100%;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 100%);
-  background: #3493c3;
-}
-
-.contentSection {
-  flex-direction: column;
-  margin-bottom: 5rem;
-  margin-right: 0%;
-}
-.contentSection > :first-child {
-  margin-right: -10%;
-}
-.contentSection:nth-child(even) {
-  display: flex;
-  flex-direction: column-reverse;
-}
-@media (min-width: 576px) {
-  .contentSection:nth-child(even) {
-    flex-direction: row;
-  }
-}
-@media (min-width: 576px) {
-  .contentSection {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-}
-.contentSection .contentImg {
-  width: 100%;
-  border-radius: 12px 12px 0 0;
+.choose-card {
+  padding-top: 80%;
   overflow: hidden;
-  position: relative;
-  z-index: 1;
-  flex-shrink: 0;
-}
-@media (min-width: 576px) {
-  .contentSection .contentImg {
-    width: 80%;
-    border-radius: 24px;
-  }
-}
-.contentSection .contentArticle {
   width: 100%;
-  border-radius: 0 0 12px 12px;
-  background-color: var(--bs-white);
-  padding: 2rem;
-  position: relative;
-  z-index: 2;
-}
-@media (min-width: 576px) {
-  .contentSection .contentArticle {
-    border-radius: 24px;
-    width: 30%;
-    flex-shrink: 0;
-  }
-}
-.contentSection .contentArticle img {
-  width: 15%;
-  height: 15%;
-}
-@media (min-width: 576px) {
-  .contentSection .contentArticle img {
-    width: 70px;
-    height: 70px;
-    margin-bottom: 12px;
-  }
+  background-image: url(../images/index/AdobeStock_652293571.jpeg);
+  background-position: 30% center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
 }/*# sourceMappingURL=index.css.map */
