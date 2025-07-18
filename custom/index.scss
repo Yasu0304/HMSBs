@@ -9,7 +9,15 @@
     @include pageH1(4.5rem, 700, $hms-bk-00, 1.2);
   }
 }
-
+.first-bg {
+  background-image: url(../images/index/index_bg-first.svg);
+  background-repeat: no-repeat;
+  background-position: -10rem 0;
+  margin-bottom: 5vh;
+  @include sm {
+    margin-bottom: 10vh;
+  }
+}
 .headerCard {
   position: relative;
   &:hover {
@@ -35,8 +43,36 @@
   }
 }
 
+.choose-bg {
+  background-image: none;
+  margin-bottom: 5vh;
+  @include sm {
+    background-image: url(../images/index/card_img-choose.svg);
+    background-repeat: no-repeat;
+    background-position: 70vw 0;
+    margin-bottom: 20vh;
+  }
+}
 .choose-card {
   @include card(80%);
   background-image: url(../images/index/AdobeStock_652293571.jpeg);
   @include bg-setting(30%, center, cover);
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 5vh;
+  @include sm {
+    margin-bottom: 20vh;
+  }
+}
+
+.news-bg {
+  background-image: none;
+  @include sm {
+    background-image: url(../images/index/index_bg-news.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+  }
 }

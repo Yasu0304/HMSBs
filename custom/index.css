@@ -17,6 +17,18 @@
   }
 }
 
+.first-bg {
+  background-image: url(../images/index/index_bg-first.svg);
+  background-repeat: no-repeat;
+  background-position: -10rem 0;
+  margin-bottom: 5vh;
+}
+@media (min-width: 576px) {
+  .first-bg {
+    margin-bottom: 10vh;
+  }
+}
+
 .headerCard {
   position: relative;
 }
@@ -40,6 +52,19 @@
   margin-bottom: 2rem;
 }
 
+.choose-bg {
+  background-image: none;
+  margin-bottom: 5vh;
+}
+@media (min-width: 576px) {
+  .choose-bg {
+    background-image: url(../images/index/card_img-choose.svg);
+    background-repeat: no-repeat;
+    background-position: 70vw 0;
+    margin-bottom: 20vh;
+  }
+}
+
 .choose-card {
   padding-top: 80%;
   overflow: hidden;
@@ -49,4 +74,26 @@
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 5vh;
+}
+@media (min-width: 576px) {
+  .swiper {
+    margin-bottom: 20vh;
+  }
+}
+
+.news-bg {
+  background-image: none;
+}
+@media (min-width: 576px) {
+  .news-bg {
+    background-image: url(../images/index/index_bg-news.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+  }
 }/*# sourceMappingURL=index.css.map */
