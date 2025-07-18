@@ -22,8 +22,12 @@
   position: relative;
   &:hover {
     .headerCard-hover {
-      background-color: $hmssec;
-      bottom: -60%;
+      backdrop-filter: blur(15px);
+      background-color: #3493c3a0;
+      bottom: -50%;
+      @include sm {
+        bottom: -60%;
+      }
     }
   }
 }
@@ -45,18 +49,36 @@
 
 .choose-bg {
   background-image: none;
+  background-color: $hmssec;
   margin-bottom: 5vh;
   @include sm {
     background-image: url(../images/index/card_img-choose.svg);
+    background-color: #3493c300;
     background-repeat: no-repeat;
     background-position: 70vw 0;
     margin-bottom: 20vh;
   }
+  .fs-2 {
+    color: $hms-bk-00;
+    @include sm {
+      color: $hmspri;
+    }
+  }
+  .fs-5 {
+    color: $hms-bk-00;
+    @include sm {
+      color: $hms-bk-600;
+    }
+  }
 }
 .choose-card {
-  @include card(80%);
-  background-image: url(../images/index/AdobeStock_652293571.jpeg);
-  @include bg-setting(30%, center, cover);
+  background-image: none;
+  @include sm {
+    margin-top: 10vh;
+    @include card(80%);
+    background-image: url(../images/index/AdobeStock_652293571.jpeg);
+    @include bg-setting(30%, center, cover);
+  }
 }
 
 .swiper {
@@ -70,9 +92,11 @@
 
 .news-bg {
   background-image: none;
+  margin-bottom: 5vh;
   @include sm {
     background-image: url(../images/index/index_bg-news.svg);
     background-position: 0 0;
     background-repeat: no-repeat;
+    margin-bottom: 20vh;
   }
 }
