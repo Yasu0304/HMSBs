@@ -10,6 +10,31 @@
   }
 }
 
+.headerCard {
+  position: relative;
+  &:hover {
+    .headerCard-hover {
+      background-color: $hmssec;
+      bottom: -60%;
+    }
+  }
+}
+
+.headerCard-hover {
+  transition: all 1s;
+  background-color: $hmspri;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  bottom: -95%;
+  left: 0;
+  a {
+    text-decoration-line: none;
+    margin-bottom: 2rem;
+  }
+}
+
 .choose-card {
   @include card(80%);
   background-image: url(../images/index/AdobeStock_652293571.jpeg);

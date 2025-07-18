@@ -17,6 +17,29 @@
   }
 }
 
+.headerCard {
+  position: relative;
+}
+.headerCard:hover .headerCard-hover {
+  background-color: #3493c3;
+  bottom: -60%;
+}
+
+.headerCard-hover {
+  transition: all 1s;
+  background-color: #0f5385;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  bottom: -95%;
+  left: 0;
+}
+.headerCard-hover a {
+  text-decoration-line: none;
+  margin-bottom: 2rem;
+}
+
 .choose-card {
   padding-top: 80%;
   overflow: hidden;
