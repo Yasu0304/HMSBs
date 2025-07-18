@@ -76,7 +76,7 @@
   @include sm {
     margin-top: 10vh;
     @include card(80%);
-    background-image: url(../images/index/AdobeStock_652293571.jpeg);
+    background-image: url(../images/index/card_img-choose.webp);
     @include bg-setting(30%, center, cover);
   }
 }
