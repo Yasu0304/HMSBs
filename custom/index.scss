@@ -28,6 +28,9 @@
       @include sm {
         bottom: -60%;
       }
+      @include md {
+        bottom: -20%;
+      }
     }
   }
 }
@@ -42,8 +45,18 @@
   bottom: -95%;
   left: 0;
   a {
+    font-size: 1.25rem;
     text-decoration-line: none;
     margin-bottom: 2rem;
+    @include sm {
+      font-size: 1rem;
+    }
+    @include md {
+      font-size: 1rem;
+    }
+    @include lg {
+      font-size: 1.25rem;
+    }
   }
 }
 

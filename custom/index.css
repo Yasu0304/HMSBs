@@ -43,6 +43,11 @@
     bottom: -60%;
   }
 }
+@media (min-width: 768px) {
+  .headerCard:hover .headerCard-hover {
+    bottom: -20%;
+  }
+}
 
 .headerCard-hover {
   transition: all 1s;
@@ -55,8 +60,24 @@
   left: 0;
 }
 .headerCard-hover a {
+  font-size: 1.25rem;
   text-decoration-line: none;
   margin-bottom: 2rem;
+}
+@media (min-width: 576px) {
+  .headerCard-hover a {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .headerCard-hover a {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .headerCard-hover a {
+    font-size: 1.25rem;
+  }
 }
 
 .choose-bg {
