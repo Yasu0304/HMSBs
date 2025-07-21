@@ -20,12 +20,32 @@
 .first-bg {
   background-image: url(../images/index/index_bg-first.svg);
   background-repeat: no-repeat;
-  background-position: -10rem 0;
+  background-position: 95% 0;
   margin-bottom: 5vh;
 }
 @media (min-width: 576px) {
   .first-bg {
     margin-bottom: 10vh;
+  }
+}
+@media (min-width: 768px) {
+  .first-bg {
+    background-position: 110% 0;
+  }
+}
+@media (min-width: 992px) {
+  .first-bg {
+    background-position: 120% 0;
+  }
+}
+@media (min-width: 1200px) {
+  .first-bg {
+    background-position: 135% 0;
+  }
+}
+@media (min-width: 1400px) {
+  .first-bg {
+    background-position: -47vw 0;
   }
 }
 
@@ -112,7 +132,7 @@
 .choose-bg .fs-2 {
   color: #fff;
 }
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   .choose-bg .fs-2 {
     color: #0f5385;
   }
@@ -120,7 +140,7 @@
 .choose-bg .fs-5 {
   color: #fff;
 }
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   .choose-bg .fs-5 {
     color: #6c757d;
   }
@@ -129,7 +149,7 @@
 .choose-card {
   background-image: none;
 }
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   .choose-card {
     margin-top: 10vh;
     padding-top: 80%;
@@ -148,9 +168,17 @@
   height: 100%;
   margin-bottom: 5vh;
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   .swiper {
     margin-bottom: 20vh;
+  }
+}
+.swiper .swiper-card {
+  min-height: 450px;
+}
+@media (min-width: 1200px) {
+  .swiper .swiper-card {
+    min-height: 450px;
   }
 }
 
@@ -161,8 +189,28 @@
 @media (min-width: 576px) {
   .news-bg {
     background-image: url(../images/index/index_bg-news.svg);
-    background-position: 0 0;
+    background-position: 95% 0;
     background-repeat: no-repeat;
     margin-bottom: 20vh;
+  }
+}
+@media (min-width: 768px) {
+  .news-bg {
+    background-position: 110% 0;
+  }
+}
+@media (min-width: 992px) {
+  .news-bg {
+    background-position: 120% 0;
+  }
+}
+@media (min-width: 1200px) {
+  .news-bg {
+    background-position: 135% 0;
+  }
+}
+@media (min-width: 1400px) {
+  .news-bg {
+    background-position: -47vw 0;
   }
 }/*# sourceMappingURL=index.css.map */
