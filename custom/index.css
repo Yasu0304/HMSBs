@@ -45,7 +45,22 @@
 }
 @media (min-width: 768px) {
   .headerCard:hover .headerCard-hover {
-    bottom: -20%;
+    bottom: -30%;
+  }
+}
+@media (min-width: 992px) {
+  .headerCard:hover .headerCard-hover {
+    bottom: -30%;
+  }
+}
+@media (min-width: 1200px) {
+  .headerCard:hover .headerCard-hover {
+    bottom: -40%;
+  }
+}
+@media (min-width: 1400px) {
+  .headerCard:hover .headerCard-hover {
+    bottom: -35%;
   }
 }
 

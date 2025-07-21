@@ -29,7 +29,16 @@
         bottom: -60%;
       }
       @include md {
-        bottom: -20%;
+        bottom: -30%;
+      }
+      @include lg {
+        bottom: -30%;
+      }
+      @include xl {
+        bottom: -40%;
+      }
+      @include xxl {
+        bottom: -35%;
       }
     }
   }
