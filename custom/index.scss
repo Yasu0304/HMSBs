@@ -38,7 +38,7 @@
         bottom: -40%;
       }
       @include xxl {
-        bottom: -35%;
+        bottom: -50%;
       }
     }
   }
@@ -73,7 +73,7 @@
   background-image: none;
   background-color: $hmssec;
   margin-bottom: 5vh;
-  @include sm {
+  @include lg {
     background-image: url(../images/index/card_img-choose.svg);
     background-color: #3493c300;
     background-repeat: no-repeat;

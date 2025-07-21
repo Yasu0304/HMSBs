@@ -60,7 +60,7 @@
 }
 @media (min-width: 1400px) {
   .headerCard:hover .headerCard-hover {
-    bottom: -35%;
+    bottom: -50%;
   }
 }
 
@@ -100,7 +100,7 @@
   background-color: #3493c3;
   margin-bottom: 5vh;
 }
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   .choose-bg {
     background-image: url(../images/index/card_img-choose.svg);
     background-color: rgba(52, 147, 195, 0);
