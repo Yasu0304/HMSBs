@@ -18,7 +18,7 @@
 }
 
 .first-bg {
-  background-image: url(../images/index/index_bg-first.svg);
+  background-image: url(https://healthmit.services/images/index/index_bg-first.svg);
   background-repeat: no-repeat;
   background-position: 95% 0;
   margin-bottom: 5vh;
@@ -122,7 +122,7 @@
 }
 @media (min-width: 992px) {
   .choose-bg {
-    background-image: url(../images/index/card_img-choose.svg);
+    background-image: url(https://healthmit.services/images/index/card_img-choose.svg);
     background-color: rgba(52, 147, 195, 0);
     background-repeat: no-repeat;
     background-position: 70vw 0;
@@ -155,7 +155,7 @@
     padding-top: 80%;
     overflow: hidden;
     width: 100%;
-    background-image: url(../images/index/card_img-choose.webp);
+    background-image: url(https://healthmit.services/images/index/card_img-choose.webp);
     background-position: 30% center;
     background-size: cover;
     background-repeat: no-repeat;
