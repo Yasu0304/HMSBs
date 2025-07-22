@@ -183,20 +183,14 @@
 }
 
 .news-bg {
-  background-image: none;
+  background-image: url(https://healthmit.services/images/index/index_bg-news.svg);
+  background-repeat: no-repeat;
+  background-position: 95% 0;
   margin-bottom: 5vh;
-}
-@media (min-width: 576px) {
-  .news-bg {
-    background-image: url(../images/index/index_bg-news.svg);
-    background-position: 95% 0;
-    background-repeat: no-repeat;
-    margin-bottom: 20vh;
-  }
 }
 @media (min-width: 768px) {
   .news-bg {
-    background-position: 110% 0;
+    background-position: 120% 0;
   }
 }
 @media (min-width: 992px) {
@@ -211,6 +205,6 @@
 }
 @media (min-width: 1400px) {
   .news-bg {
-    background-position: 0 0;
+    background-position: -47vw 0;
   }
 }/*# sourceMappingURL=index.css.map */
