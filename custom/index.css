@@ -53,8 +53,7 @@
   position: relative;
 }
 .headerCard:hover .headerCard-hover {
-  -webkit-backdrop-filter: blur(15px);
-          backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
   background-color: rgba(52, 147, 195, 0.6274509804);
   bottom: -50%;
 }
