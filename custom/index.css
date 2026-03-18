@@ -173,11 +173,11 @@
   }
 }
 .swiper .swiper-card {
-  min-height: 450px;
+  min-height: 470px;
 }
 @media (min-width: 1200px) {
   .swiper .swiper-card {
-    min-height: 450px;
+    min-height: 470px;
   }
 }
 

@@ -1,6 +1,6 @@
-@import "base";
-@import "components";
-@import "media";
+@use 'base' as *;
+@use 'components' as *;
+@use 'media' as *;
 
 .h1Title {
   @include pageH1(2.3rem, 700, $hms-bk-00, 1);
@@ -124,9 +124,9 @@
     margin-bottom: 20vh;
   }
   .swiper-card {
-    min-height: 450px;
+    min-height: 470px;
     @include xl {
-      min-height: 450px;
+      min-height: 470px;
     }
   }
 }
