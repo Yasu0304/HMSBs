@@ -8,7 +8,7 @@ body .plus-jakarta-sans-800 {
 
 p,
 .card-text,
-li {
+.list-group-item {
   color: #6c757d;
 }
 
