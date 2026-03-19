@@ -1,6 +1,6 @@
-@import "base";
-@import "components";
-@import "media";
+@use 'base' as *;
+@use 'components' as *;
+@use 'media' as *;
 
 html {
   scroll-padding-top: 94px; //header 高度
@@ -10,6 +10,11 @@ body {
   .plus-jakarta-sans-800 {
     font-weight: 800;
   }
+}
+
+p,
+.card-text {
+  color: $hms-bk-600;
 }
 
 .navbar-brand {
@@ -37,6 +42,6 @@ body {
 }
 
 .dropdown-menu .dropdown-item {
-  color: var(--bs-gray-600);
-  background-color: var(--bs-white);
+  color: $hms-bk-600;
+  background-color: $hms-bk-00;
 }

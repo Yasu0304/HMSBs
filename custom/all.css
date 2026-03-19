@@ -6,6 +6,11 @@ body .plus-jakarta-sans-800 {
   font-weight: 800;
 }
 
+p,
+.card-text {
+  color: #6c757d;
+}
+
 .navbar-brand img {
   width: 110px;
   height: auto;
@@ -29,6 +34,6 @@ body .plus-jakarta-sans-800 {
 }
 
 .dropdown-menu .dropdown-item {
-  color: var(--bs-gray-600);
-  background-color: var(--bs-white);
+  color: #6c757d;
+  background-color: #fff;
 }/*# sourceMappingURL=all.css.map */
