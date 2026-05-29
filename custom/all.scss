@@ -20,6 +20,10 @@ h6,
   color: $hms-bk-600;
 }
 
+.fs-2 {
+  color: $hmspri;
+}
+
 .navbar-brand {
   img {
     width: 110px;
@@ -47,4 +51,15 @@ h6,
 .dropdown-menu .dropdown-item {
   color: $hms-bk-600;
   background-color: $hms-bk-00;
+}
+
+.sectionToFooter {
+  margin-bottom: 72px;
+  @include sm {
+    margin-bottom: 128px;
+  }
+}
+
+.sectionPy {
+  padding: 72px 0;
 }

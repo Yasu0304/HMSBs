@@ -334,4 +334,14 @@
   background-image: url(../images/solutions/medical_supplies_and_equipment/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
+}
+
+.clinicalEnvironments_card {
+  padding-top: 100%;
+  overflow: hidden;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
 }/*# sourceMappingURL=all_solutions.css.map */

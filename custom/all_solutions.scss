@@ -1,6 +1,6 @@
-@import "base";
-@import "media";
-@import "components";
+@import 'base';
+@import 'media';
+@import 'components';
 
 .h1Title {
   @include pageH1(2.3rem, 700, $hmsalr, 1);
@@ -230,4 +230,11 @@
   background-image: url(../images/solutions/medical_supplies_and_equipment/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
+}
+
+//maskPage
+
+.clinicalEnvironments_card {
+  @include card(100%);
+  @include bg-setting(center, center, cover);
 }
