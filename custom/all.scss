@@ -62,4 +62,20 @@ h6,
 
 .sectionPy {
   padding: 72px 0;
+  @include sm {
+    padding: 128px 0;
+  }
+}
+
+//各hero
+.heroPicCenter {
+  min-width: 200px;
+  @include bg-setting(center, center, cover);
+  @include sm {
+    min-height: 350px;
+  }
+
+  &.heroMaskSolution {
+    background-image: url('https://medalliance.com.tw/images/solutions/medical_protective_mask_solutions/medical_protective_mask_solutions.webp');
+  }
 }
