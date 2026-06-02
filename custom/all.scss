@@ -67,15 +67,20 @@ h6,
   }
 }
 
-//各hero
-.heroPicCenter {
-  min-width: 200px;
-  @include bg-setting(center, center, cover);
-  @include sm {
-    min-height: 350px;
+//比例卡片
+.card32 {
+  @include card(66.67%);
+  @include bg-setting(center, center, scroll);
+
+  &.builtFor_bg {
+    background-image: url('https://healthmit.services/images/solutions/medical_protective_mask_solutions/built_for_u_s_healthcare_purchasing_needs.webp');
   }
 
-  &.heroMaskSolution {
-    background-image: url('https://medalliance.com.tw/images/solutions/medical_protective_mask_solutions/medical_protective_mask_solutions.webp');
+  &.easierSelection_bg {
+    background-image: url('https://healthmit.services/images/solutions/medical_protective_mask_solutions/easier_selection_by_healthcare_application.webp');
+  }
+
+  &.reliableSupply_bg {
+    background-image: url('https://healthmit.services/images/solutions/medical_protective_mask_solutions/reliable_supply_and_procurement_support.webp');
   }
 }

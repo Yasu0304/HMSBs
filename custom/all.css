@@ -63,18 +63,21 @@ h6,
   }
 }
 
-.heroPicCenter {
-  min-width: 200px;
+.card32 {
+  padding-top: 66.67%;
+  overflow: hidden;
+  width: 100%;
   background-position: center center;
-  background-size: cover;
+  background-size: scroll;
   background-repeat: no-repeat;
   overflow: hidden;
 }
-@media (min-width: 576px) {
-  .heroPicCenter {
-    min-height: 350px;
-  }
+.card32.builtFor_bg {
+  background-image: url("https://healthmit.services/images/solutions/medical_protective_mask_solutions/built_for_u_s_healthcare_purchasing_needs.webp");
 }
-.heroPicCenter.heroMaskSolution {
-  background-image: url("https://medalliance.com.tw/images/solutions/medical_protective_mask_solutions/medical_protective_mask_solutions.webp");
+.card32.easierSelection_bg {
+  background-image: url("https://healthmit.services/images/solutions/medical_protective_mask_solutions/easier_selection_by_healthcare_application.webp");
+}
+.card32.reliableSupply_bg {
+  background-image: url("https://healthmit.services/images/solutions/medical_protective_mask_solutions/reliable_supply_and_procurement_support.webp");
 }/*# sourceMappingURL=all.css.map */
