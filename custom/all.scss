@@ -71,6 +71,10 @@ h6,
 .card32 {
   @include card(66.67%);
   @include bg-setting(center, center, scroll);
+  margin-bottom: 1rem;
+  @include sm {
+    margin-bottom: 0;
+  }
 
   &.builtFor_bg {
     background-image: url('https://healthmit.services/images/solutions/medical_protective_mask_solutions/built_for_u_s_healthcare_purchasing_needs.webp');
