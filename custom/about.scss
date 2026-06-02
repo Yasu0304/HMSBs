@@ -1,5 +1,5 @@
-@import "base";
-@import "media";
+@use 'base' as *;
+@use 'media' as *;
 
 .indexBgSm {
   background-image: url(../images/about/bn-sm.webp);
