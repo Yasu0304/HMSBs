@@ -1,6 +1,6 @@
-@use "base" as *;
-@use "media" as *;
-@use "components" as *;
+@use 'base' as *;
+@use 'media' as *;
+@use 'components' as *;
 
 .productsPt {
   overflow: hidden;
@@ -44,8 +44,8 @@
   }
 }
 
-.callout-priamry {
-  @include callout($hmspri, $hmspri);
+.callout-products {
+  @include callout($hmssec, $hmssec);
 }
 
 .productsCard {

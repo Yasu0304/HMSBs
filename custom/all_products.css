@@ -52,14 +52,14 @@
   }
 }
 
-.callout-priamry {
+.callout-products {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 0.6rem;
   margin-bottom: 0.5rem;
-  color: #0f5385;
+  color: #3493c3;
   background-color: #ffffff;
-  border-left: 0.4rem solid #0f5385;
+  border-left: 0.4rem solid #3493c3;
 }
 
 .productsCard {

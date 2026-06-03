@@ -29,8 +29,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://healthmit.services/custom/coustom.css" />
-    <link rel="stylesheet" href="../custom/all.css" />
-    <link rel="stylesheet" href="../custom/all_products.css" />
+    <link rel="stylesheet" href="../../custom/all.css" />
+    <link rel="stylesheet" href="../../custom/all_products.css" />
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-SGXFNNPHN0"></script>
@@ -62,475 +62,501 @@
     <!-- End Google Tag Manager -->
   </head>
 
-  <body style="display: flex; flex-direction: column">
+  <body class="d-flex flex-column min-vh-100">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PL2L4CH6" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <div class="d-flex flex-column flex-grow-1">
-      <div class="container-fluid flex-grow-1 p-0">
-        <nav id="hmsNav" class="navbar navbar-expand-lg px-3 sticky-top shadow-sm" style="background-color: #ffffff15; z-index: 3; margin-bottom: 1rem; backdrop-filter: blur(15px)">
-          <a class="navbar-brand" href="https://healthmit.services">
-            <img src="https://healthmit.services/images/HMSNav.svg" alt="#" />
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse m-n3" id="navbarSupportedContent">
-            <ul class="navbar-nav nav-underline ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link px-3 fw-bold text-primary" aria-current="page" href="https://healthmit.services">Home</a>
+    <div class="sticky-top">
+      <nav id="hmsNav" class="navbar navbar-expand-lg px-3 shadow-sm" style="background-color: #ffffff15; z-index: 3; margin-bottom: 1rem; backdrop-filter: blur(15px)">
+        <a class="navbar-brand" href="https://healthmit.services">
+          <img src="https://healthmit.services/images/HMSNav.svg" alt="#" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse m-n3" id="navbarSupportedContent">
+          <ul class="navbar-nav nav-underline ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link px-3 fw-bold text-primary" aria-current="page" href="https://healthmit.services">Home</a>
+            </li>
+            <li class="nav-item text-primary dropdown">
+              <a class="nav-link fw-bold text-primary px-3 dropdown-toggle" href="#" id="navbarDropdownSolutions" role="button" data-bs-toggle="dropdown" aria-expanded="false">Solutions</a>
+              <ul class="dropdown-menu dropdown-menu-end p-2" aria-labelledby="navbarDropdownSolutions">
+                <li>
+                  <p class="dropdown-item fw-bold text-primary mb-0">Intelligent Healthcare Solution-as-a-Service</p>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://healthmit.services/solutions/intelligent_healthcare_solution-as-a-service/smart_ward_and_mobile_nursing.html">
+                    <i class="bi bi-arrow-right-short"></i>
+                    Smart Ward & Mobile Nursing
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://healthmit.services/solutions/intelligent_healthcare_solution-as-a-service/telehealth_and_remote_care.html">
+                    <i class="bi bi-arrow-right-short"></i>
+                    Telehealth & Remote Care
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://healthmit.services/solutions/intelligent_healthcare_solution-as-a-service/smart_operation_room.html">
+                    <i class="bi bi-arrow-right-short"></i>
+                    Smart Operation Room
+                  </a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <p class="dropdown-item fw-bold text-primary mb-0">Medical Device Solution-as-a-Service</p>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://healthmit.services/solutions/medical_device_solution-as-a-service/smart_diagnostic_and_imaging.html">
+                    <i class="bi bi-arrow-right-short"></i>
+                    Smart Diagnostic & Imaging
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://healthmit.services/solutions/medical_device_solution-as-a-service/intelligent_monitoring.html">
+                    <i class="bi bi-arrow-right-short"></i>
+                    Intelligent Monitoring
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://healthmit.services/solutions/medical_device_solution-as-a-service/medical_supplies_and_equipment.html">
+                    <i class="bi bi-arrow-right-short"></i>
+                    Medical Supplies & Equipment
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item text-primary dropdown">
+              <a class="nav-link fw-bold text-primary px-3 active" href="#" id="navbarDropdownProducts" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+              <ul class="dropdown-menu dropdown-menu-end p-2" aria-labelledby="navbarDropdownProducts">
+                <li>
+                  <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html">All Products</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html#medical_cart_computer">Medical Cart Computer</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html#medical_tablet">Medical Tablet</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html#medical_ai_pc">Medical AI PC</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html#medical_imaging">Medical Imaging</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html#smart_or_video_integration_suite">Smart OR Video Integration Suite</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html#intelligent_monitoring">Intelligent Monitoring</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html#chemistry_analyzer">Chemistry Analyzer</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item text-primary dropdown">
+              <a class="nav-link fw-bold text-primary px-3 dropdown-toggle" href="#" id="navbarDropdownAbout" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+              <ul class="dropdown-menu dropdown-menu-end p-2" aria-labelledby="navbarDropdownAbout">
+                <li>
+                  <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/about/all_news.html">All News</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <p class="dropdown-item fw-bold text-primary mb-0">Our Story</p>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://healthmit.services/about/our_story.html">
+                    <i class="bi bi-arrow-right-short"></i>
+                    Smart Healthcare Solution Partner
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://healthmit.services/about/our_story.html#history">
+                    <i class="bi bi-arrow-right-short"></i>
+                    History
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://healthmit.services/about/our_story.html#core_competency">
+                    <i class="bi bi-arrow-right-short"></i>
+                    Core Competency
+                  </a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <p class="dropdown-item fw-bold text-primary mb-0">Why Choose HMS</p>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://healthmit.services/about/why_choose_hms/AI_telemedicine_solution.html">
+                    <i class="bi bi-arrow-right-short"></i>
+                    Your Smart Healthcare Solution Partner
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://healthmit.services/about/why_choose_hms/AI_real-time_breathing_monitoring_system.html">
+                    <i class="bi bi-arrow-right-short"></i>
+                    AI Real-Time Breathing Monitoring System
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-primary px-3" href="mailto:support@healthmit.services">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <main class="flex-grow-1 sectionToFooter">
+      <!-- breadcrumb -->
+      <div class="container-xxl">
+        <div class="row mb-4">
+          <div class="col-12 col-sm-10">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="https://healthmit.services">Home</a>
+                </li>
+                <li class="breadcrumb-item">
+                  <a href="https://healthmit.services/all_products.html">All Products</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">Medical Protective Mask Series</li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <section class="container-xxl">
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-4">
+            <div style="max-width: 600px; margin-left: auto">
+              <!-- Swiper -->
+              <div style="--swiper-navigation-color: #294076b5; --swiper-pagination-color: #0f548595" class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="https://medalliance.com.tw/images/product/level_1_medical_masks-01.webp" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="https://medalliance.com.tw/images/product/level_2_medical_masks-02.webp" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="https://medalliance.com.tw/images/product/tie-on_surgical_masks-03.webp" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="https://medalliance.com.tw/images/product/advanced_protection_medical_masks-04.webp" />
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+              <div thumbsSlider="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="https://medalliance.com.tw/images/product/level_1_medical_masks-01_xs.webp" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="https://medalliance.com.tw/images/product/level_2_medical_masks-02_xs.webp" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="https://medalliance.com.tw/images/product/tie-on_surgical_masks-03_xs.webp" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="https://medalliance.com.tw/images/product/advanced_protection_medical_masks-04_xs.webp" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6">
+            <p class="fs-2 text-primary mb-0 plus-jakarta-sans-800">Medical Protective Mask Series</p>
+            <p class="fs-5">Reliable medical mask supply and distribution support for U.S. hospitals, healthcare facilities, procurement teams, and end users.</p>
+            <div class="mb-5">
+              <img src="https://healthmit.services/images/index/FDA_K220271.svg" alt="" />
+            </div>
+            <p class="fs-4 text-primary mb-0 plus-jakarta-sans-800">Feature</p>
+            <ul class="list-group list-group-flush mb-5 fs-5">
+              <li class="list-group-item" style="text-indent: -0.6em" data-aos="fade-up" data-aos-duration="2000">
+                <i class="bi bi-dot"></i>
+                Covers Level 1 Medical Masks, Level 2 Medical Masks, Tie-on Surgical Masks, and Advanced Protection Medical Masks
               </li>
-              <li class="nav-item text-primary dropdown">
-                <a class="nav-link fw-bold text-primary px-3 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Solutions</a>
-                <ul class="dropdown-menu dropdown-menu-end p-2" aria-labelledby="navbarDropdown">
-                  <li>
-                    <p class="dropdown-item fw-bold text-primary mb-0">Intelligent Healthcare Solution-as-a-Service</p>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="https://healthmit.services/solutions/intelligent_healthcare_solution-as-a-service/smart_ward_and_mobile_nursing.html">
-                      <i class="bi bi-arrow-right-short"></i>
-                      Smart Ward & Mobile Nursing
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="https://healthmit.services/solutions/intelligent_healthcare_solution-as-a-service/telehealth_and_remote_care.html">
-                      <i class="bi bi-arrow-right-short"></i>
-                      Telehealth & Remote Care
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="https://healthmit.services/solutions/intelligent_healthcare_solution-as-a-service/smart_operation_room.html">
-                      <i class="bi bi-arrow-right-short"></i>
-                      Smart Operation Room
-                    </a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <p class="dropdown-item fw-bold text-primary mb-0">Medical Device Solution-as-a-Service</p>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="https://healthmit.services/solutions/medical_device_solution-as-a-service/smart_diagnostic_and_imaging.html">
-                      <i class="bi bi-arrow-right-short"></i>
-                      Smart Diagnostic & Imaging
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="https://healthmit.services/solutions/medical_device_solution-as-a-service/intelligent_monitoring.html">
-                      <i class="bi bi-arrow-right-short"></i>
-                      Intelligent Monitoring
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="https://healthmit.services/solutions/medical_device_solution-as-a-service/medical_supplies_and_equipment.html">
-                      <i class="bi bi-arrow-right-short"></i>
-                      Medical Supplies & Equipment
-                    </a>
-                  </li>
-                </ul>
+              <li class="list-group-item" style="text-indent: -0.6em" data-aos="fade-up" data-aos-duration="2000">
+                <i class="bi bi-dot"></i>
+                Supports product selection for routine clinical care, ward care, surgical use, and high-protection healthcare settings
               </li>
-              <li class="nav-item text-primary dropdown">
-                <a class="nav-link fw-bold text-primary px-3 dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
-                <ul class="dropdown-menu dropdown-menu-end p-2" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html">All Products</a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html#medical_cart_computer">Medical Cart Computer</a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html#medical_tablet">Medical Tablet</a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html#medical_ai_pc">Medical AI PC</a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html#medical_imaging">Medical Imaging</a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html#smart_or_video_integration_suite">Smart OR Video Integration Suite</a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html#intelligent_monitoring">Intelligent Monitoring</a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html#chemistry_analyzer">Chemistry Analyzer</a>
-                  </li>
-                </ul>
+              <li class="list-group-item" style="text-indent: -0.6em" data-aos="fade-up" data-aos-duration="2000">
+                <i class="bi bi-dot"></i>
+                Balances protective performance, fit stability, and long-wear comfort
               </li>
-              <li class="nav-item text-primary dropdown">
-                <a class="nav-link fw-bold text-primary px-3 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
-                <ul class="dropdown-menu dropdown-menu-end p-2" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/about/all_news.html">All News</a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <p class="dropdown-item fw-bold text-primary mb-0">Our Story</p>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="https://healthmit.services/about/our_story.html">
-                      <i class="bi bi-arrow-right-short"></i>
-                      Smart Healthcare Solution Partner
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="https://healthmit.services/about/our_story.html#history">
-                      <i class="bi bi-arrow-right-short"></i>
-                      History
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="https://healthmit.services/about/our_story.html#core_competency">
-                      <i class="bi bi-arrow-right-short"></i>
-                      Core Competency
-                    </a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <p class="dropdown-item fw-bold text-primary mb-0">Why Choose HMS</p>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="https://healthmit.services/about/why_choose_hms/AI_telemedicine_solution.html">
-                      <i class="bi bi-arrow-right-short"></i>
-                      Your Smart Healthcare Solution Partner
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="https://healthmit.services/about/why_choose_hms/AI_real-time_breathing_monitoring_system.html">
-                      <i class="bi bi-arrow-right-short"></i>
-                      AI Real-Time Breathing Monitoring System
-                    </a>
-                  </li>
-                </ul>
+              <li class="list-group-item" style="text-indent: -0.6em" data-aos="fade-up" data-aos-duration="2000">
+                <i class="bi bi-dot"></i>
+                Suitable for hospitals, clinics, surgery centers, long-term care facilities, and high-risk healthcare environments
               </li>
-              <li class="nav-item">
-                <a class="nav-link fw-bold text-primary px-3" href="mailto:support@healthmit.services">Contact Us</a>
+              <li class="list-group-item" style="text-indent: -0.6em" data-aos="fade-up" data-aos-duration="2000">
+                <i class="bi bi-dot"></i>
+                Helps healthcare buyers compare mask options by protection level, comfort, wearing style, and application need
+              </li>
+              <li class="list-group-item" style="text-indent: -0.6em" data-aos="fade-up" data-aos-duration="2000">
+                <i class="bi bi-dot"></i>
+                Supports medical mask sourcing, supply, and distribution for U.S. healthcare facilities and end users
               </li>
             </ul>
-          </div>
-        </nav>
-        <section>
-          <div class="container-xxl">
-            <div class="row">
-              <div class="col-12 col-sm-10">
-                <nav aria-label="breadcrumb">
-                  <ol class="breadcrumb">
-                    <li class="breadcrumb-item">
-                      <a href="https://healthmit.services">Home</a>
-                    </li>
-                    <li class="breadcrumb-item">
-                      <a href="https://healthmit.services/all_products.html">All Products</a>
-                    </li>
-
-                    <li class="breadcrumb-item active" aria-current="page">Medical Protective Mask Series</li>
-                  </ol>
-                </nav>
-              </div>
-            </div>
-            <div class="row mb-5">
-              <div class="col-12 col-sm-6">
-                <div style="max-width: 600px; margin-left: auto">
-                  <!-- Swiper -->
-                  <div style="--swiper-navigation-color: #0f548595; --swiper-pagination-color: #0f548595" class="swiper mySwiper2">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide">
-                        <img src="#" alt="#" />
-                      </div>
-                    </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                  </div>
-                  <div thumbsSlider="" class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide">
-                        <img src="#" alt="#" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-sm-6">
-                <p class="fs-2 text-primary mb-0 plus-jakarta-sans-800">Medical Protective Mask Series</p>
-                <p class="fs-5">Reliable medical mask supply and distribution support for U.S. hospitals, healthcare facilities, procurement teams, and end users.</p>
-                <div class="mb-5">
-                  <img src="https://healthmit.services/images/index/FDA_K220271.svg" alt="" />
-                </div>
-                <p class="fs-4 text-primary mb-0 plus-jakarta-sans-800">Feature</p>
-                <ul class="list-group list-group-flush mb-5 fs-5 col-12 col-sm-10">
-                  <li class="list-group-item" style="text-indent: -0.6em" data-aos="fade-up" data-aos-duration="2000">
-                    <i class="bi bi-dot"></i>
-                    Covers Level 1 Medical Masks, Level 2 Medical Masks, Tie-on Surgical Masks, and Advanced Protection Medical Masks
-                  </li>
-                  <li class="list-group-item" style="text-indent: -0.6em" data-aos="fade-up" data-aos-duration="2000">
-                    <i class="bi bi-dot"></i>
-                    Supports product selection for routine clinical care, ward care, surgical use, and high-protection healthcare settings
-                  </li>
-                  <li class="list-group-item" style="text-indent: -0.6em" data-aos="fade-up" data-aos-duration="2000">
-                    <i class="bi bi-dot"></i>
-                    Balances protective performance, fit stability, and long-wear comfort
-                  </li>
-                  <li class="list-group-item" style="text-indent: -0.6em" data-aos="fade-up" data-aos-duration="2000">
-                    <i class="bi bi-dot"></i>
-                    Suitable for hospitals, clinics, surgery centers, long-term care facilities, and high-risk healthcare environments
-                  </li>
-                  <li class="list-group-item" style="text-indent: -0.6em" data-aos="fade-up" data-aos-duration="2000">
-                    <i class="bi bi-dot"></i>
-                    Helps healthcare buyers compare mask options by protection level, comfort, wearing style, and application need
-                  </li>
-                  <li class="list-group-item" style="text-indent: -0.6em" data-aos="fade-up" data-aos-duration="2000">
-                    <i class="bi bi-dot"></i>
-                    Supports medical mask sourcing, supply, and distribution for U.S. healthcare facilities and end users
-                  </li>
-                </ul>
-                <!-- <a class="btn btn-primary fw-bold col-12 col-sm-5 me-1 mb-3 mb-sm-0" href="https://healthmit.services/download/HMS-Opportunistic_Screening_for_Low_Bone_Mineral_Density.pdf" download="HMS-Opportunistic_Screening_for_Low_Bone_Mineral_Density.pdf">Download</a>
+            <!-- <a class="btn btn-primary fw-bold col-12 col-sm-5 me-1 mb-3 mb-sm-0" href="https://healthmit.services/download/HMS-Opportunistic_Screening_for_Low_Bone_Mineral_Density.pdf" download="HMS-Opportunistic_Screening_for_Low_Bone_Mineral_Density.pdf">Download</a>
                 <a class="btn btn-primary fw-bold col-12 col-sm-5" href="mailto:support@healthmit.services" role="button">Contact Us</a> -->
-              </div>
-            </div>
           </div>
-        </section>
-        <ul class="nav nav-underline mb-3 bg-success justify-content-center align-items-end productsTab" id="pills-tab" role="tablist">
-          <li class="nav-item" role="presentation">
-            <button class="nav-link active text-white px-2" id="pills-description-tab" data-bs-toggle="pill" data-bs-target="#pills-description" type="button" role="tab" aria-controls="pills-description" aria-selected="true">Description</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link text-white px-2" id="pills-application-tab" data-bs-toggle="pill" data-bs-target="#pills-application" type="button" role="tab" aria-controls="pills-application" aria-selected="false">Application</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link text-white px-2" id="pills-specification-tab" data-bs-toggle="pill" data-bs-target="#pills-specification" type="button" role="tab" aria-controls="pills-specification" aria-selected="false">Specification</button>
-          </li>
-        </ul>
-        <div class="tab-content mb-5" id="pills-tabContent">
-          <div class="tab-pane fade show active" id="pills-description" role="tabpanel" aria-labelledby="pills-description-tab" tabindex="0">
-            <div class="container-xxl">
-              <div class="row justify-content-center">
-                <div class="col-12 col-sm-10 mb-sm-5 mb-3">
-                  <p class="fs-5">HMS offers a structured portfolio of medical protective masks designed to support U.S. hospitals, clinics, surgery centers, long-term care facilities, healthcare procurement teams, and end users. The portfolio includes Level 1 Medical Masks, Level 2 Medical Masks, Tie-on Surgical Masks, and Advanced Protection Medical Masks, helping customers identify suitable options for routine clinical use, patient care, surgical environments, and high-protection applications. By organizing mask options according to protection level and healthcare use case, HMS helps simplify product evaluation, sourcing, and purchasing decisions for essential medical PPE.</p>
-                </div>
-                <div class="col-12 col-sm-10">
-                  <div class="row row-cols-1 row-cols-sm-2 g-0">
-                    <div class="col">
-                      <div class="card h-100 border-0">
-                        <img src="https://healthmit.services/images/solutions/medical_protective_mask_solutions/level_1_medical_masks.webp" class="card-img-top" alt="Level 1 Medical Masks" />
-                        <div class="card-body">
-                          <p class="fs-5 fw-bold text-success text-center">Level 1 Medical Masks</p>
-                          <p class="fs-5 text-center lh-lg">Designed for general healthcare environments and basic protection needs, Level 1 Medical Masks emphasize lightweight breathability and long-wear comfort. They are suitable for outpatient clinics, routine consultations, general patient-facing workflows, and healthcare support areas.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100 border-0">
-                        <img src="https://healthmit.services/images/solutions/medical_protective_mask_solutions/level_2_medical_masks.webp" class="card-img-top" alt="Level 2 Medical Masks" />
-                        <div class="card-body">
-                          <p class="fs-5 fw-bold text-success text-center">Level 2 Medical Masks</p>
-                          <p class="fs-5 text-center lh-lg">Designed for healthcare settings with higher droplet exposure risk and frequent patient care needs, Level 2 Medical Masks offer a balanced combination of protective performance and comfort. They are suitable for hospital wards, nursing stations, examination rooms, and daily clinical workflows.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100 border-0">
-                        <img src="https://healthmit.services/images/solutions/medical_protective_mask_solutions/tie-on_surgical_masks.webp" class="card-img-top" alt="Tie-on Surgical Masks" />
-                        <div class="card-body">
-                          <p class="fs-5 fw-bold text-success text-center">Tie-on Surgical Masks</p>
-                          <p class="fs-5 text-center lh-lg">Featuring a secure fastening design, Tie-on Surgical Masks are suitable for medical environments that require stable wear and reliable positioning during extended use. They are ideal for operating rooms, surgery centers, treatment rooms, and professional procedural settings.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100 border-0">
-                        <img src="https://healthmit.services/images/solutions/medical_protective_mask_solutions/advanced_protection_medical_masks.webp" class="card-img-top" alt="Advanced Protection Medical Masks" />
-                        <div class="card-body">
-                          <p class="fs-5 fw-bold text-success text-center">Advanced Protection Medical Masks</p>
-                          <p class="fs-5 text-center lh-lg">Advanced Protection Medical Masks are designed for healthcare environments with elevated exposure risk or higher respiratory protection needs. With a focus on fit, filtration performance, and practical long-wear comfort, they support high-protection applications in demanding medical settings.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <hr />
-                <div class="col-12 col-sm-10">
-                  <p class="fs-4 text-success fw-bold text-center lh-lg">
-                    For product availability,
-                    <br />
-                    sourcing support, or purchasing inquiries, please contact HMS.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane fade" id="pills-application" role="tabpanel" aria-labelledby="pills-application-tab" tabindex="0">
-            <div class="container-xxl">
-              <div class="row">
-                <div class="col-12 col-sm-10 mx-auto">
-                  <ul class="list-group list-group-flush mb-5">
-                    <li class="list-group-item fs-5" style="text-indent: -0.6em">
-                      <i class="bi bi-dot"></i>
-                      General Outpatient Care
-                    </li>
-                    <li class="list-group-item fs-5" style="text-indent: -0.6em">
-                      <i class="bi bi-dot"></i>
-                      Ward Care
-                    </li>
-                    <li class="list-group-item fs-5" style="text-indent: -0.6em">
-                      <i class="bi bi-dot"></i>
-                      Nursing Station Operations
-                    </li>
-                    <li class="list-group-item fs-5" style="text-indent: -0.6em">
-                      <i class="bi bi-dot"></i>
-                      Examination and Treatment Areas
-                    </li>
-                    <li class="list-group-item fs-5" style="text-indent: -0.6em">
-                      <i class="bi bi-dot"></i>
-                      Operating Rooms and Surgery Centers
-                    </li>
-                    <li class="list-group-item fs-5" style="text-indent: -0.6em">
-                      <i class="bi bi-dot"></i>
-                      Long-Term Care Facilities
-                    </li>
-                    <li class="list-group-item fs-5" style="text-indent: -0.6em">
-                      <i class="bi bi-dot"></i>
-                      High-Risk Healthcare Areas
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane fade" id="pills-specification" role="tabpanel" aria-labelledby="pills-specification-tab" tabindex="0">
-            <div class="container-xxl">
-              <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4">
-                <div class="col">
-                  <div class="card text-center h-100 border-0">
-                    <img src="https://healthmit.services/images/solutions/medical_protective_mask_solutions/level_1_medical_masks.webp" class="card-img-top" alt="Level 1 Medical Masks" />
-                    <div class="card-body">
-                      <small style="color: var(--bs-gray-600)">General Outpatient Care</small>
+        </div>
+      </section>
 
-                      <p class="fs-5 fw-bold text-success mb-5">Level 1 Medical Masks</p>
-                    </div>
-                    <div class="card-footer bg-white border-0">
-                      <p class="fs-5 mb-0">Protection Level</p>
-                      <div class="mb-3">
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star fs-2" style="color: #f2df0f"></i>
+      <section class="container-fluid">
+        <div class="row">
+          <ul class="nav nav-underline mb-4 bg-success justify-content-center align-items-end productsTab" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active text-white px-2" id="pills-description-tab" data-bs-toggle="pill" data-bs-target="#pills-description" type="button" role="tab" aria-controls="pills-description" aria-selected="true">Description</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link text-white px-2" id="pills-application-tab" data-bs-toggle="pill" data-bs-target="#pills-application" type="button" role="tab" aria-controls="pills-application" aria-selected="false">Application</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link text-white px-2" id="pills-specification-tab" data-bs-toggle="pill" data-bs-target="#pills-specification" type="button" role="tab" aria-controls="pills-specification" aria-selected="false">Specification</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-description" role="tabpanel" aria-labelledby="pills-description-tab" tabindex="0">
+              <div class="container-xxl">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-sm-10 mb-sm-5 mb-3">
+                    <p class="fs-5">HMS offers a structured portfolio of medical protective masks designed to support U.S. hospitals, clinics, surgery centers, long-term care facilities, healthcare procurement teams, and end users. The portfolio includes Level 1 Medical Masks, Level 2 Medical Masks, Tie-on Surgical Masks, and Advanced Protection Medical Masks, helping customers identify suitable options for routine clinical use, patient care, surgical environments, and high-protection applications. By organizing mask options according to protection level and healthcare use case, HMS helps simplify product evaluation, sourcing, and purchasing decisions for essential medical PPE.</p>
+                  </div>
+                  <div class="col-12 col-sm-10">
+                    <div class="row row-cols-1 row-cols-sm-2 g-0">
+                      <div class="col">
+                        <div class="card h-100 border-0">
+                          <img src="https://healthmit.services/images/solutions/medical_protective_mask_solutions/level_1_medical_masks.webp" class="card-img-top" alt="Level 1 Medical Masks" />
+                          <div class="card-body">
+                            <p class="fs-5 fw-bold text-success text-center">Level 1 Medical Masks</p>
+                            <p class="fs-5 text-center lh-lg">Designed for general healthcare environments and basic protection needs, Level 1 Medical Masks emphasize lightweight breathability and long-wear comfort. They are suitable for outpatient clinics, routine consultations, general patient-facing workflows, and healthcare support areas.</p>
+                          </div>
+                        </div>
                       </div>
-                      <p class="fs-5 mb-0">Comfort</p>
-                      <div class="mb-5">
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                      <div class="col">
+                        <div class="card h-100 border-0">
+                          <img src="https://healthmit.services/images/solutions/medical_protective_mask_solutions/level_2_medical_masks.webp" class="card-img-top" alt="Level 2 Medical Masks" />
+                          <div class="card-body">
+                            <p class="fs-5 fw-bold text-success text-center">Level 2 Medical Masks</p>
+                            <p class="fs-5 text-center lh-lg">Designed for healthcare settings with higher droplet exposure risk and frequent patient care needs, Level 2 Medical Masks offer a balanced combination of protective performance and comfort. They are suitable for hospital wards, nursing stations, examination rooms, and daily clinical workflows.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card h-100 border-0">
+                          <img src="https://healthmit.services/images/solutions/medical_protective_mask_solutions/tie-on_surgical_masks.webp" class="card-img-top" alt="Tie-on Surgical Masks" />
+                          <div class="card-body">
+                            <p class="fs-5 fw-bold text-success text-center">Tie-on Surgical Masks</p>
+                            <p class="fs-5 text-center lh-lg">Featuring a secure fastening design, Tie-on Surgical Masks are suitable for medical environments that require stable wear and reliable positioning during extended use. They are ideal for operating rooms, surgery centers, treatment rooms, and professional procedural settings.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card h-100 border-0">
+                          <img src="https://healthmit.services/images/solutions/medical_protective_mask_solutions/advanced_protection_medical_masks.webp" class="card-img-top" alt="Advanced Protection Medical Masks" />
+                          <div class="card-body">
+                            <p class="fs-5 fw-bold text-success text-center">Advanced Protection Medical Masks</p>
+                            <p class="fs-5 text-center lh-lg">Advanced Protection Medical Masks are designed for healthcare environments with elevated exposure risk or higher respiratory protection needs. With a focus on fit, filtration performance, and practical long-wear comfort, they support high-protection applications in demanding medical settings.</p>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
+                  <hr />
+                  <div class="col-12 col-sm-10">
+                    <p class="fs-4 text-success fw-bold text-center lh-lg">
+                      For product availability,
+                      <br />
+                      sourcing support, or purchasing inquiries, please contact HMS.
+                    </p>
+                  </div>
                 </div>
-                <div class="col">
-                  <div class="card h-100 text-center border-0">
-                    <img src="https://healthmit.services/images/solutions/medical_protective_mask_solutions/level_2_medical_masks.webp" class="card-img-top" alt="Level 2 Medical Masks" />
-                    <div class="card-body">
-                      <small style="color: var(--bs-gray-600)">Ward Care</small>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-application" role="tabpanel" aria-labelledby="pills-application-tab" tabindex="0">
+              <div class="container-xxl">
+                <div class="row">
+                  <div class="col-12 col-sm-10 mx-auto">
+                    <ul class="list-group list-group-flush mb-5">
+                      <li class="list-group-item fs-5" style="text-indent: -0.6em">
+                        <i class="bi bi-dot"></i>
+                        General Outpatient Care
+                      </li>
+                      <li class="list-group-item fs-5" style="text-indent: -0.6em">
+                        <i class="bi bi-dot"></i>
+                        Ward Care
+                      </li>
+                      <li class="list-group-item fs-5" style="text-indent: -0.6em">
+                        <i class="bi bi-dot"></i>
+                        Nursing Station Operations
+                      </li>
+                      <li class="list-group-item fs-5" style="text-indent: -0.6em">
+                        <i class="bi bi-dot"></i>
+                        Examination and Treatment Areas
+                      </li>
+                      <li class="list-group-item fs-5" style="text-indent: -0.6em">
+                        <i class="bi bi-dot"></i>
+                        Operating Rooms and Surgery Centers
+                      </li>
+                      <li class="list-group-item fs-5" style="text-indent: -0.6em">
+                        <i class="bi bi-dot"></i>
+                        Long-Term Care Facilities
+                      </li>
+                      <li class="list-group-item fs-5" style="text-indent: -0.6em">
+                        <i class="bi bi-dot"></i>
+                        High-Risk Healthcare Areas
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-specification" role="tabpanel" aria-labelledby="pills-specification-tab" tabindex="0">
+              <div class="container-xxl">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4">
+                  <div class="col">
+                    <div class="card text-center h-100 border-0">
+                      <img src="https://healthmit.services/images/solutions/medical_protective_mask_solutions/level_1_medical_masks.webp" class="card-img-top" alt="Level 1 Medical Masks" />
+                      <div class="card-body">
+                        <small style="color: var(--bs-gray-600)">General Outpatient Care</small>
 
-                      <p class="fs-5 fw-bold text-success mb-5">Level 2 Medical Masks</p>
-                    </div>
-                    <div class="card-footer bg-white border-0">
-                      <p class="fs-5 mb-0">Protection Level</p>
-                      <div class="mb-3">
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star fs-2" style="color: #f2df0f"></i>
+                        <p class="fs-5 fw-bold text-success mb-5">Level 1 Medical Masks</p>
                       </div>
-                      <p class="fs-5 mb-0">Comfort</p>
-                      <div class="mb-5">
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star fs-2" style="color: #f2df0f"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card text-center h-100 border-0">
-                    <img src="https://healthmit.services/images/solutions/medical_protective_mask_solutions/tie-on_surgical_masks.webp" class="card-img-top" alt="Tie-on Surgical Masks" />
-                    <div class="card-body">
-                      <small style="color: var(--bs-gray-600)">Operating Room</small>
-                      <p class="fs-5 fw-bold text-success mb-3">Tie-on Surgical Masks</p>
-                    </div>
-                    <div class="card-footer bg-white border-0">
-                      <p class="fs-5 mb-0">Protection Level</p>
-                      <div class="mb-3">
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star fs-2" style="color: #f2df0f"></i>
-                      </div>
-                      <p class="fs-5 mb-0">Comfort</p>
-                      <div class="mb-5">
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star fs-2" style="color: #f2df0f"></i>
+                      <div class="card-footer bg-white border-0">
+                        <p class="fs-5 mb-0">Protection Level</p>
+                        <div class="mb-3">
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star fs-2" style="color: #f2df0f"></i>
+                        </div>
+                        <p class="fs-5 mb-0">Comfort</p>
+                        <div class="mb-5">
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="col">
-                  <div class="card text-center h-100 border-0">
-                    <img src="https://healthmit.services/images/solutions/medical_protective_mask_solutions/advanced_protection_medical_masks.webp" class="card-img-top" alt="Advanced Protection Medical Masks" />
-                    <div class="card-body">
-                      <small style="color: var(--bs-gray-600)">High-Risk Areas</small>
-                      <p class="fs-5 fw-bold text-success mb-3">Advanced Protection Medical Masks</p>
-                    </div>
-                    <div class="card-footer bg-white border-0">
-                      <p class="fs-5 mb-0">Protection Level</p>
-                      <div class="mb-3">
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                  <div class="col">
+                    <div class="card h-100 text-center border-0">
+                      <img src="https://healthmit.services/images/solutions/medical_protective_mask_solutions/level_2_medical_masks.webp" class="card-img-top" alt="Level 2 Medical Masks" />
+                      <div class="card-body">
+                        <small style="color: var(--bs-gray-600)">Ward Care</small>
+
+                        <p class="fs-5 fw-bold text-success mb-5">Level 2 Medical Masks</p>
                       </div>
-                      <p class="fs-5 mb-0">Comfort</p>
-                      <div class="mb-5">
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star fs-2" style="color: #f2df0f"></i>
-                        <i class="bi bi-star fs-2" style="color: #f2df0f"></i>
+                      <div class="card-footer bg-white border-0">
+                        <p class="fs-5 mb-0">Protection Level</p>
+                        <div class="mb-3">
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star fs-2" style="color: #f2df0f"></i>
+                        </div>
+                        <p class="fs-5 mb-0">Comfort</p>
+                        <div class="mb-5">
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star fs-2" style="color: #f2df0f"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card text-center h-100 border-0">
+                      <img src="https://healthmit.services/images/solutions/medical_protective_mask_solutions/tie-on_surgical_masks.webp" class="card-img-top" alt="Tie-on Surgical Masks" />
+                      <div class="card-body">
+                        <small style="color: var(--bs-gray-600)">Operating Room</small>
+                        <p class="fs-5 fw-bold text-success mb-3">Tie-on Surgical Masks</p>
+                      </div>
+                      <div class="card-footer bg-white border-0">
+                        <p class="fs-5 mb-0">Protection Level</p>
+                        <div class="mb-3">
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star fs-2" style="color: #f2df0f"></i>
+                        </div>
+                        <p class="fs-5 mb-0">Comfort</p>
+                        <div class="mb-5">
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star fs-2" style="color: #f2df0f"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card text-center h-100 border-0">
+                      <img src="https://healthmit.services/images/solutions/medical_protective_mask_solutions/advanced_protection_medical_masks.webp" class="card-img-top" alt="Advanced Protection Medical Masks" />
+                      <div class="card-body">
+                        <small style="color: var(--bs-gray-600)">High-Risk Areas</small>
+                        <p class="fs-5 fw-bold text-success mb-3">Advanced Protection Medical Masks</p>
+                      </div>
+                      <div class="card-footer bg-white border-0">
+                        <p class="fs-5 mb-0">Protection Level</p>
+                        <div class="mb-3">
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                        </div>
+                        <p class="fs-5 mb-0">Comfort</p>
+                        <div class="mb-5">
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star-fill fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star fs-2" style="color: #f2df0f"></i>
+                          <i class="bi bi-star fs-2" style="color: #f2df0f"></i>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -539,9 +565,10 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <footer class="container-fluid p-0" style="background-color: var(--bs-gray-100)">
+      </section>
+    </main>
+
+    <footer class="container-fluid g-0 bg-gray100">
       <div class="container-xxl py-4 px-4 px-sm-0">
         <div class="row justify-content-center mx-0">
           <div class="col-12 col-sm-5 col-md-4 d-sm-flex flex-sm-column justify-content-sm-end px-1 mt-sm-auto">
@@ -582,7 +609,10 @@
           </div>
         </div>
       </div>
-      <p class="text-center text-white py-3 m-0 bg-primary">Copyright © 2010-2025 HMS All rights reserved.</p>
+
+      <div class="bg-primary">
+        <p class="text-center text-white py-3 m-0">Copyright © 2010-2025 HMS All rights reserved.</p>
+      </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -615,16 +645,6 @@
     </script>
   </body>
   <style>
-    html,
-    body {
-      height: 100%;
-      margin: 0;
-    }
-    .swiper {
-      width: 100%;
-      height: 100%;
-    }
-
     .swiper-slide {
       text-align: center;
       font-size: 18px;
