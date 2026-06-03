@@ -67,4 +67,7 @@
 }
 .productsCard:hover {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+.productsCard .card-title {
+  color: #6c757d;
 }/*# sourceMappingURL=all_products.css.map */
