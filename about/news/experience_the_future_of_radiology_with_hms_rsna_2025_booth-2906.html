@@ -62,26 +62,27 @@
     <!-- End Google Tag Manager -->
   </head>
 
-  <body style="display: flex; flex-direction: column">
+  <body class="d-flex flex-column min-vh-100">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PL2L4CH6" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <div class="d-flex flex-column flex-grow-1 indexBgSm">
-      <nav id="hmsNav" class="navbar navbar-expand-lg px-3 position-sticky top-0 shadow-sm" style="background-color: #ffffff15; z-index: 3; margin-bottom: 1rem; backdrop-filter: blur(15px)">
+
+    <header class="sticky-top">
+      <nav id="hmsNav" class="navbar navbar-expand-lg px-3 shadow-sm" style="background-color: #ffffff15; z-index: 3; backdrop-filter: blur(15px)">
         <a class="navbar-brand" href="https://healthmit.services">
-          <img src="https://healthmit.services/images/HMSNav.svg" alt="Experience the Future of Radiology at RSNA 2025 | HMS Booth 2906" />
+          <img src="https://healthmit.services/images/HMSNav.svg" alt="#" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse m-n3" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav nav-underline ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link px-3 fw-bold text-primary" aria-current="page" href="https://healthmit.services">Home</a>
             </li>
             <li class="nav-item text-primary dropdown">
-              <a class="nav-link fw-bold text-primary px-3 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Solutions</a>
-              <ul class="dropdown-menu dropdown-menu-end p-2" aria-labelledby="navbarDropdown">
+              <a class="nav-link fw-bold text-primary px-3 dropdown-toggle" href="#" id="navbarDropdownSolutions" role="button" data-bs-toggle="dropdown" aria-expanded="false">Solutions</a>
+              <ul class="dropdown-menu dropdown-menu-end p-2" aria-labelledby="navbarDropdownSolutions">
                 <li>
                   <p class="dropdown-item fw-bold text-primary mb-0">Intelligent Healthcare Solution-as-a-Service</p>
                 </li>
@@ -129,59 +130,12 @@
                 </li>
               </ul>
             </li>
-            <li class="nav-item text-primary dropdown">
-              <a class="nav-link fw-bold text-primary px-3 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
-              <ul class="dropdown-menu dropdown-menu-end p-2" aria-labelledby="navbarDropdown">
-                <li>
-                  <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html">All Products</a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html#medical_cart_computer">Medical Cart Computer</a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html#medical_tablet">Medical Tablet</a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html#medical_ai_pc">Medical AI PC</a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html#medical_imaging">Medical Imaging</a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html#smart_or_video_integration_suite">Smart OR Video Integration Suite</a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html#intelligent_monitoring">Intelligent Monitoring</a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html#chemistry_analyzer">Chemistry Analyzer</a>
-                </li>
-              </ul>
+            <li class="nav-item text-primary">
+              <a class="nav-link fw-bold text-primary px-3" href="https://healthmit.services/all_products.html">All Products</a>
             </li>
             <li class="nav-item text-primary dropdown">
-              <a class="nav-link fw-bold text-primary px-3 dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
-              <ul class="dropdown-menu dropdown-menu-end p-2" aria-labelledby="navbarDropdown">
+              <a class="nav-link fw-bold text-primary px-3 dropdown-toggle active" href="#" id="navbarDropdownAbout" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+              <ul class="dropdown-menu dropdown-menu-end p-2" aria-labelledby="navbarDropdownAbout">
                 <li>
                   <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/about/all_news.html">All News</a>
                 </li>
@@ -235,129 +189,132 @@
           </ul>
         </div>
       </nav>
-      <div class="container-fluid flex-grow-1 p-0">
-        <section style="overflow: hidden">
-          <div class="container-xxl">
-            <div class="row">
-              <div class="col-12">
-                <nav aria-label="breadcrumb" class="px-3">
-                  <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="https://healthmit.services">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">About</a></li>
-                    <li class="breadcrumb-item"><a href="https://healthmit.services/about/all_news.html">News</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Experience the Future of Radiology with HMS | RSNA 2025 Booth #2906</li>
-                  </ol>
-                </nav>
-              </div>
-            </div>
-            <div class="row justify-content-center">
-              <img src="https://healthmit.services/images/news/RSNA_2025-bn.webp" class="mb-5 img-fluid" alt="Experience the Future of Radiology with HMS | RSNA 2025 Booth #2906" />
-              <div class="col-12 col-sm-10">
-                <div class="mb-5">
-                  <p class="fs-4 pb-0 mb-5 text-primary plus-jakarta-sans-800">Experience the Future of Radiology with HMS | RSNA 2025 Booth #2906</p>
-                  <p class="fs-5 text-success"><strong>Discover Smarter Imaging at RSNA 2025</strong></p>
-                  <p class="fs-5">
-                    Discover Smarter Imaging at RSNA 2025 HMS is proud to exhibit at the
-                    <span class="text-success">
-                      <strong>RSNA 2025 Annual Meeting</strong>
-                    </span>
-                    , the world's premier radiology event, taking place
-                    <span class="text-success">
-                      <strong>November 30-December 3 at McCormick Place, Chicago</strong>
-                    </span>
-                    . Join us at
-                    <span class="text-success">
-                      <strong>Booth #2906</strong>
-                    </span>
-                    to explore how HMS is redefining diagnostic imaging through
-                    <span class="text-success">
-                      <strong>AI innovation and portable flexibility.</strong>
-                    </span>
-                  </p>
-                </div>
-                <div class="row mb-sm-5 mb-3">
-                  <div class="col-sm-6 mb-3 mb-sm-0">
-                    <div class="card border-0" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-                      <img src="https://healthmit.services/images/news/portable_x-ray_system.webp" class="card-img-top" alt="Portable X-Ray System" />
-                      <div class="card-body">
-                        <h5 class="card-title text-center text-primary fw-bold">Portable X-Ray System</h5>
-                        <p class="card-text">Designed for RAD & Fluoroscopy, the Portable X-Ray delivers versatility and real-time performance across diverse medical settings:</p>
-                        <ul>
-                          <li>Newborn fluoroscopy with low radiation dose for infants</li>
-                          <li>Sports medicine and on-site emergency diagnostics</li>
-                          <li>Joint reconstruction and intra-operative imaging</li>
-                          <li>Veterinary applications for flexible animal care</li>
-                        </ul>
-                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="card border-0" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2500">
-                      <img src="https://healthmit.services/images/news/x-ray_ai_for_detection_of_osteoporosis.webp" class="card-img-top" alt="X-Ray AI for Detection of Osteoporosis" />
-                      <div class="card-body">
-                        <h5 class="card-title text-center text-primary fw-bold">X-Ray AI for Detection of Osteoporosis</h5>
-                        <p class="card-text">This advanced AI solution is the first FDA-approved X-ray AI for osteoporosis screening, enabling clinicians to assess bone health using standard chest, spine, pelvis, knee, or wrist images.</p>
-                        <ul>
-                          <li>Cloud or on-premise analysis with automated reporting</li>
-                          <li>Early detection supports fall prevention and lifestyle management</li>
-                          <li>FDA Breakthrough Device De Novo: DEN230023</li>
-                        </ul>
-                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="mb-sm-5 mb-3">
-                  <p class="fs-4 pb-0 text-primary plus-jakarta-sans-800">Event details:</p>
-                  <div class="callout_news px-4">
-                    <p class="fs-5 text-primary fw-bold" style="text-indent: -1rem">
-                      <i class="bi bi-calendar-check mx-2 fs-4" style="text-indent: 0"></i>
-                      November 30 - December 3, 2025
-                    </p>
-                    <p class="fs-5 text-primary fw-bold" style="text-indent: -2.5rem; padding-left: 1.5rem">
-                      <i class="bi bi-geo-fill mx-2 fs-4" style="text-indent: 0"></i>
-                      McCormick Place, Chicago
-                    </p>
-                    <p class="fs-5 text-primary fw-bold b-0" style="text-indent: -1rem">
-                      <i class="bi bi-flag-fill mx-2 fs-4" style="text-indent: 0"></i>
-                      Booth #2906
-                    </p>
-                  </div>
-                  <p class="fs-5">
-                    Visit HMS to experience how
-                    <span class="text-success">
-                      <strong>AI-powered imaging and portable X-ray technologies</strong>
-                    </span>
-                    are transforming radiology, preventive care, and clinical efficiency.
-                  </p>
-                </div>
+    </header>
 
-                <!-- AddToAny BEGIN -->
-                <div class="mb-5 d-flex justify-content-center">
-                  <a href="https://www.addtoany.com/share#url=https%3A%2F%2Fhealthmit.services%2F&amp;title=" target="_blank"><img src="https://static.addtoany.com/buttons/a2a.svg" width="32" height="32" class="mx-1" style="background-color: var(--bs-primary)" /></a>
-                  <a href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fhealthmit.services%2F&amp;linkname=" target="_blank"><img src="https://static.addtoany.com/buttons/email.svg" width="32" height="32" class="mx-1" style="background-color: var(--bs-primary)" /></a>
-                  <a href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Fhealthmit.services%2F&amp;linkname=" target="_blank"><img src="https://static.addtoany.com/buttons/whatsapp.svg" width="32" height="32" class="mx-1" style="background-color: var(--bs-primary)" /></a>
-                  <a href="https://www.addtoany.com/add_to/telegram?linkurl=https%3A%2F%2Fhealthmit.services%2F&amp;linkname=" target="_blank"><img src="https://static.addtoany.com/buttons/telegram.svg" width="32" height="32" class="mx-1" style="background-color: var(--bs-primary)" /></a>
-                  <a href="https://www.addtoany.com/add_to/linkedin?linkurl=https%3A%2F%2Fhealthmit.services%2F&amp;linkname=" target="_blank"><img src="https://static.addtoany.com/buttons/linkedin.svg" width="32" height="32" class="mx-1" style="background-color: var(--bs-primary)" /></a>
-                  <a href="https://www.addtoany.com/add_to/microsoft_teams?linkurl=https%3A%2F%2Fhealthmit.services%2F&amp;linkname=" target="_blank"><img src="https://static.addtoany.com/buttons/microsoft_teams.svg" width="32" height="32" class="mx-1" style="background-color: var(--bs-primary)" /></a>
-                </div>
-                <!-- AddToAny END -->
+    <main class="flex-grow-1 sectionToFooter">
+      <img src="https://healthmit.services/images/news/RSNA_2025-bn.webp" class="img-fluid" alt="Experience the Future of Radiology with HMS | RSNA 2025 Booth #2906" />
+      <!-- breadcrumb -->
+      <div class="container-xxl">
+        <div class="row mb-4 justify-content-center">
+          <div class="col-12 col-sm-10">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="https://healthmit.services">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">About</a></li>
+                <li class="breadcrumb-item"><a href="https://healthmit.services/about/all_news.html">News</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Experience the Future of Radiology with HMS | RSNA 2025 Booth #2906</li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <section class="container-xxl">
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-10">
+            <p class="fs-4 pb-0 mb-5 text-primary plus-jakarta-sans-800">Experience the Future of Radiology with HMS | RSNA 2025 Booth #2906</p>
+            <p class="fs-5 text-success"><strong>Discover Smarter Imaging at RSNA 2025</strong></p>
+            <p class="fs-5">
+              Discover Smarter Imaging at RSNA 2025 HMS is proud to exhibit at the
+              <span class="text-success">
+                <strong>RSNA 2025 Annual Meeting</strong>
+              </span>
+              , the world's premier radiology event, taking place
+              <span class="text-success">
+                <strong>November 30-December 3 at McCormick Place, Chicago</strong>
+              </span>
+              . Join us at
+              <span class="text-success">
+                <strong>Booth #2906</strong>
+              </span>
+              to explore how HMS is redefining diagnostic imaging through
+              <span class="text-success">
+                <strong>AI innovation and portable flexibility.</strong>
+              </span>
+            </p>
+          </div>
+        </div>
+
+        <div class="row mb-sm-5 mb-3">
+          <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="card border-0" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+              <img src="https://healthmit.services/images/news/portable_x-ray_system.webp" class="card-img-top" alt="Portable X-Ray System" />
+              <div class="card-body">
+                <h5 class="card-title text-center text-primary fw-bold">Portable X-Ray System</h5>
+                <p class="card-text">Designed for RAD & Fluoroscopy, the Portable X-Ray delivers versatility and real-time performance across diverse medical settings:</p>
+                <ul>
+                  <li>Newborn fluoroscopy with low radiation dose for infants</li>
+                  <li>Sports medicine and on-site emergency diagnostics</li>
+                  <li>Joint reconstruction and intra-operative imaging</li>
+                  <li>Veterinary applications for flexible animal care</li>
+                </ul>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
               </div>
             </div>
           </div>
-        </section>
-      </div>
-    </div>
-    <footer class="container-fluid p-0" style="background-color: var(--bs-gray-100)">
+          <div class="col-sm-6">
+            <div class="card border-0" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2500">
+              <img src="https://healthmit.services/images/news/x-ray_ai_for_detection_of_osteoporosis.webp" class="card-img-top" alt="X-Ray AI for Detection of Osteoporosis" />
+              <div class="card-body">
+                <h5 class="card-title text-center text-primary fw-bold">X-Ray AI for Detection of Osteoporosis</h5>
+                <p class="card-text">This advanced AI solution is the first FDA-approved X-ray AI for osteoporosis screening, enabling clinicians to assess bone health using standard chest, spine, pelvis, knee, or wrist images.</p>
+                <ul>
+                  <li>Cloud or on-premise analysis with automated reporting</li>
+                  <li>Early detection supports fall prevention and lifestyle management</li>
+                  <li>FDA Breakthrough Device De Novo: DEN230023</li>
+                </ul>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-sm-5 mb-3">
+            <p class="fs-4 pb-0 text-primary plus-jakarta-sans-800">Event details:</p>
+            <div class="callout_news px-4">
+              <p class="fs-5 text-primary fw-bold" style="text-indent: -1rem">
+                <i class="bi bi-calendar-check mx-2 fs-4" style="text-indent: 0"></i>
+                November 30 - December 3, 2025
+              </p>
+              <p class="fs-5 text-primary fw-bold" style="text-indent: -2.5rem; padding-left: 1.5rem">
+                <i class="bi bi-geo-fill mx-2 fs-4" style="text-indent: 0"></i>
+                McCormick Place, Chicago
+              </p>
+              <p class="fs-5 text-primary fw-bold b-0" style="text-indent: -1rem">
+                <i class="bi bi-flag-fill mx-2 fs-4" style="text-indent: 0"></i>
+                Booth #2906
+              </p>
+            </div>
+            <p class="fs-5">
+              Visit HMS to experience how
+              <span class="text-success">
+                <strong>AI-powered imaging and portable X-ray technologies</strong>
+              </span>
+              are transforming radiology, preventive care, and clinical efficiency.
+            </p>
+          </div>
+        </div>
+        <!-- AddToAny BEGIN -->
+        <div class="d-flex justify-content-center">
+          <a href="https://www.addtoany.com/share#url=https%3A%2F%2Fhealthmit.services%2F&amp;title=" target="_blank"><img src="https://static.addtoany.com/buttons/a2a.svg" width="32" height="32" class="mx-1" style="background-color: var(--bs-primary)" /></a>
+          <a href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fhealthmit.services%2F&amp;linkname=" target="_blank"><img src="https://static.addtoany.com/buttons/email.svg" width="32" height="32" class="mx-1" style="background-color: var(--bs-primary)" /></a>
+          <a href="https://www.addtoany.com/add_to/whatsapp?linkurl=https%3A%2F%2Fhealthmit.services%2F&amp;linkname=" target="_blank"><img src="https://static.addtoany.com/buttons/whatsapp.svg" width="32" height="32" class="mx-1" style="background-color: var(--bs-primary)" /></a>
+          <a href="https://www.addtoany.com/add_to/telegram?linkurl=https%3A%2F%2Fhealthmit.services%2F&amp;linkname=" target="_blank"><img src="https://static.addtoany.com/buttons/telegram.svg" width="32" height="32" class="mx-1" style="background-color: var(--bs-primary)" /></a>
+          <a href="https://www.addtoany.com/add_to/linkedin?linkurl=https%3A%2F%2Fhealthmit.services%2F&amp;linkname=" target="_blank"><img src="https://static.addtoany.com/buttons/linkedin.svg" width="32" height="32" class="mx-1" style="background-color: var(--bs-primary)" /></a>
+          <a href="https://www.addtoany.com/add_to/microsoft_teams?linkurl=https%3A%2F%2Fhealthmit.services%2F&amp;linkname=" target="_blank"><img src="https://static.addtoany.com/buttons/microsoft_teams.svg" width="32" height="32" class="mx-1" style="background-color: var(--bs-primary)" /></a>
+        </div>
+        <!-- AddToAny END -->
+      </section>
+    </main>
+
+    <footer class="container-fluid p-0 bg-gray100">
       <div class="container-xxl py-4 px-4 px-sm-0">
         <div class="row justify-content-center mx-0">
-          <div class="col-12 col-sm-5 col-md-4 d-sm-flex flex-sm-column justify-content-sm-end px-1 mt-sm-auto">
+          <div class="col-12 col-sm-5 col-md-3 d-sm-flex flex-sm-column justify-content-sm-end px-1 mt-sm-auto">
             <img src="https://healthmit.services/images/HMSNav.svg" alt="HMS - First in Care, Always There" class="mb-2 d-flex d-sm-none" />
             <img src="https://healthmit.services/images/hmsLogo-col.svg" alt="HMS - First in Care, Always There" class="mb-2 d-none d-sm-flex mx-sm-auto" />
             <p class="fw-bold text-sm-center mb-sm-0 text-success">First in Care, Always There</p>
           </div>
-          <div class="col-12 col-sm-5 col-md-4 px-1 mb-4 mb-sm-0 mt-sm-auto">
+          <div class="col-12 col-sm-5 col-md-5 px-1 mb-4 mb-sm-0 mt-sm-auto">
             <div class="mb-3 me-3 mb-lg-3 ps-4 text-primary" style="text-indent: -12px">
               <i class="bi bi-telephone-fill me-1"></i>
               786-743-7936
@@ -390,8 +347,11 @@
           </div>
         </div>
       </div>
-      <p class="text-center text-white py-3 m-0 bg-primary">Copyright © 2010-2025 HMS All rights reserved.</p>
+      <div class="bg-primary">
+        <p class="text-center text-white py-3 m-0">Copyright © 2010-2025 HMS All rights reserved.</p>
+      </div>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://healthmit.services/custom/js/lightbox-plus-jquery.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -399,11 +359,4 @@
       AOS.init()
     </script>
   </body>
-  <style>
-    html,
-    body {
-      height: 100%;
-      margin: 0;
-    }
-  </style>
 </html>
