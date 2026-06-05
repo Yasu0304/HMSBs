@@ -1,0 +1,9 @@
+@use 'base' as *;
+@use 'components' as *;
+@use 'media' as *;
+
+.contactCard-web {
+  background-image: url('https://healthmit.services/images/hmsLogo-col.svg');
+  @include card(59.36%);
+  @include bg-setting(center, center, contain);
+}

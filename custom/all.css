@@ -90,4 +90,24 @@ h6,
 
 .bg-gray100 {
   background-color: #f8f9fa;
+}
+
+.bg-success70 {
+  background-color: hsla(200, 58%, 48%, 0.7);
+}
+
+.heroPicCenter {
+  min-height: 200px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+@media (min-width: 576px) {
+  .heroPicCenter {
+    min-height: 350px;
+  }
+}
+.heroPicCenter.heroContact {
+  background-image: url("https://cdn.stocksnap.io/img-thumbs/960w/yellow-flowers_2JJUKJL0GT.jpg");
 }/*# sourceMappingURL=all.css.map */
