@@ -192,22 +192,109 @@
     <main class="flex-grow-1 sectionToFooter">
       <!-- breadcrumb -->
       <div class="container-xxl">
-        <div class="row mb-4">
+        <div class="row mb-4 justify-content-center">
           <div class="col-12 col-sm-10">
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item">
                   <a href="https://healthmit.services">Home</a>
                 </li>
-
                 <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
               </ol>
             </nav>
           </div>
         </div>
       </div>
+      <section class="container-xxl mb-5">
+        <div class="row justify-content-center">
+          <div class="col-8 col-sm-3">
+            <div>
+              <div class="contactCard-web"></div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      <section class="container-xxl"></section>
+      <section class="container-xxl">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12 col-sm-5 h-100 mb-3 mb-sm-0">
+            <p class="fs-5 mb-3 lh-lg">If you have any product inquiries, cooperation negotiations, or project needs, please feel free to contact us. A dedicated person will be at your service.</p>
+            <p class="fs-5 lh-lg">
+              <i class="bi bi-envelope-fill"></i>
+              support@healthmit.services
+            </p>
+            <p class="fs-5 lh-lg">
+              <i class="bi bi-telephone-fill"></i>
+              786-743-7936
+            </p>
+            <p class="fs-5 lh-lg mb-5">
+              <i class="bi bi-geo-alt-fill"></i>
+              801 Brickell Avenue, Suite 800 Miami, Florida 33131
+            </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.8196366743427!2d121.56443577598586!3d25.040194277812443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abbbeae9fac3%3A0x8e3b4fbfff4520b1!2zMTEw6Ie65YyX5biC5L-h576p5Y2A6IiI6ZuF6YeM5b-g5a2d5p2x6Lev5LqU5q61NjjomZ8!5e0!3m2!1szh-TW!2stw!4v1778654328532!5m2!1szh-TW!2stw" width="100%" min-height="300px" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+          <div class="col-12 col-sm-5 h-100">
+            <form action="https://formspree.io/f/mgobvrkp" method="POST" class="needs-validation" novalidate>
+              <div class="rounded-4 py-4 px-3 bg-success">
+                <div class="row">
+                  <div class="col-6 mb-3">
+                    <label for="name" class="form-label text-white fw-bold">Name*</label>
+
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required />
+
+                    <div class="invalid-feedback text-white">Please enter your name.</div>
+                  </div>
+
+                  <div class="col-6 mb-3">
+                    <label for="email" class="form-label text-white fw-bold">Email address*</label>
+
+                    <input type="email" class="form-control" id="email" name="email" placeholder="name@mailbox.com" required />
+
+                    <div class="invalid-feedback text-white">Please enter a valid email.</div>
+                  </div>
+
+                  <div class="col-6 mb-3">
+                    <label for="company" class="form-label text-white fw-bold">Company*</label>
+
+                    <input type="text" class="form-control" id="company" name="company" placeholder="Company Name" required />
+
+                    <div class="invalid-feedback text-white">Please enter your company.</div>
+                  </div>
+
+                  <div class="col-6 mb-3">
+                    <label for="country" class="form-label text-white fw-bold">Country*</label>
+
+                    <input type="text" class="form-control" id="country" name="country" placeholder="Country Name" required />
+
+                    <div class="invalid-feedback text-white">Please enter your country.</div>
+                  </div>
+
+                  <div class="col-12 mb-3">
+                    <label for="subject" class="form-label text-white fw-bold">Subject*</label>
+
+                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required />
+
+                    <div class="invalid-feedback text-white">Please enter a subject.</div>
+                  </div>
+
+                  <div class="col-12 mb-3">
+                    <label for="message" class="form-label text-white fw-bold">Message*</label>
+
+                    <textarea class="form-control" id="message" name="message" rows="3" placeholder="Message Here" required></textarea>
+
+                    <div class="invalid-feedback text-white">Please enter your message.</div>
+                  </div>
+
+                  <div class="col-12 py-3">
+                    <button type="submit" class="btn btn-primary col-12">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="container-fluid bg-gray100">
