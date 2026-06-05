@@ -61,26 +61,26 @@
     <!-- End Google Tag Manager -->
   </head>
 
-  <body style="display: flex; flex-direction: column">
+  <body class="d-flex flex-column min-vh-100">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PL2L4CH6" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <div class="d-flex flex-column flex-grow-1 indexBgSm">
-      <nav id="hmsNav" class="navbar navbar-expand-lg px-3 position-sticky top-0 shadow-sm" style="background-color: #ffffff15; z-index: 3; margin-bottom: 1rem; backdrop-filter: blur(15px)">
+    <header class="sticky-top">
+      <nav id="hmsNav" class="navbar navbar-expand-lg px-3 shadow-sm" style="background-color: #ffffff15; z-index: 3; margin-bottom: 1rem; backdrop-filter: blur(15px)">
         <a class="navbar-brand" href="https://healthmit.services">
-          <img src="https://healthmit.services/images/HMSNav.svg" alt="Medical Supplies & Equipment | Certified PPE & Mobile Carts - HMS" />
+          <img src="https://healthmit.services/images/HMSNav.svg" alt="#" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse m-n3" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav nav-underline ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link px-3 fw-bold text-primary" aria-current="page" href="https://healthmit.services">Home</a>
             </li>
             <li class="nav-item text-primary dropdown">
-              <a class="nav-link fw-bold text-primary px-3 dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Solutions</a>
-              <ul class="dropdown-menu dropdown-menu-end p-2" aria-labelledby="navbarDropdown">
+              <a class="nav-link fw-bold text-primary px-3 dropdown-toggle active" href="#" id="navbarDropdownSolutions" role="button" data-bs-toggle="dropdown" aria-expanded="false">Solutions</a>
+              <ul class="dropdown-menu dropdown-menu-end p-2" aria-labelledby="navbarDropdownSolutions">
                 <li>
                   <p class="dropdown-item fw-bold text-primary mb-0">Intelligent Healthcare Solution-as-a-Service</p>
                 </li>
@@ -128,59 +128,12 @@
                 </li>
               </ul>
             </li>
-            <li class="nav-item text-primary dropdown">
-              <a class="nav-link fw-bold text-primary px-3 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
-              <ul class="dropdown-menu dropdown-menu-end p-2" aria-labelledby="navbarDropdown">
-                <li>
-                  <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html">All Products</a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html#medical_cart_computer">Medical Cart Computer</a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html#medical_tablet">Medical Tablet</a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html#medical_ai_pc">Medical AI PC</a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html#medical_imaging">Medical Imaging</a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html#smart_or_video_integration_suite">Smart OR Video Integration Suite</a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html#intelligent_monitoring">Intelligent Monitoring</a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/all_products.html#chemistry_analyzer">Chemistry Analyzer</a>
-                </li>
-              </ul>
+            <li class="nav-item text-primary">
+              <a class="nav-link fw-bold text-primary px-3" href="https://healthmit.services/all_products.html">All Products</a>
             </li>
             <li class="nav-item text-primary dropdown">
-              <a class="nav-link fw-bold text-primary px-3 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
-              <ul class="dropdown-menu dropdown-menu-end p-2" aria-labelledby="navbarDropdown">
+              <a class="nav-link fw-bold text-primary px-3 dropdown-toggle" href="#" id="navbarDropdownAbout" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+              <ul class="dropdown-menu dropdown-menu-end p-2" aria-labelledby="navbarDropdownAbout">
                 <li>
                   <a class="dropdown-item fw-bold text-primary mb-0" href="https://healthmit.services/about/all_news.html">All News</a>
                 </li>
@@ -234,281 +187,283 @@
           </ul>
         </div>
       </nav>
-      <div class="container-fluid flex-grow-1 p-0 mx-auto">
-        <section style="overflow: hidden">
-          <div class="container-xxl justify-content-center">
-            <div class="row">
-              <div class="col-12 col-sm-10">
-                <nav aria-label="breadcrumb">
-                  <ol class="breadcrumb">
-                    <li class="breadcrumb-item">
-                      <a href="https://healthmit.services">Home</a>
-                    </li>
-                    <li class="breadcrumb-item">
-                      <a href="#">Solutions</a>
-                    </li>
-                    <li class="breadcrumb-item">
-                      <a href="#">Medical Device Solution-as-a-Service</a>
-                    </li>
-                    <li class="breadcrumb-item active" aria-current="page">Medical Supplies & Equipment</li>
-                  </ol>
-                </nav>
-              </div>
-            </div>
-            <p class="text-center py-1 h1Title">Medical Supplies & Equipment</p>
-            <div class="row align-items-center">
-              <div class="col-12 col-sm-5 d-flex justify-content-center justify-content-sm-end" data-aos="zoom-in-right" data-aos-easing="linear" data-aos-duration="1700">
-                <img src="https://healthmit.services/images/solutions/medical_supplies_and_equipment/challenges.webp" alt="" class="imgWidth" />
-              </div>
-              <div class="col-12 col-sm-7">
-                <p class="plus-jakarta-sans-800 fs-4 text-primary border-bottom">Challenges</p>
-                <p class="fs-5">Supply gaps and inconsistent PPE quality put frontline care at risk.</p>
-              </div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-12 col-sm-7 order-2 order-sm-1">
-                <p class="plus-jakarta-sans-800 fs-4 text-primary border-bottom">Why Choose HMS</p>
-                <p class="fs-5">We offer stable, certified access to masks, gloves, gowns, and carts—ready for daily use or surge needs.</p>
-              </div>
-              <div class="col-12 col-sm-5 order-1 order-sm-2 d-flex justify-content-center justify-content-sm-start" data-aos="zoom-in-left" data-aos-easing="linear" data-aos-duration="1700">
-                <img src="https://healthmit.services/images/solutions/medical_supplies_and_equipment/choose_hms.webp" alt="" class="imgWidth" />
-              </div>
-            </div>
-            <div class="row align-items-center px-3">
-              <div class="col-12 col-sm-5 d-flex justify-content-sm-end justify-content-center">
-                <img class="imgFloatRwd" src="https://healthmit.services/images/solutions/medical_supplies_and_equipment/key_features.webp" alt="" />
-              </div>
-              <div class="col-12 col-sm-7">
-                <p class="plus-jakarta-sans-800 fs-4 text-primary border-bottom">Key Features</p>
+    </header>
 
-                <div data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1700">
-                  <p class="fs-5 text-success fw-bold mb-0">Certified Protection</p>
-                  <p class="fs-5">All items meet medical-grade standards for barrier performance and safety.</p>
-                </div>
-                <div data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1900">
-                  <p class="fs-5 text-success fw-bold mb-0">Ergonomic & Durable Carts</p>
-                  <p class="fs-5">Modular designs support smooth transport and daily clinical use.</p>
-                </div>
-                <div data-aos="fade-left" data-aos-easing="linear" data-aos-duration="2100">
-                  <p class="fs-5 text-success fw-bold mb-0">Ready-to-Deploy Kits</p>
-                  <p class="fs-5">Pre-packed supply sets tailored for wards, ICUs, mobile units, or isolation care.</p>
-                </div>
-                <div data-aos="fade-left" data-aos-easing="linear" data-aos-duration="2500">
-                  <p class="fs-5 text-success fw-bold mb-0">Comfort & Breathability</p>
-                  <p class="fs-5">Medical PPE: masks, gloves, isolation gowns are designed for long wear, ensuring comfort for frontline staff.</p>
-                </div>
-                <div data-aos="fade-left" data-aos-easing="linear" data-aos-duration="2700">
-                  <p class="fs-5 text-success fw-bold mb-0">Steady Global Sourcing</p>
-                  <p class="fs-5">Reliable supply channels ensure stock availability during peak demand.</p>
-                </div>
-              </div>
-            </div>
-            <div class="dotContainer-medicalSupplies_bg">
-              <div class="d-flex flex-wrap flex-sm-nowrap dotContainer-5">
-                <div class="dotContainer" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2200">
-                  <div class="dot position-relative">
-                    <div class="position-absolute top-50 start-50 translate-middle" style="width: 90%">
-                      <div class="d-flex flex-column align-items-center justify-content-center">
-                        <i class="bi bi-stopwatch fs-1 text-white"></i>
-                        <p class="text-white text-center">Protects staff and patients with certified safety gear.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="dotContainer" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1800">
-                  <div class="dot position-relative">
-                    <div class="position-absolute top-50 start-50 translate-middle" style="width: 90%">
-                      <div class="d-flex flex-column align-items-center justify-content-center">
-                        <i class="bi bi-card-checklist fs-1 text-white"></i>
-                        <p class="text-white text-center">Ensures care continuity through reliable supply.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="dotContainer" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-                  <div class="dot position-relative">
-                    <div class="position-absolute top-50 start-50 translate-middle" style="width: 90%">
-                      <div class="d-flex flex-column align-items-center justify-content-center">
-                        <i class="bi bi-emoji-smile fs-1 text-white"></i>
-                        <p class="text-white text-center">Simplifies purchasing with consolidated sourcing</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="dotContainer" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1900">
-                  <div class="dot position-relative">
-                    <div class="position-absolute top-50 start-50 translate-middle" style="width: 90%">
-                      <div class="d-flex flex-column align-items-center justify-content-center">
-                        <i class="bi bi-speedometer fs-1 text-white"></i>
-                        <p class="text-white text-center">Boosts efficiency with ergonomic, ready-to-use tools.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="dotContainer" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2100">
-                  <div class="dot position-relative">
-                    <div class="position-absolute top-50 start-50 translate-middle" style="width: 90%">
-                      <div class="d-flex flex-column align-items-center justify-content-center">
-                        <i class="bi bi-boxes fs-1 text-white"></i>
-                        <p class="text-white text-center">Promotes PPE use through comfort-first design.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+    <main class="flex-grow-1 sectionToFooter">
+      <!-- breadcrumb -->
+      <div class="container-xxl">
+        <div class="row mb-4 justify-content-center">
+          <div class="col-12 col-sm-10">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="https://healthmit.services">Home</a>
+                </li>
+                <li class="breadcrumb-item">
+                  <a href="#">Solutions</a>
+                </li>
+                <li class="breadcrumb-item">
+                  <a href="#">Medical Device Solution-as-a-Service</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">Medical Supplies & Equipment</li>
+              </ol>
+            </nav>
           </div>
-          <div class="container-fluid contacts-medicalSupplies_bg">
-            <div class="container-xxl rounded-2" style="background-color: rgba(255, 255, 255, 0.088); backdrop-filter: blur(5px)">
-              <div class="row py-5 justify-content-center">
-                <div class="col-12 mb-5">
-                  <div class="swiper solutionIetmSwiper">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide">
-                        <div class="card h-100 py-5 border-0">
-                          <img src="https://healthmit.services/images/gallery/ratio32/masks.webp" class="card-img-top" alt="Masks" />
-                          <div class="card-body">
-                            <h5 class="card-title text-primary">Masks</h5>
-                          </div>
-                          <a href="https://healthcarearmor.com/products/medical-supplies/medical-consumables/masks/" class="btn btn-primary col-9 mx-auto mb-auto">Read more</a>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="card h-100 py-5 border-0">
-                          <img src="https://healthmit.services/images/gallery/ratio32/gloves.webp" class="card-img-top" alt="Gloves" />
-                          <div class="card-body">
-                            <h5 class="card-title text-primary">Gloves</h5>
-                          </div>
-                          <a href="https://healthcarearmor.com/products/medical-supplies/medical-consumables/gloves/" class="btn btn-primary col-9 mx-auto mb-auto">Read more</a>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="card h-100 py-5 border-0">
-                          <img src="https://healthmit.services/images/gallery/ratio32/alcohol_prep_pads.webp" class="card-img-top" alt="Alcohol Prep Pads" />
-                          <div class="card-body">
-                            <h5 class="card-title text-primary">Alcohol Prep Pads</h5>
-                          </div>
-                          <a href="https://healthcarearmor.com/products/medical-supplies/medical-consumables/alcohol-prep-pads/" class="btn btn-primary col-9 mx-auto mb-auto">Read more</a>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="card h-100 py-5 border-0">
-                          <img src="https://healthmit.services/images/gallery/ratio32/personal_protective_equipment.webp" class="card-img-top" alt="Personal Protective Equipment" />
-                          <div class="card-body">
-                            <h5 class="card-title text-primary">Personal Protective Equipment</h5>
-                          </div>
-                          <a href="https://healthcarearmor.com/products/medical-supplies/medical-consumables/personal-protective-equipment/" class="btn btn-primary col-9 mx-auto mb-auto">Read more</a>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="card h-100 py-5 border-0">
-                          <img src="https://healthmit.services/images/gallery/ratio32/mobile_nursing_station.webp" class="card-img-top" alt="Mobile Nursing Station" />
-                          <div class="card-body">
-                            <h5 class="card-title text-primary">Mobile Nursing Station</h5>
-                          </div>
-                          <a href="https://healthcarearmor.com/products/healthcare-it/mobile-nursing-station/" class="btn btn-primary col-9 mx-auto mb-auto">Read more</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-                  </div>
-                </div>
-                <a href="mailto:support@healthmit.services" class="btn btn-primary col-8">Contact Us</a>
-              </div>
-            </div>
-          </div>
-        </section>
+        </div>
       </div>
-      <footer class="container-fluid p-0" style="background-color: var(--bs-gray-100)">
-        <div class="container-xxl py-4 px-4 px-sm-0">
-          <div class="row justify-content-center mx-0">
-            <div class="col-12 col-sm-5 col-md-4 d-sm-flex flex-sm-column justify-content-sm-end px-1 mt-sm-auto">
-              <img src="https://healthmit.services/images/HMSNav.svg" alt="HMS - First in Care, Always There" class="mb-2 d-flex d-sm-none" />
-              <img src="https://healthmit.services/images/hmsLogo-col.svg" alt="HMS - First in Care, Always There" class="mb-2 d-none d-sm-flex mx-sm-auto" />
-              <p class="fw-bold text-sm-center mb-sm-0 text-success">First in Care, Always There</p>
+
+      <section class="container-xxl justify-content-center">
+        <p class="text-center py-1 h1Title">Medical Supplies & Equipment</p>
+        <div class="row align-items-center">
+          <div class="col-12 col-sm-5 d-flex justify-content-center justify-content-sm-end" data-aos="zoom-in-right" data-aos-easing="linear" data-aos-duration="1700">
+            <img src="https://healthmit.services/images/solutions/medical_supplies_and_equipment/challenges.webp" alt="" class="imgWidth" />
+          </div>
+          <div class="col-12 col-sm-7">
+            <p class="plus-jakarta-sans-800 fs-4 text-primary border-bottom">Challenges</p>
+            <p class="fs-5">Supply gaps and inconsistent PPE quality put frontline care at risk.</p>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-12 col-sm-7 order-2 order-sm-1">
+            <p class="plus-jakarta-sans-800 fs-4 text-primary border-bottom">Why Choose HMS</p>
+            <p class="fs-5">We offer stable, certified access to masks, gloves, gowns, and carts—ready for daily use or surge needs.</p>
+          </div>
+          <div class="col-12 col-sm-5 order-1 order-sm-2 d-flex justify-content-center justify-content-sm-start" data-aos="zoom-in-left" data-aos-easing="linear" data-aos-duration="1700">
+            <img src="https://healthmit.services/images/solutions/medical_supplies_and_equipment/choose_hms.webp" alt="" class="imgWidth" />
+          </div>
+        </div>
+        <div class="row align-items-center px-3">
+          <div class="col-12 col-sm-5 d-flex justify-content-sm-end justify-content-center">
+            <img class="imgFloatRwd" src="https://healthmit.services/images/solutions/medical_supplies_and_equipment/key_features.webp" alt="" />
+          </div>
+          <div class="col-12 col-sm-7">
+            <p class="plus-jakarta-sans-800 fs-4 text-primary border-bottom">Key Features</p>
+
+            <div data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1700">
+              <p class="fs-5 text-success fw-bold mb-0">Certified Protection</p>
+              <p class="fs-5">All items meet medical-grade standards for barrier performance and safety.</p>
             </div>
-            <div class="col-12 col-sm-5 col-md-4 px-1 mb-4 mb-sm-0 mt-sm-auto">
-              <div class="mb-3 me-3 mb-lg-3 ps-4 text-primary" style="text-indent: -12px">
-                <i class="bi bi-telephone-fill me-1"></i>
-                786-743-7936
-              </div>
-              <div class="mb-3 me-3 mb-lg-3 ps-4 text-primary" style="text-indent: -12px">
-                <i class="bi bi-printer-fill me-1"></i>
-                786-955-2211
-              </div>
-              <div class="ps-4 text-primary text-break" style="text-indent: -12px">
-                <i class="bi bi-geo-alt-fill me-1"></i>
-                801 Brickell Avenue, Suite 800 Miami, Florida 33131
-              </div>
+            <div data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1900">
+              <p class="fs-5 text-success fw-bold mb-0">Ergonomic & Durable Carts</p>
+              <p class="fs-5">Modular designs support smooth transport and daily clinical use.</p>
             </div>
-            <div class="col-12 col-sm-2 col-md-2 px-1 mt-sm-auto flex-shrink-1">
-              <a href="https://www.linkedin.com/company/healthcare-mit-services-inc-hms/?viewAsMember=true " class="me-3">
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
-                </svg>
-              </a>
-              <a href="https://www.youtube.com/@HMSMarketing-tw" class="me-3">
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
-                  <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
-                </svg>
-              </a>
-              <a href="mailto:support@healthmit.services">
-                <svg width="28" height="28" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M0.05 3.555C0.150818 3.11324 0.398655 2.71881 0.752922 2.43631C1.10719 2.1538 1.54688 1.99997 2 2H14C14.4531 1.99997 14.8928 2.1538 15.2471 2.43631C15.6013 2.71881 15.8492 3.11324 15.95 3.555L8 8.414L0.05 3.555ZM0 4.697V11.801L5.803 8.243L0 4.697ZM6.761 8.83L0.191 12.857C0.353327 13.1993 0.609527 13.4884 0.929782 13.6908C1.25004 13.8931 1.62117 14.0004 2 14H14C14.3788 14.0001 14.7498 13.8926 15.0698 13.6901C15.3899 13.4876 15.6459 13.1983 15.808 12.856L9.238 8.829L8 9.586L6.761 8.83ZM10.197 8.244L16 11.801V4.697L10.197 8.244Z" />
-                </svg>
-              </a>
+            <div data-aos="fade-left" data-aos-easing="linear" data-aos-duration="2100">
+              <p class="fs-5 text-success fw-bold mb-0">Ready-to-Deploy Kits</p>
+              <p class="fs-5">Pre-packed supply sets tailored for wards, ICUs, mobile units, or isolation care.</p>
+            </div>
+            <div data-aos="fade-left" data-aos-easing="linear" data-aos-duration="2500">
+              <p class="fs-5 text-success fw-bold mb-0">Comfort & Breathability</p>
+              <p class="fs-5">Medical PPE: masks, gloves, isolation gowns are designed for long wear, ensuring comfort for frontline staff.</p>
+            </div>
+            <div data-aos="fade-left" data-aos-easing="linear" data-aos-duration="2700">
+              <p class="fs-5 text-success fw-bold mb-0">Steady Global Sourcing</p>
+              <p class="fs-5">Reliable supply channels ensure stock availability during peak demand.</p>
             </div>
           </div>
         </div>
-        <p class="text-center text-white py-3 m-0 bg-primary">Copyright © 2010-2025 HMS All rights reserved.</p>
-      </footer>
+        <div class="dotContainer-medicalSupplies_bg">
+          <div class="d-flex flex-wrap flex-sm-nowrap dotContainer-5">
+            <div class="dotContainer" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2200">
+              <div class="dot position-relative">
+                <div class="position-absolute top-50 start-50 translate-middle" style="width: 90%">
+                  <div class="d-flex flex-column align-items-center justify-content-center">
+                    <i class="bi bi-stopwatch fs-1 text-white"></i>
+                    <p class="text-white text-center">Protects staff and patients with certified safety gear.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dotContainer" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1800">
+              <div class="dot position-relative">
+                <div class="position-absolute top-50 start-50 translate-middle" style="width: 90%">
+                  <div class="d-flex flex-column align-items-center justify-content-center">
+                    <i class="bi bi-card-checklist fs-1 text-white"></i>
+                    <p class="text-white text-center">Ensures care continuity through reliable supply.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dotContainer" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+              <div class="dot position-relative">
+                <div class="position-absolute top-50 start-50 translate-middle" style="width: 90%">
+                  <div class="d-flex flex-column align-items-center justify-content-center">
+                    <i class="bi bi-emoji-smile fs-1 text-white"></i>
+                    <p class="text-white text-center">Simplifies purchasing with consolidated sourcing</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dotContainer" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1900">
+              <div class="dot position-relative">
+                <div class="position-absolute top-50 start-50 translate-middle" style="width: 90%">
+                  <div class="d-flex flex-column align-items-center justify-content-center">
+                    <i class="bi bi-speedometer fs-1 text-white"></i>
+                    <p class="text-white text-center">Boosts efficiency with ergonomic, ready-to-use tools.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dotContainer" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2100">
+              <div class="dot position-relative">
+                <div class="position-absolute top-50 start-50 translate-middle" style="width: 90%">
+                  <div class="d-flex flex-column align-items-center justify-content-center">
+                    <i class="bi bi-boxes fs-1 text-white"></i>
+                    <p class="text-white text-center">Promotes PPE use through comfort-first design.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-      <script>
-        AOS.init()
-      </script>
-      <!-- Swiper JS -->
-      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-      <!-- Initialize Swiper -->
-      <script>
-        var swiper = new Swiper('.solutionIetmSwiper', {
-          slidesPerView: 1,
-          spaceBetween: 10,
-          pagination: {
-            el: '.swiper-pagination',
-            clickable: true
+      <section class="container-fluid contacts-medicalSupplies_bg">
+        <div class="container-xxl rounded-2" style="background-color: rgba(255, 255, 255, 0.088); backdrop-filter: blur(5px)">
+          <div class="row py-5 justify-content-center">
+            <div class="col-12 mb-5">
+              <div class="swiper solutionIetmSwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="card h-100 py-5 border-0">
+                      <img src="https://healthmit.services/images/gallery/ratio32/masks.webp" class="card-img-top" alt="Masks" />
+                      <div class="card-body">
+                        <h5 class="card-title text-primary">Masks</h5>
+                      </div>
+                      <a href="https://healthcarearmor.com/products/medical-supplies/medical-consumables/masks/" class="btn btn-primary col-9 mx-auto mb-auto">Read more</a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card h-100 py-5 border-0">
+                      <img src="https://healthmit.services/images/gallery/ratio32/gloves.webp" class="card-img-top" alt="Gloves" />
+                      <div class="card-body">
+                        <h5 class="card-title text-primary">Gloves</h5>
+                      </div>
+                      <a href="https://healthcarearmor.com/products/medical-supplies/medical-consumables/gloves/" class="btn btn-primary col-9 mx-auto mb-auto">Read more</a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card h-100 py-5 border-0">
+                      <img src="https://healthmit.services/images/gallery/ratio32/alcohol_prep_pads.webp" class="card-img-top" alt="Alcohol Prep Pads" />
+                      <div class="card-body">
+                        <h5 class="card-title text-primary">Alcohol Prep Pads</h5>
+                      </div>
+                      <a href="https://healthcarearmor.com/products/medical-supplies/medical-consumables/alcohol-prep-pads/" class="btn btn-primary col-9 mx-auto mb-auto">Read more</a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card h-100 py-5 border-0">
+                      <img src="https://healthmit.services/images/gallery/ratio32/personal_protective_equipment.webp" class="card-img-top" alt="Personal Protective Equipment" />
+                      <div class="card-body">
+                        <h5 class="card-title text-primary">Personal Protective Equipment</h5>
+                      </div>
+                      <a href="https://healthcarearmor.com/products/medical-supplies/medical-consumables/personal-protective-equipment/" class="btn btn-primary col-9 mx-auto mb-auto">Read more</a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card h-100 py-5 border-0">
+                      <img src="https://healthmit.services/images/gallery/ratio32/mobile_nursing_station.webp" class="card-img-top" alt="Mobile Nursing Station" />
+                      <div class="card-body">
+                        <h5 class="card-title text-primary">Mobile Nursing Station</h5>
+                      </div>
+                      <a href="https://healthcarearmor.com/products/healthcare-it/mobile-nursing-station/" class="btn btn-primary col-9 mx-auto mb-auto">Read more</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+            <a href="mailto:support@healthmit.services" class="btn btn-primary col-8">Contact Us</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container-fluid p-0 bg-gray100">
+      <div class="container-xxl py-4 px-4 px-sm-0">
+        <div class="row justify-content-center mx-0">
+          <div class="col-12 col-sm-5 col-md-4 d-sm-flex flex-sm-column justify-content-sm-end px-1 mt-sm-auto">
+            <img src="https://healthmit.services/images/HMSNav.svg" alt="HMS - First in Care, Always There" class="mb-2 d-flex d-sm-none" />
+            <img src="https://healthmit.services/images/hmsLogo-col.svg" alt="HMS - First in Care, Always There" class="mb-2 d-none d-sm-flex mx-sm-auto" />
+            <p class="fw-bold text-sm-center mb-sm-0 text-success">First in Care, Always There</p>
+          </div>
+          <div class="col-12 col-sm-5 col-md-4 px-1 mb-4 mb-sm-0 mt-sm-auto">
+            <div class="mb-3 me-3 mb-lg-3 ps-4 text-primary" style="text-indent: -12px">
+              <i class="bi bi-telephone-fill me-1"></i>
+              786-743-7936
+            </div>
+            <div class="mb-3 me-3 mb-lg-3 ps-4 text-primary" style="text-indent: -12px">
+              <i class="bi bi-printer-fill me-1"></i>
+              786-955-2211
+            </div>
+            <div class="ps-4 text-primary text-break" style="text-indent: -12px">
+              <i class="bi bi-geo-alt-fill me-1"></i>
+              801 Brickell Avenue, Suite 800 Miami, Florida 33131
+            </div>
+          </div>
+          <div class="col-12 col-sm-2 col-md-2 px-1 mt-sm-auto flex-shrink-1">
+            <a href="https://www.linkedin.com/company/healthcare-mit-services-inc-hms/?viewAsMember=true " class="me-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+              </svg>
+            </a>
+            <a href="https://www.youtube.com/@HMSMarketing-tw" class="me-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
+              </svg>
+            </a>
+            <a href="mailto:support@healthmit.services">
+              <svg width="28" height="28" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.05 3.555C0.150818 3.11324 0.398655 2.71881 0.752922 2.43631C1.10719 2.1538 1.54688 1.99997 2 2H14C14.4531 1.99997 14.8928 2.1538 15.2471 2.43631C15.6013 2.71881 15.8492 3.11324 15.95 3.555L8 8.414L0.05 3.555ZM0 4.697V11.801L5.803 8.243L0 4.697ZM6.761 8.83L0.191 12.857C0.353327 13.1993 0.609527 13.4884 0.929782 13.6908C1.25004 13.8931 1.62117 14.0004 2 14H14C14.3788 14.0001 14.7498 13.8926 15.0698 13.6901C15.3899 13.4876 15.6459 13.1983 15.808 12.856L9.238 8.829L8 9.586L6.761 8.83ZM10.197 8.244L16 11.801V4.697L10.197 8.244Z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="bg-primary">
+        <p class="text-center text-white py-3 m-0">Copyright © 2010-2025 HMS All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init()
+    </script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.solutionIetmSwiper', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev'
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20
           },
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev'
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 40
           },
-          breakpoints: {
-            640: {
-              slidesPerView: 2,
-              spaceBetween: 20
-            },
-            768: {
-              slidesPerView: 3,
-              spaceBetween: 40
-            },
-            1024: {
-              slidesPerView: 3,
-              spaceBetween: 40
-            }
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 40
           }
-        })
-      </script>
-    </div>
+        }
+      })
+    </script>
   </body>
   <style>
-    html,
-    body {
-      height: 100%;
-      margin: 0;
-    }
     .swiper {
       width: 90%;
       height: 100%;
