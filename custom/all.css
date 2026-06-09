@@ -63,6 +63,15 @@ h6,
   }
 }
 
+.sectionPb72 {
+  padding-bottom: 34px 0 72px 0;
+}
+@media (min-width: 576px) {
+  .sectionPb72 {
+    padding: 64px 0 128px 0;
+  }
+}
+
 .card32 {
   padding-top: 66.67%;
   overflow: hidden;
@@ -105,7 +114,7 @@ h6,
 }
 @media (min-width: 576px) {
   .heroPicCenter {
-    min-height: 350px;
+    min-height: 500px;
   }
 }
 .heroPicCenter.heroContact {
@@ -113,4 +122,37 @@ h6,
 }
 .heroPicCenter.heroMaskSolution {
   background-image: url("https://healthmit.services/images/solutions/medical_protective_mask_solutions/medical_protective_mask_solutions.webp");
+}
+.heroPicCenter.heroNewsDmeaThx2026 {
+  background-image: url("https://healthmit.services/images/news/dmeaThx_2026-bn.webp");
+}
+.heroPicCenter.heroNewsRSNA2025 {
+  background-image: url("https://healthmit.services/images/news/RSNA_2025-bn.webp");
+}
+.heroPicCenter.heroNewsDmea2026 {
+  background-image: url("https://healthmit.services/images/news/dmea_2026-bn.webp");
+}
+.heroPicCenter.heroNewsHimssThx2025 {
+  background-image: url("https://healthmit.services/images/news/himssThx_2025-bn.webp");
+}
+.heroPicCenter.heroNewsHimss2026 {
+  background-image: url("https://healthmit.services/images/news/himss_2026-bn.webp");
+}
+.heroPicCenter.heroNewsHimss2025 {
+  background-image: url("https://healthmit.services/images/news/himss_2025-bn.webp");
+}
+.heroPicCenter.heroNewsHimssThx2026 {
+  background-image: url("https://healthmit.services/images/news/himssThx_2026-bn.webp");
+}
+.heroPicCenter.heroNewsRSNA2024 {
+  background-image: url("https://healthmit.services/images/news/RSNA_2024-bn.webp");
+}
+.heroPicCenter.heroNewsRsnaThx2025 {
+  background-image: url("https://healthmit.services/images/news/rsnaThx_2025-bn.webp");
+}
+.heroPicCenter.heroNewsAhca2025 {
+  background-image: url("https://healthmit.services/images/news/ahca_2025-bn.webp");
+}
+.heroPicCenter.heroNewsAhcaThx2025 {
+  background-image: url("https://healthmit.services/images/news/ahcaThx_2025-bn.webp");
 }/*# sourceMappingURL=all.css.map */
