@@ -240,6 +240,6 @@
 }
 
 .sectionQualityAndTrust_bg {
-  @include bg-setting(center, center, fixed);
+  @include bg-setting(center, center, cover);
   background-image: url('https://healthmit.services/images/solutions/medical_protective_mask_solutions/quality_and_trust.webp');
 }

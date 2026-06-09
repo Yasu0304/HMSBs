@@ -348,7 +348,7 @@
 
 .sectionQualityAndTrust_bg {
   background-position: center center;
-  background-size: fixed;
+  background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
   background-image: url("https://healthmit.services/images/solutions/medical_protective_mask_solutions/quality_and_trust.webp");
