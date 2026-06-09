@@ -238,3 +238,8 @@
   @include card(100%);
   @include bg-setting(center, center, cover);
 }
+
+.sectionQualityAndTrust_bg {
+  @include bg-setting(center, center, fixed);
+  background-image: url('https://healthmit.services/images/solutions/medical_protective_mask_solutions/quality_and_trust.webp');
+}
