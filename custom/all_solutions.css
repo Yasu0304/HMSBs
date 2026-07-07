@@ -352,4 +352,18 @@
   background-repeat: no-repeat;
   overflow: hidden;
   background-image: url("https://healthmit.services/images/solutions/medical_protective_mask_solutions/quality_and_trust.webp");
+}
+
+.builtForPractical_bg {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-attachment: fixed;
+  overflow: hidden;
+  background-image: url("https://medalliance.com.tw/images/solutions/medical_cart_solutions/reliable_integration.webp");
+}
+
+.sectionFilter_bg {
+  background-color: rgba(15, 84, 133, 0.168627451);
 }/*# sourceMappingURL=all_solutions.css.map */
