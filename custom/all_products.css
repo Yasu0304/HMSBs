@@ -29,7 +29,7 @@
 }
 @media (min-width: 576px) {
   .productsTab li button {
-    font-size: calc(1.275rem + 0.3vw);
+    font-size: calc(1rem + 0.3vw);
   }
 }
 
