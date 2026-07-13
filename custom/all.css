@@ -146,6 +146,10 @@ h6,
   background-color: hsla(200, 58%, 48%, 0.7);
 }
 
+.bg-primary20 {
+  background-color: rgba(194, 223, 237, 0.3137254902);
+}
+
 .heroPicCenter {
   min-height: 200px;
   background-position: center center;

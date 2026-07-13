@@ -134,6 +134,10 @@ h6,
   background-color: hsla(200, 58%, 48%, 0.7);
 }
 
+.bg-primary20 {
+  background-color: $hmsinfo-50;
+}
+
 .heroPicCenter {
   min-height: 200px;
   @include bg-setting(center, center, cover, no-repeat, scroll);
