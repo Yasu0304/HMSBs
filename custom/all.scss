@@ -77,7 +77,7 @@ h6,
 //比例卡片
 .card32 {
   @include card(66.67%);
-  @include bg-setting(center, center, scroll);
+  @include bg-setting(center, center, cover, no-repeat, scroll);
   margin-bottom: 1rem;
   @include sm {
     margin-bottom: 0;
@@ -102,7 +102,7 @@ h6,
 
 .card100 {
   @include card(100%);
-  @include bg-setting(center, center, cover);
+  @include bg-setting(center, center, cover, no-repeat, scroll);
   &.telemedicine_bg {
     background-image: url('https://healthmit.services/images/solutions/medical_cart_solutions/telemedicine.webp');
   }
@@ -116,9 +116,10 @@ h6,
     background-image: url('https://healthmit.services/images/solutions/medical_cart_solutions/cooperate.webp');
   }
 }
+
 .card110 {
   @include card(110%);
-  @include bg-setting(center, center, cover);
+  @include bg-setting(center, center, cover, no-repeat, scroll);
   &.commonConfigurationOptions_bg {
     background-image: url('https://healthmit.services/images/solutions/medical_cart_solutions/common_configuration_options.webp');
   }
@@ -135,7 +136,7 @@ h6,
 
 .heroPicCenter {
   min-height: 200px;
-  @include bg-setting(center, center, cover);
+  @include bg-setting(center, center, cover, no-repeat, scroll);
   @include sm {
     min-height: 500px;
   }

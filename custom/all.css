@@ -77,8 +77,9 @@ h6,
   overflow: hidden;
   width: 100%;
   background-position: center center;
-  background-size: scroll;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: scroll;
   overflow: hidden;
   margin-bottom: 1rem;
 }
@@ -107,6 +108,7 @@ h6,
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: scroll;
   overflow: hidden;
 }
 .card100.telemedicine_bg {
@@ -129,6 +131,7 @@ h6,
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: scroll;
   overflow: hidden;
 }
 .card110.commonConfigurationOptions_bg {
@@ -148,6 +151,7 @@ h6,
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: scroll;
   overflow: hidden;
 }
 @media (min-width: 576px) {
