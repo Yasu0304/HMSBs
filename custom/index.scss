@@ -37,22 +37,7 @@
     .headerCard-hover {
       backdrop-filter: blur(15px);
       background-color: #3493c3a0;
-      bottom: -50%;
-      @include sm {
-        bottom: -60%;
-      }
-      @include md {
-        bottom: -30%;
-      }
-      @include lg {
-        bottom: -30%;
-      }
-      @include xl {
-        bottom: -40%;
-      }
-      @include xxl {
-        bottom: -50%;
-      }
+      bottom: 0%;
     }
   }
 }
