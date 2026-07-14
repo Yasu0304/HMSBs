@@ -38,6 +38,9 @@
       backdrop-filter: blur(15px);
       background-color: #3493c3a0;
       bottom: 0%;
+      @include sm {
+        bottom: -20%;
+      }
     }
   }
 }
