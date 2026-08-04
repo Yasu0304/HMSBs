@@ -218,4 +218,21 @@ h6,
 }
 .heroPicstartTop.heroNewsDmeaThx2026 {
   background-image: url("https://healthmit.services/images/news/dmeaThx_2026-bn.webp");
+}
+
+.heroPicRightTop {
+  min-height: 200px;
+  background-position: right top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+}
+@media (min-width: 576px) {
+  .heroPicRightTop {
+    min-height: 500px;
+  }
+}
+.heroPicRightTop.heroUpgradeMedicalComputer2026-bn {
+  background-image: url("https://healthmit.services/images/news/heroUpgradeMedicalComputer2026-bn.webp");
 }/*# sourceMappingURL=all.css.map */

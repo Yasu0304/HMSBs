@@ -208,3 +208,14 @@ h6,
     background-image: url('https://healthmit.services/images/news/dmeaThx_2026-bn.webp');
   }
 }
+
+.heroPicRightTop {
+  min-height: 200px;
+  @include bg-setting(right, top, cover, no-repeat, scroll);
+  @include sm {
+    min-height: 500px;
+  }
+  &.heroUpgradeMedicalComputer2026-bn {
+    background-image: url('https://healthmit.services/images/news/heroUpgradeMedicalComputer2026-bn.webp');
+  }
+}
