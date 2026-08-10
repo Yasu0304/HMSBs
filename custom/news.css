@@ -6,4 +6,25 @@
   color: #0f5385;
   background-color: #ffffff;
   border-left: 0.4rem solid rgba(194, 223, 237, 0.3137254902);
+}
+
+.buyBack_bn {
+  padding-top: 110%;
+  overflow: hidden;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+}
+.buyBack_bn.buyBack_img {
+  background-image: url(https://healthmit.services/images/news/rade_it_in.webp);
+}
+@media (min-width: 576px) {
+  .buyBack_bn {
+    padding-top: 67%;
+    overflow: hidden;
+    width: 100%;
+  }
 }/*# sourceMappingURL=news.css.map */

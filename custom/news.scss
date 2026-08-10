@@ -5,3 +5,14 @@
 .callout_news {
   @include callout($hmspri, $hmsinfo-50);
 }
+
+.buyBack_bn {
+  @include card(110%);
+  @include bg-setting(center, center, cover, no-repeat, scroll);
+  &.buyBack_img {
+    background-image: url(https://healthmit.services/images/news/rade_it_in.webp);
+  }
+  @include sm {
+    @include card(67%);
+  }
+}
