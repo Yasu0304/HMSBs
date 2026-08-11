@@ -6,13 +6,29 @@
   @include callout($hmspri, $hmsinfo-50);
 }
 
-.buyBack_bn {
-  @include card(110%);
-  @include bg-setting(center, center, cover, no-repeat, scroll);
-  &.buyBack_img {
-    background-image: url(https://healthmit.services/images/news/rade_it_in.webp);
-  }
-  @include sm {
-    @include card(67%);
+$hero-images: (
+  // news
+  buyBack_img: 'https://healthmit.services/images/news/rade_it_in.webp',
+  //acha
+  heroNewsAhca2025: 'https: //healthmit.services/images/news/ahca_2025-bn.webp',
+  heroNewsAhcaThx2025: 'https://healthmit.services/images/news/ahcaThx_2025-bn.webp',
+  heroNewsDmea2026: 'https://healthmit.services/images/news/dmea_2026-bn.webp',
+  heroNewsDmeaThx2026: 'https://healthmit.services/images/news/dmeaThx_2026-bn.webp',
+
+  //rana
+  heroNewsRSNA2024: 'https://healthmit.services/images/news/RSNA_2024-bn.webp',
+  heroNewsRSNA2025: 'https://healthmit.services/images/news/RSNA_2025-bn.webp',
+  heroNewsRsnaThx2025: 'https://healthmit.services/images/news/rsnaThx_2025-bn.webp',
+
+  //himss
+  heroNewsHimss2025: 'https://healthmit.services/images/news/himss_2025-bn.webp',
+  heroNewsHimss2026: 'https://healthmit.services/images/news/himss_2026-bn.webp',
+  heroNewsHimssThx2025: 'https://healthmit.services/images/news/himssThx_2025-bn.webp',
+  heroNewsHimssThx2026: 'https://healthmit.services/images/news/himssThx_2026-bn.webp'
+);
+
+@each $name, $url in $hero-images {
+  .#{$name} {
+    background-image: url(#{$url});
   }
 }

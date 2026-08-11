@@ -17,7 +17,7 @@
   }
 
   @include sm {
-    @include bg-setting(center, center, cover);
+    @include bg-setting(center, center, cover, no-repeat, scroll);
     min-height: 20vh;
   }
 }
@@ -131,103 +131,103 @@
 
 // smartWardPage
 .dotContainer-smartWard_bg {
-  background-image: url(../images/solutions/smart_ward_and_mobile_nursing/point.webp);
-  @include bg-setting(-224%, 100%, 110%);
+  background-image: url(https://healthmit.services/images/solutions/smart_ward_and_mobile_nursing/point.webp);
+  @include bg-setting(-224%, 100%, 110%, no-repeat, scroll);
   padding: 0 0 30% 0;
   @include sm {
-    @include bg-setting(50%, 100%, 55%);
+    @include bg-setting(50%, 100%, 55%, no-repeat, scroll);
   }
 }
 
 .contacts-smartWard_bg {
-  @include bg-setting(center, center, cover);
-  background-image: url(../images/solutions/smart_ward_and_mobile_nursing/contacts.webp);
+  @include bg-setting(center, center, cover, no-repeat, fixed);
+  background-image: url(https://healthmit.services/images/solutions/smart_ward_and_mobile_nursing/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
 
 // smartOperationPage
 .dotContainer-smartOperation_bg {
-  background-image: url(../images/solutions/smart_operation_room/point.webp);
-  @include bg-setting(50%, 112%, 100%);
+  background-image: url(https://healthmit.services/images/solutions/smart_operation_room/point.webp);
+  @include bg-setting(50%, 112%, 100%, no-repeat, scroll);
   padding: 0 0 30% 0;
   @include sm {
-    @include bg-setting(50%, 100%, 60%);
+    @include bg-setting(50%, 100%, 60%, no-repeat, scroll);
   }
 }
 
 .contacts-smartOperation_bg {
-  @include bg-setting(center, center, cover);
-  background-image: url(../images/solutions/smart_operation_room/contacts.webp);
+  @include bg-setting(center, center, cover, no-repeat, fixed);
+  background-image: url(https://healthmit.services/images/solutions/smart_operation_room/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
 
 // telehealthPage
 .dotContainer-telehealth_bg {
-  @include bg-setting(50%, 120%, 80%);
-  background-image: url(../images/solutions/telehealth_and_remote_care/point.webp);
+  @include bg-setting(50%, 120%, 80%, no-repeat, scroll);
+  background-image: url(https://healthmit.services/images/solutions/telehealth_and_remote_care/point.webp);
   // margin-bottom: 5rem;
   padding: 0 0 30% 0;
   @include sm {
-    @include bg-setting(50%, -95%, 60%);
+    @include bg-setting(50%, -95%, 60%, no-repeat, scroll);
   }
 }
 
 .contacts-telehealth_bg {
-  @include bg-setting(center, center, cover);
-  background-image: url(../images/solutions/telehealth_and_remote_care/contacts.webp);
+  @include bg-setting(center, center, cover, no-repeat, fixed);
+  background-image: url(https://healthmit.services/images/solutions/telehealth_and_remote_care/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
 
 // smartDiagnosticPage
 .dotContainer-smartDiagnostic_bg {
-  @include bg-setting(100%, 120%, 112%);
-  background-image: url(../images/solutions/smart_diagnostic_and_imaging/point.webp);
+  @include bg-setting(100%, 120%, 112%, no-repeat, scroll);
+  background-image: url(https://healthmit.services/images/solutions/smart_diagnostic_and_imaging/point.webp);
   padding: 0 0 30% 0;
   @include sm {
-    @include bg-setting(50%, 150%, 70%);
+    @include bg-setting(50%, 150%, 70%, no-repeat, scroll);
   }
 }
 
 .contacts-smartDiagnostic_bg {
-  @include bg-setting(center, center, cover);
-  background-image: url(../images/solutions/smart_diagnostic_and_imaging/contacts.webp);
+  @include bg-setting(center, center, cover, no-repeat, fixed);
+  background-image: url(https://healthmit.services/images/solutions/smart_diagnostic_and_imaging/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
 
 // intelligentMonitoringPage
 .dotContainer-intelligentMonitoring_bg {
-  @include bg-setting(center, 360%, 162%);
-  background-image: url(../images/solutions/intelligent_monitoring/point.webp);
+  @include bg-setting(center, 360%, 162%, no-repeat, scroll);
+  background-image: url(https://healthmit.services/images/solutions/intelligent_monitoring/point.webp);
   padding: 0 0 30% 0;
   @include sm {
-    @include bg-setting(center, -50%, 80%);
+    @include bg-setting(center, -50%, 80%, no-repeat, scroll);
   }
 }
 
 .contacts-intelligentMonitoring_bg {
-  @include bg-setting(center, center, cover);
-  background-image: url(../images/solutions/intelligent_monitoring/contacts.webp);
+  @include bg-setting(center, center, cover, no-repeat, fixed);
+  background-image: url(https://healthmit.services/images/solutions/intelligent_monitoring/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
 
 // medicalSuppliesPage
 .dotContainer-medicalSupplies_bg {
-  @include bg-setting(center, 100%, 160%);
-  background-image: url(../images/solutions/medical_supplies_and_equipment/point.webp);
+  @include bg-setting(center, 100%, 160%, no-repeat, scroll);
+  background-image: url(https://healthmit.services/images/solutions/medical_supplies_and_equipment/point.webp);
   padding: 0 0 30% 0;
   @include sm {
-    @include bg-setting(center, 110%, 80%);
+    @include bg-setting(center, 110%, 80%, no-repeat, scroll);
   }
 }
 
 .contacts-medicalSupplies_bg {
-  @include bg-setting(center, center, cover);
-  background-image: url(../images/solutions/medical_supplies_and_equipment/contacts.webp);
+  @include bg-setting(center, center, cover, no-repeat, fixed);
+  background-image: url(https://healthmit.services/images/solutions/medical_supplies_and_equipment/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
@@ -236,17 +236,17 @@
 
 .clinicalEnvironments_card {
   @include card(100%);
-  @include bg-setting(center, center, cover);
+  @include bg-setting(center, center, cover, no-repeat, scroll);
 }
 
 .sectionQualityAndTrust_bg {
-  @include bg-setting(center, center, cover);
+  @include bg-setting(center, center, cover, no-repeat, fixed);
   background-image: url('https://healthmit.services/images/solutions/medical_protective_mask_solutions/quality_and_trust.webp');
 }
 
 // cartPage
 .builtForPractical_bg {
-  @include bg-setting(center, center, cover);
+  @include bg-setting(center, center, cover, no-repeat, scroll);
   background-attachment: fixed;
   overflow: hidden;
   background-image: (url('https://medalliance.com.tw/images/solutions/medical_cart_solutions/reliable_integration.webp'));

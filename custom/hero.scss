@@ -3,21 +3,23 @@
 @use 'components' as *;
 
 $hero-images: (
-  heroSolution: 'https://healthmit.services/images/solutions/medical_protective_mask_solutions/medical_protective_mask_solutions.webp',
+  // index
+  // solution
+  contacts-smartOperation_bg: 'https://healthmit.services/images/solutions/medical_protective_mask_solutions/medical_protective_mask_solutions.webp',
+  //mask
   heroMaskSolution: 'https://healthmit.services/images/solutions/medical_protective_mask_solutions/medical_protective_mask_solutions.webp',
-  heroCartSolution: 'https://healthmit.services/images/solutions/medical_cart_solutions/medical_cart_solutions.webp',
-  heroNewsDmea2026: 'https://healthmit.services/images/news/dmea_2026-bn.webp',
-  heroNewsRSNA2025: 'https://healthmit.services/images/news/RSNA_2025-bn.webp',
-  heroNewsHimss2026: 'https://healthmit.services/images/news/himss_2026-bn.webp'
-);
 
-.heroPicCenter {
-  min-height: 200px;
-  @include bg-setting(center, center, cover, no-repeat, scroll);
-  @include sm {
-    min-height: 500px;
-  }
-}
+  //cart
+  heroCartSolution: 'https://healthmit.services/images/solutions/medical_cart_solutions/medical_cart_solutions.webp',
+  telemedicine_bg: 'https://healthmit.services/images/solutions/medical_cart_solutions/telemedicine.webp',
+  mobileCart_bg: 'https://healthmit.services/images/solutions/medical_cart_solutions/mobile_cart.webp',
+  omputerCart_bg: 'https://healthmit.services/images/solutions/medical_cart_solutions/computer_cart.webp',
+  cooperate_bg: 'https://healthmit.services/images/solutions/medical_cart_solutions/cooperate.webp',
+  commonConfigurationOptions_bg: 'https://healthmit.services/images/solutions/medical_cart_solutions/common_configuration_options.webp',
+
+  //contact
+  heroContact: 'https://healthmit.services/images/heroContact.webp'
+);
 
 @each $name, $url in $hero-images {
   .#{$name} {

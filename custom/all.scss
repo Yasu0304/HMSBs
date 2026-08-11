@@ -138,6 +138,14 @@ h6,
   background-color: $hmsinfo-50;
 }
 
+.heroPicCenterFixed {
+  min-height: 200px;
+  @include bg-setting(center, center, cover, no-repeat, fixed);
+  @include sm {
+    min-height: 500px;
+  }
+}
+
 .heroPicCenter {
   min-height: 200px;
   @include bg-setting(center, center, cover, no-repeat, scroll);
@@ -145,57 +153,53 @@ h6,
     min-height: 500px;
   }
 
-  &.heroContact {
-    background-image: url('https://healthmit.services/images/heroContact.webp');
-  }
+  // &.heroMaskSolution {
+  //   background-image: url('https://healthmit.services/images/solutions/medical_protective_mask_solutions/medical_protective_mask_solutions.webp');
+  // }
 
-  &.heroMaskSolution {
-    background-image: url('https://healthmit.services/images/solutions/medical_protective_mask_solutions/medical_protective_mask_solutions.webp');
-  }
+  // &.heroCartSolution {
+  //   background-image: url('https://healthmit.services/images/solutions/medical_cart_solutions/medical_cart_solutions.webp');
+  // }
 
-  &.heroCartSolution {
-    background-image: url('https://healthmit.services/images/solutions/medical_cart_solutions/medical_cart_solutions.webp');
-  }
+  // &.heroNewsRSNA2025 {
+  //   background-image: url('https://healthmit.services/images/news/RSNA_2025-bn.webp');
+  // }
 
-  &.heroNewsRSNA2025 {
-    background-image: url('https://healthmit.services/images/news/RSNA_2025-bn.webp');
-  }
+  // &.heroNewsDmea2026 {
+  //   background-image: url('https://healthmit.services/images/news/dmea_2026-bn.webp');
+  // }
 
-  &.heroNewsDmea2026 {
-    background-image: url('https://healthmit.services/images/news/dmea_2026-bn.webp');
-  }
+  // &.heroNewsHimssThx2025 {
+  //   background-image: url('https://healthmit.services/images/news/himssThx_2025-bn.webp');
+  // }
 
-  &.heroNewsHimssThx2025 {
-    background-image: url('https://healthmit.services/images/news/himssThx_2025-bn.webp');
-  }
+  // &.heroNewsHimss2026 {
+  //   background-image: url('https://healthmit.services/images/news/himss_2026-bn.webp');
+  // }
 
-  &.heroNewsHimss2026 {
-    background-image: url('https://healthmit.services/images/news/himss_2026-bn.webp');
-  }
+  // &.heroNewsHimss2025 {
+  //   background-image: url('https://healthmit.services/images/news/himss_2025-bn.webp');
+  // }
 
-  &.heroNewsHimss2025 {
-    background-image: url('https://healthmit.services/images/news/himss_2025-bn.webp');
-  }
+  // &.heroNewsHimssThx2026 {
+  //   background-image: url('https://healthmit.services/images/news/himssThx_2026-bn.webp');
+  // }
 
-  &.heroNewsHimssThx2026 {
-    background-image: url('https://healthmit.services/images/news/himssThx_2026-bn.webp');
-  }
+  // &.heroNewsRSNA2024 {
+  //   background-image: url('https://healthmit.services/images/news/RSNA_2024-bn.webp');
+  // }
 
-  &.heroNewsRSNA2024 {
-    background-image: url('https://healthmit.services/images/news/RSNA_2024-bn.webp');
-  }
+  // &.heroNewsRsnaThx2025 {
+  //   background-image: url('https://healthmit.services/images/news/rsnaThx_2025-bn.webp');
+  // }
 
-  &.heroNewsRsnaThx2025 {
-    background-image: url('https://healthmit.services/images/news/rsnaThx_2025-bn.webp');
-  }
+  // &.heroNewsAhca2025 {
+  //   background-image: url('https://healthmit.services/images/news/ahca_2025-bn.webp');
+  // }
 
-  &.heroNewsAhca2025 {
-    background-image: url('https://healthmit.services/images/news/ahca_2025-bn.webp');
-  }
-
-  &.heroNewsAhcaThx2025 {
-    background-image: url('https://healthmit.services/images/news/ahcaThx_2025-bn.webp');
-  }
+  // &.heroNewsAhcaThx2025 {
+  //   background-image: url('https://healthmit.services/images/news/ahcaThx_2025-bn.webp');
+  // }
 }
 
 .heroPicstartTop {
@@ -204,9 +208,9 @@ h6,
   @include sm {
     min-height: 500px;
   }
-  &.heroNewsDmeaThx2026 {
-    background-image: url('https://healthmit.services/images/news/dmeaThx_2026-bn.webp');
-  }
+  // &.heroNewsDmeaThx2026 {
+  //   background-image: url('https://healthmit.services/images/news/dmeaThx_2026-bn.webp');
+  // }
 }
 
 .heroPicRightTop {
@@ -215,7 +219,12 @@ h6,
   @include sm {
     min-height: 500px;
   }
-  &.heroUpgradeMedicalComputer2026-bn {
-    background-image: url('https://healthmit.services/images/news/heroUpgradeMedicalComputer2026-bn.webp');
+}
+
+.hero--10-11 {
+  @include card(110%);
+  @include bg-setting(center, center, cover, no-repeat, scroll);
+  @include sm {
+    @include card(67%);
   }
 }

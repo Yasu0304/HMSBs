@@ -25,6 +25,7 @@
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: scroll;
     overflow: hidden;
     min-height: 20vh;
   }
@@ -175,10 +176,11 @@
 }
 
 .dotContainer-smartWard_bg {
-  background-image: url(../images/solutions/smart_ward_and_mobile_nursing/point.webp);
+  background-image: url(https://healthmit.services/images/solutions/smart_ward_and_mobile_nursing/point.webp);
   background-position: -224% 100%;
   background-size: 110%;
   background-repeat: no-repeat;
+  background-attachment: scroll;
   overflow: hidden;
   padding: 0 0 30% 0;
 }
@@ -187,6 +189,7 @@
     background-position: 50% 100%;
     background-size: 55%;
     background-repeat: no-repeat;
+    background-attachment: scroll;
     overflow: hidden;
   }
 }
@@ -195,17 +198,19 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   overflow: hidden;
-  background-image: url(../images/solutions/smart_ward_and_mobile_nursing/contacts.webp);
+  background-image: url(https://healthmit.services/images/solutions/smart_ward_and_mobile_nursing/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
 
 .dotContainer-smartOperation_bg {
-  background-image: url(../images/solutions/smart_operation_room/point.webp);
+  background-image: url(https://healthmit.services/images/solutions/smart_operation_room/point.webp);
   background-position: 50% 112%;
   background-size: 100%;
   background-repeat: no-repeat;
+  background-attachment: scroll;
   overflow: hidden;
   padding: 0 0 30% 0;
 }
@@ -214,6 +219,7 @@
     background-position: 50% 100%;
     background-size: 60%;
     background-repeat: no-repeat;
+    background-attachment: scroll;
     overflow: hidden;
   }
 }
@@ -222,8 +228,9 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   overflow: hidden;
-  background-image: url(../images/solutions/smart_operation_room/contacts.webp);
+  background-image: url(https://healthmit.services/images/solutions/smart_operation_room/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
@@ -232,8 +239,9 @@
   background-position: 50% 120%;
   background-size: 80%;
   background-repeat: no-repeat;
+  background-attachment: scroll;
   overflow: hidden;
-  background-image: url(../images/solutions/telehealth_and_remote_care/point.webp);
+  background-image: url(https://healthmit.services/images/solutions/telehealth_and_remote_care/point.webp);
   padding: 0 0 30% 0;
 }
 @media (min-width: 576px) {
@@ -241,6 +249,7 @@
     background-position: 50% -95%;
     background-size: 60%;
     background-repeat: no-repeat;
+    background-attachment: scroll;
     overflow: hidden;
   }
 }
@@ -249,8 +258,9 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   overflow: hidden;
-  background-image: url(../images/solutions/telehealth_and_remote_care/contacts.webp);
+  background-image: url(https://healthmit.services/images/solutions/telehealth_and_remote_care/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
@@ -259,8 +269,9 @@
   background-position: 100% 120%;
   background-size: 112%;
   background-repeat: no-repeat;
+  background-attachment: scroll;
   overflow: hidden;
-  background-image: url(../images/solutions/smart_diagnostic_and_imaging/point.webp);
+  background-image: url(https://healthmit.services/images/solutions/smart_diagnostic_and_imaging/point.webp);
   padding: 0 0 30% 0;
 }
 @media (min-width: 576px) {
@@ -268,6 +279,7 @@
     background-position: 50% 150%;
     background-size: 70%;
     background-repeat: no-repeat;
+    background-attachment: scroll;
     overflow: hidden;
   }
 }
@@ -276,8 +288,9 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   overflow: hidden;
-  background-image: url(../images/solutions/smart_diagnostic_and_imaging/contacts.webp);
+  background-image: url(https://healthmit.services/images/solutions/smart_diagnostic_and_imaging/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
@@ -286,8 +299,9 @@
   background-position: center 360%;
   background-size: 162%;
   background-repeat: no-repeat;
+  background-attachment: scroll;
   overflow: hidden;
-  background-image: url(../images/solutions/intelligent_monitoring/point.webp);
+  background-image: url(https://healthmit.services/images/solutions/intelligent_monitoring/point.webp);
   padding: 0 0 30% 0;
 }
 @media (min-width: 576px) {
@@ -295,6 +309,7 @@
     background-position: center -50%;
     background-size: 80%;
     background-repeat: no-repeat;
+    background-attachment: scroll;
     overflow: hidden;
   }
 }
@@ -303,8 +318,9 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   overflow: hidden;
-  background-image: url(../images/solutions/intelligent_monitoring/contacts.webp);
+  background-image: url(https://healthmit.services/images/solutions/intelligent_monitoring/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
@@ -313,8 +329,9 @@
   background-position: center 100%;
   background-size: 160%;
   background-repeat: no-repeat;
+  background-attachment: scroll;
   overflow: hidden;
-  background-image: url(../images/solutions/medical_supplies_and_equipment/point.webp);
+  background-image: url(https://healthmit.services/images/solutions/medical_supplies_and_equipment/point.webp);
   padding: 0 0 30% 0;
 }
 @media (min-width: 576px) {
@@ -322,6 +339,7 @@
     background-position: center 110%;
     background-size: 80%;
     background-repeat: no-repeat;
+    background-attachment: scroll;
     overflow: hidden;
   }
 }
@@ -330,8 +348,9 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   overflow: hidden;
-  background-image: url(../images/solutions/medical_supplies_and_equipment/contacts.webp);
+  background-image: url(https://healthmit.services/images/solutions/medical_supplies_and_equipment/contacts.webp);
   margin-bottom: 5rem;
   padding: 5rem 0;
 }
@@ -343,6 +362,7 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: scroll;
   overflow: hidden;
 }
 
@@ -350,6 +370,7 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   overflow: hidden;
   background-image: url("https://healthmit.services/images/solutions/medical_protective_mask_solutions/quality_and_trust.webp");
 }
@@ -358,6 +379,7 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: scroll;
   overflow: hidden;
   background-attachment: fixed;
   overflow: hidden;
