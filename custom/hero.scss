@@ -1,0 +1,26 @@
+@use 'base' as *;
+@use 'media' as *;
+@use 'components' as *;
+
+$hero-images: (
+  heroSolution: 'https://healthmit.services/images/solutions/medical_protective_mask_solutions/medical_protective_mask_solutions.webp',
+  heroMaskSolution: 'https://healthmit.services/images/solutions/medical_protective_mask_solutions/medical_protective_mask_solutions.webp',
+  heroCartSolution: 'https://healthmit.services/images/solutions/medical_cart_solutions/medical_cart_solutions.webp',
+  heroNewsDmea2026: 'https://healthmit.services/images/news/dmea_2026-bn.webp',
+  heroNewsRSNA2025: 'https://healthmit.services/images/news/RSNA_2025-bn.webp',
+  heroNewsHimss2026: 'https://healthmit.services/images/news/himss_2026-bn.webp'
+);
+
+.heroPicCenter {
+  min-height: 200px;
+  @include bg-setting(center, center, cover, no-repeat, scroll);
+  @include sm {
+    min-height: 500px;
+  }
+}
+
+@each $name, $url in $hero-images {
+  .#{$name} {
+    background-image: url(#{$url});
+  }
+}

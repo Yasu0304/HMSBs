@@ -1,0 +1,37 @@
+.heroPicCenter {
+  min-height: 200px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+}
+@media (min-width: 576px) {
+  .heroPicCenter {
+    min-height: 500px;
+  }
+}
+
+.heroSolution {
+  background-image: url(https://healthmit.services/images/solutions/medical_protective_mask_solutions/medical_protective_mask_solutions.webp);
+}
+
+.heroMaskSolution {
+  background-image: url(https://healthmit.services/images/solutions/medical_protective_mask_solutions/medical_protective_mask_solutions.webp);
+}
+
+.heroCartSolution {
+  background-image: url(https://healthmit.services/images/solutions/medical_cart_solutions/medical_cart_solutions.webp);
+}
+
+.heroNewsDmea2026 {
+  background-image: url(https://healthmit.services/images/news/dmea_2026-bn.webp);
+}
+
+.heroNewsRSNA2025 {
+  background-image: url(https://healthmit.services/images/news/RSNA_2025-bn.webp);
+}
+
+.heroNewsHimss2026 {
+  background-image: url(https://healthmit.services/images/news/himss_2026-bn.webp);
+}/*# sourceMappingURL=hero.css.map */
