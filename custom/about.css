@@ -1,24 +1,3 @@
-.indexBgSm {
-  background-image: url(../images/about/bn-sm.webp);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: contain;
-}
-@media (min-width: 576px) {
-  .indexBgSm {
-    background-image: none;
-  }
-}
-
-.indexBgMa {
-  margin-bottom: 21rem;
-}
-@media (min-width: 576px) {
-  .indexBgMa {
-    margin-bottom: 3rem;
-  }
-}
-
 .h1Title {
   font-size: 2.3rem;
   line-height: 1;
