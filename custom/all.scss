@@ -138,16 +138,8 @@ h6,
   background-color: $hmsinfo-50;
 }
 
-.heroPicCenterFixed {
-  min-height: 200px;
-  @include bg-setting(center, center, cover, no-repeat, fixed);
-  @include sm {
-    min-height: 500px;
-  }
-}
-
 .heroPicCenter {
-  min-height: 200px;
+  min-height: 350px;
   @include bg-setting(center, center, cover, no-repeat, scroll);
   @include sm {
     min-height: 500px;
@@ -155,7 +147,7 @@ h6,
 }
 
 .heroPicstartTop {
-  min-height: 200px;
+  min-height: 350px;
   @include bg-setting(start, top, cover, no-repeat, scroll);
   @include sm {
     min-height: 500px;
@@ -163,7 +155,7 @@ h6,
 }
 
 .heroPicRightTop {
-  min-height: 200px;
+  min-height: 350px;
   @include bg-setting(right, top, cover, no-repeat, scroll);
   @include sm {
     min-height: 500px;

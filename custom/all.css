@@ -150,22 +150,8 @@ h6,
   background-color: rgba(194, 223, 237, 0.3137254902);
 }
 
-.heroPicCenterFixed {
-  min-height: 200px;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  overflow: hidden;
-}
-@media (min-width: 576px) {
-  .heroPicCenterFixed {
-    min-height: 500px;
-  }
-}
-
 .heroPicCenter {
-  min-height: 200px;
+  min-height: 350px;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -179,7 +165,7 @@ h6,
 }
 
 .heroPicstartTop {
-  min-height: 200px;
+  min-height: 350px;
   background-position: start top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -193,7 +179,7 @@ h6,
 }
 
 .heroPicRightTop {
-  min-height: 200px;
+  min-height: 350px;
   background-position: right top;
   background-size: cover;
   background-repeat: no-repeat;
