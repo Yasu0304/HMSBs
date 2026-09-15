@@ -160,7 +160,7 @@ h6,
 }
 @media (min-width: 576px) {
   .heroPicCenter {
-    min-height: 500px;
+    min-height: 75vh;
   }
 }
 
@@ -174,7 +174,7 @@ h6,
 }
 @media (min-width: 576px) {
   .heroPicstartTop {
-    min-height: 500px;
+    min-height: 75vh;
   }
 }
 
@@ -188,7 +188,7 @@ h6,
 }
 @media (min-width: 576px) {
   .heroPicRightTop {
-    min-height: 500px;
+    min-height: 75vh;
   }
 }
 
