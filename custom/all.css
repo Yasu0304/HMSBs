@@ -196,11 +196,6 @@ h6,
   padding-top: 110%;
   overflow: hidden;
   width: 100%;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  overflow: hidden;
 }
 @media (min-width: 576px) {
   .hero--10-11 {
@@ -208,4 +203,41 @@ h6,
     overflow: hidden;
     width: 100%;
   }
+}
+
+.hero-75 {
+  padding-top: 75%;
+  overflow: hidden;
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .hero-75 {
+    padding-top: 60%;
+    overflow: hidden;
+    width: 100%;
+  }
+}
+
+.rightTop {
+  background-position: right top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+}
+
+.leftTop {
+  background-position: left top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+}
+
+.centerCenter {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
 }/*# sourceMappingURL=all.css.map */

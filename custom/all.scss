@@ -164,8 +164,26 @@ h6,
 
 .hero--10-11 {
   @include card(110%);
-  @include bg-setting(center, center, cover, no-repeat, scroll);
   @include sm {
     @include card(67%);
   }
+}
+
+.hero-75 {
+  @include card(75%);
+  @include sm {
+    @include card(60%);
+  }
+}
+
+.rightTop {
+  @include bg-setting(right, top, cover, no-repeat, scroll);
+}
+
+.leftTop {
+  @include bg-setting(left, top, cover, no-repeat, scroll);
+}
+
+.centerCenter {
+  @include bg-setting(center, center, cover, no-repeat, scroll);
 }
