@@ -1,13 +1,3 @@
-.callout_news {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 0.6rem;
-  margin-bottom: 0.5rem;
-  color: #0f5385;
-  background-color: #ffffff;
-  border-left: 0.4rem solid rgba(194, 223, 237, 0.3137254902);
-}
-
 .buyBack_img {
   background-image: url(https://healthmit.services/images/news/rade_it_in.webp);
 }
@@ -58,4 +48,51 @@
 
 .heroNewsHimssThx2026 {
   background-image: url(https://healthmit.services/images/news/himssThx_2026-bn.webp);
+}
+
+.card-img-overlay {
+  top: 98%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(180deg, rgb(52, 147, 195), rgb(52, 147, 195));
+  backdrop-filter: blur(0px);
+  transition: 1s;
+}
+.card-img-overlay:hover {
+  top: 70%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(180deg, rgb(52, 147, 195), rgb(52, 147, 195));
+  backdrop-filter: blur(15px);
+}
+
+.newsCard:hover .newsCard-hover {
+  backdrop-filter: blur(2px);
+  background-color: rgba(255, 255, 255, 0.2);
+  bottom: -20%;
+}
+@media (min-width: 576px) {
+  .newsCard:hover .newsCard-hover {
+    bottom: -15%;
+  }
+}
+
+.newsCard-hover {
+  transition: all 1s;
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  bottom: -95%;
+  left: 0;
+}
+
+.newsCard-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }/*# sourceMappingURL=news.css.map */
