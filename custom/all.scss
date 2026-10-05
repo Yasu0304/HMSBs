@@ -170,9 +170,9 @@ h6,
 }
 
 .hero-75 {
-  @include card(75%);
+  @include card(60%);
   @include sm {
-    @include card(60%);
+    @include card(75%);
   }
 }
 

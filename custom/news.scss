@@ -30,41 +30,32 @@ $hero-images: (
   }
 }
 
-.card-img-overlay {
-  top: 98%;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image: linear-gradient(180deg, rgba(52, 147, 195, 1), rgba(52, 147, 195, 1));
-  backdrop-filter: blur(0px);
-  transition: 1s;
-  &:hover {
-    top: 70%;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: linear-gradient(180deg, rgba(52, 147, 195, 1), rgba(52, 147, 195, 1));
-    backdrop-filter: blur(15px);
-  }
-}
-
 .newsCard {
   // position: relative;
   &:hover {
     .newsCard-hover {
       backdrop-filter: blur(2px);
-      background-color: #ffffff33;
-      bottom: -20%;
+      background-color: #ffffff7a;
+      bottom: -30%;
       @include sm {
         bottom: -15%;
+      }
+    }
+    .newsCard-hover_full {
+      backdrop-filter: blur(2px);
+      background-color: #ffffff7a;
+      bottom: 0%;
+      @include sm {
+        bottom: 0%;
       }
     }
   }
 }
 
-.newsCard-hover {
+.newsCard-hover,
+.newsCard-hover_full {
   transition: all 1s;
-  background-color: $hms-bk-00;
+  background-color: #ffffff00;
   height: 100%;
   width: 100%;
   z-index: 1;

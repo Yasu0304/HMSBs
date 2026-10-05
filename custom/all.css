@@ -206,13 +206,13 @@ h6,
 }
 
 .hero-75 {
-  padding-top: 75%;
+  padding-top: 60%;
   overflow: hidden;
   width: 100%;
 }
 @media (min-width: 576px) {
   .hero-75 {
-    padding-top: 60%;
+    padding-top: 75%;
     overflow: hidden;
     width: 100%;
   }
