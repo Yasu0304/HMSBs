@@ -34,16 +34,16 @@ $hero-images: (
   // position: relative;
   &:hover {
     .newsCard-hover {
-      backdrop-filter: blur(2px);
-      background-color: #ffffff7a;
+      backdrop-filter: blur(20px);
+      background-color: #ffffff2a;
       bottom: -30%;
       @include sm {
         bottom: -15%;
       }
     }
     .newsCard-hover_full {
-      backdrop-filter: blur(2px);
-      background-color: #ffffff7a;
+      backdrop-filter: blur(20px);
+      background-color: #ffffff2a;
       bottom: 0%;
       @include sm {
         bottom: 0%;
@@ -69,4 +69,12 @@ $hero-images: (
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.dateTag {
+  display: inline;
+  background-color: $hmssec;
+  color: $hms-bk-00;
+  font-weight: 600;
+  border-radius: 999px;
 }

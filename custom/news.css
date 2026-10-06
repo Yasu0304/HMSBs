@@ -51,8 +51,8 @@
 }
 
 .newsCard:hover .newsCard-hover {
-  backdrop-filter: blur(2px);
-  background-color: rgba(255, 255, 255, 0.4784313725);
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.1647058824);
   bottom: -30%;
 }
 @media (min-width: 576px) {
@@ -61,8 +61,8 @@
   }
 }
 .newsCard:hover .newsCard-hover_full {
-  backdrop-filter: blur(2px);
-  background-color: rgba(255, 255, 255, 0.4784313725);
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.1647058824);
   bottom: 0%;
 }
 @media (min-width: 576px) {
@@ -88,4 +88,12 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.dateTag {
+  display: inline;
+  background-color: #3493c3;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 999px;
 }/*# sourceMappingURL=news.css.map */
