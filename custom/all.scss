@@ -139,26 +139,26 @@ h6,
 }
 
 .heroPicCenter {
-  min-height: 350px;
+  min-height: 24vh;
   @include bg-setting(center, center, cover, no-repeat, scroll);
-  @include sm {
-    min-height: 24vh;
+  @include lg {
+    min-height: 75vh;
   }
 }
 
 .heroPicstartTop {
-  min-height: 350px;
+  min-height: 24vh;
   @include bg-setting(start, top, cover, no-repeat, scroll);
-  @include sm {
-    min-height: 24vh;
+  @include lg {
+    min-height: 75vh;
   }
 }
 
 .heroPicRightTop {
-  min-height: 350px;
+  min-height: 24vh;
   @include bg-setting(right, top, cover, no-repeat, scroll);
-  @include sm {
-    min-height: 24vh;
+  @include lg {
+    min-height: 75vh;
   }
 }
 

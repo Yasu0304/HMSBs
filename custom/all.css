@@ -151,44 +151,44 @@ h6,
 }
 
 .heroPicCenter {
-  min-height: 350px;
+  min-height: 24vh;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
   overflow: hidden;
 }
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   .heroPicCenter {
-    min-height: 24vh;
+    min-height: 75vh;
   }
 }
 
 .heroPicstartTop {
-  min-height: 350px;
+  min-height: 24vh;
   background-position: start top;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
   overflow: hidden;
 }
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   .heroPicstartTop {
-    min-height: 24vh;
+    min-height: 75vh;
   }
 }
 
 .heroPicRightTop {
-  min-height: 350px;
+  min-height: 24vh;
   background-position: right top;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
   overflow: hidden;
 }
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   .heroPicRightTop {
-    min-height: 24vh;
+    min-height: 75vh;
   }
 }
 
