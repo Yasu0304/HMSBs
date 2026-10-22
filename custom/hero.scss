@@ -2,7 +2,7 @@
 @use 'media' as *;
 @use 'components' as *;
 
-$hero-images: (
+$bg-images: (
   // index
   // solution
   contacts-smartOperation_bg: 'https://healthmit.services/images/solutions/medical_protective_mask_solutions/medical_protective_mask_solutions.webp',
@@ -18,10 +18,13 @@ $hero-images: (
   commonConfigurationOptions_bg: 'https://healthmit.services/images/solutions/medical_cart_solutions/common_configuration_options.webp',
 
   //contact
-  heroContact: 'https://healthmit.services/images/heroContact.webp'
+  heroContact: 'https://healthmit.services/images/heroContact.webp',
+
+  //news
+  buyBack_img: 'https://healthmit.services/images/news/rade_it_in.webp'
 );
 
-@each $name, $url in $hero-images {
+@each $name, $url in $bg-images {
   .#{$name} {
     background-image: url(#{$url});
   }
