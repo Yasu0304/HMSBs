@@ -17,15 +17,20 @@ $bg-images: (
   cooperate_bg: 'https://healthmit.services/images/solutions/medical_cart_solutions/cooperate.webp',
   commonConfigurationOptions_bg: 'https://healthmit.services/images/solutions/medical_cart_solutions/common_configuration_options.webp',
 
-  //contact
-  heroContact: 'https://healthmit.services/images/heroContact.webp',
-
   //news
-  buyBack_img: 'https://healthmit.services/images/news/rade_it_in.webp'
+  buyBack_img: 'https://healthmit.services/images/news/rade_it_in.webp',
+
+  //contact
+  hms-logo_col: 'https://healthmit.services/images/hmsLogo-col.svg'
 );
 
 @each $name, $url in $bg-images {
   .#{$name} {
     background-image: url(#{$url});
   }
+}
+
+.card_59 {
+  @include card(59%);
+  @include bg-setting(center, center, contain, no-repeat, scroll);
 }

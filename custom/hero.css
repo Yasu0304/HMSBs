@@ -30,10 +30,21 @@
   background-image: url(https://healthmit.services/images/solutions/medical_cart_solutions/common_configuration_options.webp);
 }
 
-.heroContact {
-  background-image: url(https://healthmit.services/images/heroContact.webp);
-}
-
 .buyBack_img {
   background-image: url(https://healthmit.services/images/news/rade_it_in.webp);
+}
+
+.hms-logo_col {
+  background-image: url(https://healthmit.services/images/hmsLogo-col.svg);
+}
+
+.card_59 {
+  padding-top: 59%;
+  overflow: hidden;
+  width: 100%;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
 }/*# sourceMappingURL=hero.css.map */
